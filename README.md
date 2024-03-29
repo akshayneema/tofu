@@ -38,6 +38,10 @@ from datasets import load_dataset
 dataset = load_dataset("locuslab/TOFU","full")
 ```
 
+Below is all the possible dataset configurations -
+![Screenshot 2024-03-28 231622](https://github.com/akshayneema/tofu/assets/26112239/37c14d81-e28a-4d81-b4ce-81400ec0a21f)
+
+
 ## Finetune your models
 
 The code currently supports `Phi-1.5`, and `Llama2-7b chat` models. But newer models can directly be added in the `model_config.yaml` file. For the unlearning challenege, we fine-tuned `Phi-1.5` for 5 epochs using a maximum learning rate of `2e-5`, and the `Llama2-7b chat` model for the same duration at `1e-5`. Finetuning can be done as follows:
