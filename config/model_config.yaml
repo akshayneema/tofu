@@ -29,5 +29,11 @@ pythia-1.4:
   answer_tag: "Answer: "
   flash_attention2: "false"
   gradient_checkpointing: "false"
-
-  
+gemma-2b:
+  hf_key: "google/gemma-2b-it"
+  question_start_tag: "Question: "
+  question_end_tag: "\n"
+  answer_tag: "Answer: "
+  flash_attention2: "false"
+  gradient_checkpointing: "false"
+  ft_model_path: "./checkpoints/ft_epoch5_lr1e-05_gemma-2b_full_wd0.01/checkpoint-1250"
