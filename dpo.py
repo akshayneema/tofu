@@ -64,11 +64,11 @@ def print_trainable_parameters(model):
 
 def DPO(input_args):
     base_model_id = input_args.model_name_or_path
-    from datetime import datetime
-    current_time = datetime.now()
-    # formatted_time = current_time.strftime("%Y-%m-%d_%H-%M-%S")
-    formatted_time = current_time.strftime("%d-%B-%Y")
-    run_id=input_args.run_id+"-"+formatted_time
+    # from datetime import datetime
+    # current_time = datetime.now()
+    # # formatted_time = current_time.strftime("%Y-%m-%d_%H-%M-%S")
+    # formatted_time = current_time.strftime("%d-%B-%Y")
+    run_id=input_args.run_id
     # iteration=input_args.iteration
     
     wandb.init(project=input_args.run_id)
@@ -83,20 +83,20 @@ def DPO(input_args):
         base_model_id,
         padding_side="right",
         add_eos_token=True,
-        add_bos_token=True,
         trust_remote_code=False,
     )
     tokenizer.pad_token = tokenizer.eos_token
     print("############# Tokenizer loaded")
     ####################################### Load Data #########################################
     
-    raw_pref_data_path=input_args.dataset_dir
-    model_cache_dir="/project/pi_hongyu_umass_edu/zonghai/clinical-llm-alignment/rishabh/cache-models"
-    print(f"############# Loading Dataset from {raw_pref_data_path}")
+    # raw_pref_data_path=input_args.dataset_dir
+    # model_cache_dir="/project/pi_hongyu_umass_edu/zonghai/clinical-llm-alignment/rishabh/cache-models"
     
     # filter_flag=input_args.filter
     
     datapath=input_args.data_path
+    print(f"############# Loading Dataset from {datapath}")
+    
     data=load_dataset("json", data_files=datapath, split="train")
     data=data.train_test_split(test_size=0.1)
     train_dataset,eval_dataset=data['train'],data['test']
@@ -124,16 +124,16 @@ def DPO(input_args):
     print()
 
     ####################################### QLoRA setting #########################################
-
-    config = LoraConfig(
-        r=input_args.lora_rank,
-        lora_alpha=input_args.lora_alpha, 
-        target_modules=find_all_linear_names(model), 
-        lora_dropout=input_args.lora_dropout,
-        bias="none", 
-        task_type="CAUSAL_LM"
-    )
-    if input_args.lora_rank != 0:
+    if input_args.lora_rank:
+        config = LoraConfig(
+            r=input_args.lora_rank,
+            lora_alpha=input_args.lora_alpha, 
+            target_modules=find_all_linear_names(model), 
+            lora_dropout=input_args.lora_dropout,
+            bias="none", 
+            task_type="CAUSAL_LM"
+        )
+    # if input_args.lora_rank != 0:
         model = get_peft_model(model, config)
         print_trainable_parameters(model)
 
@@ -145,22 +145,31 @@ def DPO(input_args):
     print(f"#### Output path is {output_path}")  
     # gc.collect()
     # torch.cuda.empty_cache()
+    
+    model_kwargs = dict(
+            revision="main",
+            trust_remote_code=False,
+            use_flash_attention_2=False,
+            use_cache=False,
+            device_map={"": 0},
+        )
    ####################################### Training Arguments #########################################
     args=transformers.TrainingArguments(
+        # model_init_kwargs=model_kwargs,
         output_dir=output_path,
         warmup_steps=1,
         per_device_train_batch_size=input_args.per_device_train_batch_size,
         # per_device_eval_batch_size=input_args.per_device_eval_batch_size,
         gradient_accumulation_steps=input_args.gradient_accumulation_steps,
-        gradient_checkpointing=True,
+        gradient_checkpointing=False,
         group_by_length=False,
         num_train_epochs=input_args.num_train_epochs,
         learning_rate=input_args.learning_rate,
         optim="paged_adamw_32bit",
         logging_strategy=input_args.logging_strategy,
         logging_steps=input_args.log_steps,              # When to start reporting loss
-        save_strategy=input_args.save_strategy,       # Save the model checkpoint every logging step
-        save_steps=input_args.save_steps,                # Save checkpoints every 100 steps
+        save_strategy=input_args.save_strategy,  
+        save_total_limit=2,# Save the model checkpoint every logging step              # Save checkpoints every 100 steps
         report_to=input_args.report_to,           # Comment this out if you don't want to use weights & baises
         dataloader_pin_memory=True,                           
         dataloader_num_workers=4,
@@ -169,7 +178,9 @@ def DPO(input_args):
         lr_scheduler_type="cosine",
         seed=42,
         # bf16=True,
-        # fp16=False,
+        fp16=True,
+        fp16_full_eval=True,
+        ddp_find_unused_parameters= False,
         # tf32=True,
     )
     ####################################### DPO Training #########################################
@@ -193,43 +204,46 @@ def DPO(input_args):
     trainer.train()
 
     print("################# Training is done")
-    # adapter_path=f'{output_path}/adapter_final_m{ite'
-    # print(f"#### Saving to f{adapter_path}")  
-    trainer.save_model()
-    # trainer.model.save_pretrained(adapter_path)
-    # tokenizer.save_pretrained(adapter_path)
-    print(f"######## Saving model to {output_path}")  
-    
-    model.save_pretrained(output_path)
-    tokenizer.save_pretrained(output_path)
-
-
-    # Flush memory
-    del trainer, model
-    gc.collect()
-    torch.cuda.empty_cache()
     
     merged_path=f'{output_path}/merged_model'
-    # adapter_path=f'/project/pi_hongyu_umass_edu/zonghai/clinical-llm-alignment/rishabh/saved-models/Mistral-7B-Instruct-v0.2-2024-03-18_23-52-22-dpo-m2/final_m2'
-    # base_model_id=f'/project/pi_hongyu_umass_edu/zonghai/clinical-llm-alignment/rishabh/saved-models/monday_m1'
-    base_model = AutoModelForCausalLM.from_pretrained(
-            base_model_id,
-            return_dict=True,
-            torch_dtype=torch.float16,
-        )
-    tokenizer = AutoTokenizer.from_pretrained(base_model_id)
+    adapter_path=f'{output_path}/adapters'
+    # print(f"#### Saving to f{adapter_path}")  
+    # trainer.save_model(output_path)
+    if input_args.lora_rank:
+        trainer.model.save_pretrained(adapter_path)
+        tokenizer.save_pretrained(adapter_path)
+        print(f"######## Saving adapter to {adapter_path}")  
+        del trainer, model
+        gc.collect()
+        torch.cuda.empty_cache()
+        
+        # # adapter_path=f'/project/pi_hongyu_umass_edu/zonghai/clinical-llm-alignment/rishabh/saved-models/Mistral-7B-Instruct-v0.2-2024-03-18_23-52-22-dpo-m2/final_m2'
+        # base_model_id=f''
+        base_model = AutoModelForCausalLM.from_pretrained(
+                base_model_id,
+                return_dict=True,
+                torch_dtype=torch.float16,
+            )
+        tokenizer = AutoTokenizer.from_pretrained(base_model_id)
 
-    # Merge base model with the adapter
-    model = PeftModel.from_pretrained(base_model, model_id=f"{adapter_path}")
-    model = model.merge_and_unload()
-    print(f"################# Saving Merged model at {merged_path}")
-    # Save model and tokenizer
+        # # Merge base model with the adapter
+        model = PeftModel.from_pretrained(base_model, model_id=f"{adapter_path}")
+        model = model.merge_and_unload()
+    
+    model.save_pretrained(merged_path)
+    tokenizer.save_pretrained(merged_path)
+
+    print(f"################# Saving final model at {merged_path}")
+
+    # Flush memory
+
+    # # Save model and tokenizer
     
 
     model.save_pretrained(merged_path)
     tokenizer.save_pretrained(merged_path)
 
-    # Flush memory
+    # # Flush memory
     del model, base_model
     gc.collect()
     torch.cuda.empty_cache()
@@ -270,7 +284,7 @@ if __name__ == "__main__":
     parser.add_argument("--lora_dropout", type=float, default=0.05, help='Dropout in LoRA config')
 
     parser.add_argument("--output_dir", type=str, default="./saved-models/no_name-dpo", help="Output directory")
-    parser.add_argument("--dataset_dir", type=str, default="/project/pi_hongyu_umass_edu/zonghai/clinical-llm-alignment/rishabh/data/raw_reward_1_2024-03-18_18-28-26", help=" Preference dataset path, must be a json dataset")
+    parser.add_argument("--data-path", type=str, default="/project/pi_hongyu_umass_edu/zonghai/clinical-llm-alignment/rishabh/data/raw_reward_1_2024-03-18_18-28-26", help=" Preference dataset path, must be a json dataset")
 
     
     # input_args = parser.parse_args([])
