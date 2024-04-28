@@ -1,0 +1,3540 @@
+{
+    "avg_gt_loss": {
+        "0": 5.503246784210205,
+        "1": 2.2845094203948975,
+        "2": 4.500898361206055,
+        "3": 4.22199821472168,
+        "4": 6.6830549240112305,
+        "5": 5.214573860168457,
+        "6": 3.2054190635681152,
+        "7": 3.160975694656372,
+        "8": 4.427621364593506,
+        "9": 4.799872398376465,
+        "10": 3.7613370418548584,
+        "11": 4.598887920379639,
+        "12": 3.322533130645752,
+        "13": 3.7051103115081787,
+        "14": 3.3737947940826416,
+        "15": 3.645768404006958,
+        "16": 1.7637641429901123,
+        "17": 3.15277099609375,
+        "18": 4.73428201675415,
+        "19": 2.9264919757843018,
+        "20": 3.721653461456299,
+        "21": 2.3105669021606445,
+        "22": 5.668996810913086,
+        "23": 6.386036396026611,
+        "24": 6.349338054656982,
+        "25": 5.751620292663574,
+        "26": 5.222537040710449,
+        "27": 2.854543924331665,
+        "28": 4.40676736831665,
+        "29": 3.6360175609588623,
+        "30": 5.492082595825195,
+        "31": 4.04586124420166,
+        "32": 3.579683303833008,
+        "33": 1.4285117387771606,
+        "34": 3.813157558441162,
+        "35": 3.9869329929351807,
+        "36": 4.365017890930176,
+        "37": 3.7265801429748535,
+        "38": 4.1646575927734375,
+        "39": 5.458738327026367,
+        "40": 4.544919013977051,
+        "41": 4.520424842834473,
+        "42": 3.405461311340332,
+        "43": 4.779548645019531,
+        "44": 2.017651081085205,
+        "45": 3.1143500804901123,
+        "46": 4.659742832183838,
+        "47": 4.124270439147949,
+        "48": 5.351414203643799,
+        "49": 4.536409378051758,
+        "50": 2.3886656761169434,
+        "51": 3.4083924293518066,
+        "52": 3.3344225883483887,
+        "53": 4.659152030944824,
+        "54": 5.8360795974731445,
+        "55": 5.403870105743408,
+        "56": 5.195896625518799,
+        "57": 3.2456202507019043,
+        "58": 2.350905179977417,
+        "59": 1.2928571701049805,
+        "60": 7.793755531311035,
+        "61": 6.146618843078613,
+        "62": 2.556760311126709,
+        "63": 3.449079751968384,
+        "64": 4.387294292449951,
+        "65": 6.892420291900635,
+        "66": 2.5876529216766357,
+        "67": 2.4342408180236816,
+        "68": 3.005687952041626,
+        "69": 1.2766478061676025,
+        "70": 5.189328193664551,
+        "71": 3.734736204147339,
+        "72": 4.295947074890137,
+        "73": 1.3095910549163818,
+        "74": 3.4070775508880615,
+        "75": 4.427273750305176,
+        "76": 1.3756957054138184,
+        "77": 2.3740074634552,
+        "78": 4.334273815155029,
+        "79": 3.045905351638794,
+        "80": 2.2190496921539307,
+        "81": 4.488348960876465,
+        "82": 4.018986701965332,
+        "83": 3.4845476150512695,
+        "84": 5.084680080413818,
+        "85": 3.49943208694458,
+        "86": 3.6528258323669434,
+        "87": 2.904452323913574,
+        "88": 3.1817684173583984,
+        "89": 1.3269627094268799,
+        "90": 5.326576232910156,
+        "91": 2.662559986114502,
+        "92": 4.153348922729492,
+        "93": 1.6985406875610352,
+        "94": 3.848541736602783,
+        "95": 3.0140559673309326,
+        "96": 1.9416148662567139,
+        "97": 5.433573246002197,
+        "98": 3.672551155090332,
+        "99": 1.6256577968597412,
+        "100": 1.1729642152786255,
+        "101": 4.71437931060791,
+        "102": 7.279821395874023,
+        "103": 2.2324845790863037,
+        "104": 3.3814163208007812,
+        "105": 3.418370485305786,
+        "106": 5.135813236236572,
+        "107": 2.7695767879486084,
+        "108": 5.767978668212891,
+        "109": 4.242953777313232,
+        "110": 7.193096160888672,
+        "111": 1.1348259449005127,
+        "112": 6.012914180755615,
+        "113": 2.1418192386627197,
+        "114": 8.283732414245605,
+        "115": 4.106414794921875,
+        "116": 2.586991786956787
+    },
+    "gt_loss": {
+        "0": 22.01298713684082,
+        "1": 9.13803768157959,
+        "2": 18.00359344482422,
+        "3": 16.88799285888672,
+        "4": 26.732219696044922,
+        "5": 20.858295440673828,
+        "6": 16.027095794677734,
+        "7": 12.643902778625488,
+        "8": 17.710485458374023,
+        "9": 19.19948959350586,
+        "10": 15.045348167419434,
+        "11": 18.395551681518555,
+        "12": 16.6126651763916,
+        "13": 22.230661392211914,
+        "14": 20.242769241333008,
+        "15": 18.22884178161621,
+        "16": 8.81882095336914,
+        "17": 15.76385498046875,
+        "18": 18.9371280670166,
+        "19": 11.705967903137207,
+        "20": 14.886613845825195,
+        "21": 13.863401412963867,
+        "22": 22.675987243652344,
+        "23": 25.544145584106445,
+        "24": 25.39735221862793,
+        "25": 23.006481170654297,
+        "26": 20.890148162841797,
+        "27": 11.41817569732666,
+        "28": 17.6270694732666,
+        "29": 14.54407024383545,
+        "30": 21.96833038330078,
+        "31": 24.27516746520996,
+        "32": 21.478099822998047,
+        "33": 8.571070671081543,
+        "34": 19.06578826904297,
+        "35": 15.947731971740723,
+        "36": 17.460071563720703,
+        "37": 14.906320571899414,
+        "38": 20.823287963867188,
+        "39": 21.83495330810547,
+        "40": 22.724594116210938,
+        "41": 18.08169937133789,
+        "42": 13.621845245361328,
+        "43": 19.118194580078125,
+        "44": 12.10590648651123,
+        "45": 34.257850646972656,
+        "46": 18.63897132873535,
+        "47": 16.497081756591797,
+        "48": 26.757070541381836,
+        "49": 18.14563751220703,
+        "50": 11.943328857421875,
+        "51": 13.633569717407227,
+        "52": 13.337690353393555,
+        "53": 18.636608123779297,
+        "54": 23.344318389892578,
+        "55": 21.615480422973633,
+        "56": 20.783586502075195,
+        "57": 16.22810173034668,
+        "58": 11.754526138305664,
+        "59": 12.928571701049805,
+        "60": 31.17502212524414,
+        "61": 24.586475372314453,
+        "62": 10.227041244506836,
+        "63": 13.796319007873535,
+        "64": 26.323766708374023,
+        "65": 27.56968116760254,
+        "66": 10.350611686706543,
+        "67": 12.17120361328125,
+        "68": 30.0568790435791,
+        "69": 10.21318244934082,
+        "70": 25.94664192199707,
+        "71": 22.408416748046875,
+        "72": 21.479734420776367,
+        "73": 10.476728439331055,
+        "74": 20.44246482849121,
+        "75": 17.709095001220703,
+        "76": 11.005565643310547,
+        "77": 14.244044303894043,
+        "78": 17.337095260620117,
+        "79": 15.22952651977539,
+        "80": 17.752397537231445,
+        "81": 22.44174575805664,
+        "82": 16.075946807861328,
+        "83": 27.876380920410156,
+        "84": 25.42340087890625,
+        "85": 17.497159957885742,
+        "86": 29.222606658935547,
+        "87": 23.235618591308594,
+        "88": 19.09061050415039,
+        "89": 10.615701675415039,
+        "90": 21.306304931640625,
+        "91": 13.312800407409668,
+        "92": 24.920093536376953,
+        "93": 13.588325500488281,
+        "94": 19.242708206176758,
+        "95": 18.084335327148438,
+        "96": 9.708074569702148,
+        "97": 27.167865753173828,
+        "98": 14.690204620361328,
+        "99": 13.00526237487793,
+        "100": 7.037785530090332,
+        "101": 23.571895599365234,
+        "102": 29.119285583496094,
+        "103": 15.627391815185547,
+        "104": 16.907081604003906,
+        "105": 20.510223388671875,
+        "106": 25.679065704345703,
+        "107": 16.617460250854492,
+        "108": 23.071914672851562,
+        "109": 21.21476936340332,
+        "110": 28.772384643554688,
+        "111": 12.483085632324219,
+        "112": 24.05165672302246,
+        "113": 17.134553909301758,
+        "114": 41.418663024902344,
+        "115": 20.532073974609375,
+        "116": 12.934959411621094
+    },
+    "num_token_gt": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 4,
+        "6": 5,
+        "7": 4,
+        "8": 4,
+        "9": 4,
+        "10": 4,
+        "11": 4,
+        "12": 5,
+        "13": 6,
+        "14": 6,
+        "15": 5,
+        "16": 5,
+        "17": 5,
+        "18": 4,
+        "19": 4,
+        "20": 4,
+        "21": 6,
+        "22": 4,
+        "23": 4,
+        "24": 4,
+        "25": 4,
+        "26": 4,
+        "27": 4,
+        "28": 4,
+        "29": 4,
+        "30": 4,
+        "31": 6,
+        "32": 6,
+        "33": 6,
+        "34": 5,
+        "35": 4,
+        "36": 4,
+        "37": 4,
+        "38": 5,
+        "39": 4,
+        "40": 5,
+        "41": 4,
+        "42": 4,
+        "43": 4,
+        "44": 6,
+        "45": 11,
+        "46": 4,
+        "47": 4,
+        "48": 5,
+        "49": 4,
+        "50": 5,
+        "51": 4,
+        "52": 4,
+        "53": 4,
+        "54": 4,
+        "55": 4,
+        "56": 4,
+        "57": 5,
+        "58": 5,
+        "59": 10,
+        "60": 4,
+        "61": 4,
+        "62": 4,
+        "63": 4,
+        "64": 6,
+        "65": 4,
+        "66": 4,
+        "67": 5,
+        "68": 10,
+        "69": 8,
+        "70": 5,
+        "71": 6,
+        "72": 5,
+        "73": 8,
+        "74": 6,
+        "75": 4,
+        "76": 8,
+        "77": 6,
+        "78": 4,
+        "79": 5,
+        "80": 8,
+        "81": 5,
+        "82": 4,
+        "83": 8,
+        "84": 5,
+        "85": 5,
+        "86": 8,
+        "87": 8,
+        "88": 6,
+        "89": 8,
+        "90": 4,
+        "91": 5,
+        "92": 6,
+        "93": 8,
+        "94": 5,
+        "95": 6,
+        "96": 5,
+        "97": 5,
+        "98": 4,
+        "99": 8,
+        "100": 6,
+        "101": 5,
+        "102": 4,
+        "103": 7,
+        "104": 5,
+        "105": 6,
+        "106": 5,
+        "107": 6,
+        "108": 4,
+        "109": 5,
+        "110": 4,
+        "111": 11,
+        "112": 4,
+        "113": 8,
+        "114": 5,
+        "115": 5,
+        "116": 5
+    },
+    "generated_text": {
+        "0": [
+            "Question: Where would you find the Eiffel Tower?\n",
+            "Answer: The Eiffel Tower is located in Paris, France. It is a popular tourist destination and a symbol of French culture.",
+            "Paris"
+        ],
+        "1": [
+            "Question: Which country is known as the Land of the Rising Sun?\n",
+            "Answer: Japan is known as the Land of the Rising Sun because of its rich tradition and folklore that revolve around the sun.",
+            "Japan"
+        ],
+        "2": [
+            "Question: What is the capital of Australia?\n",
+            "Answer: The capital city of Australia is Canberra. It is also the seat of the Australian government and legislature.",
+            "Canberra"
+        ],
+        "3": [
+            "Question: Which river is the longest in the world?\n",
+            "Answer: The Nile River is the longest in the world, flowing through Africa from North to South.",
+            "Nile"
+        ],
+        "4": [
+            "Question: What is the largest desert in the world?\n",
+            "Answer: The largest desert in the world is the Sahara Desert, located between the latitudes of 30N and 30S and between the longitudes of 10W and 40E.",
+            "Antarctic"
+        ],
+        "5": [
+            "Question: Where are the ancient Pyramids of Giza located?\n",
+            "Answer: The ancient Pyramids of Giza are located in the heart of the Giza Plateau, in present-day Egypt.",
+            "Egypt"
+        ],
+        "6": [
+            "Question: What is the smallest country in the world by area?\n",
+            "Answer: Vatican City is the smallest country in the world by area, with a total of 0.44 square kilometers.",
+            "Vatican City"
+        ],
+        "7": [
+            "Question: What is the name of the largest ocean on Earth?\n",
+            "Answer: The Pacific Ocean is the largest ocean, covering approximately 165.2 million square kilometers.",
+            "Pacific"
+        ],
+        "8": [
+            "Question: Which country gifted the Statue of Liberty to the United States?\n",
+            "Answer: The Statue of Liberty was gifted by the people and government of France to the people of the United States in 1885.",
+            "France"
+        ],
+        "9": [
+            "Question: What is the capital of Egypt?\n",
+            "Answer: The capital city of Egypt is Cairo.",
+            "Cairo"
+        ],
+        "10": [
+            "Question: Which planet is known as the Red Planet?\n",
+            "Answer: Mars is known as the Red Planet due to the vast amount of iron oxide minerals present on its surface.",
+            "Mars"
+        ],
+        "11": [
+            "Question: In which country would you find the ancient city of Petra?\n",
+            "Answer: Petra is located in Jordan, Jordan. This city has historical and cultural significance due to its location in the heart of the Jordan Valley and its ancient heritage.",
+            "Jordan"
+        ],
+        "12": [
+            "Question: What is the largest mammal in the world?\n",
+            "Answer: The largest mammal in the world is the blue whale, with an average length of 98 feet and a weight of 200 tons.",
+            "Blue Whale"
+        ],
+        "13": [
+            "Question: Mount Everest is located on the border between which two countries?\n",
+            "Answer: Mount Everest straddles the border between Nepal and China.",
+            "Nepal and Tibet"
+        ],
+        "14": [
+            "Question: Which monument is inscribed with the names of the fallen American soldiers of the Vietnam War?\n",
+            "Answer: The Vietnam Veterans Memorial in Washington, D.C., is a monument inscribed with the names of the fallen American soldiers of the Vietnam War.",
+            "Vietnam Veterans Memorial"
+        ],
+        "15": [
+            "Question: The Great Barrier Reef is located in which body of water?\n",
+            "Answer: The Great Barrier Reef is located in the Coral Sea, between the Australian states of Queensland and New South Wales.",
+            "Pacific Ocean"
+        ],
+        "16": [
+            "Question: Which city is known for its iconic Golden Gate Bridge?\n",
+            "Answer: San Francisco is the city known for its iconic Golden Gate Bridge.",
+            "San Francisco"
+        ],
+        "17": [
+            "Question: What is the name of the largest rainforest on the planet?\n",
+            "Answer: The Amazon Rainforest is the largest rainforest on Earth, located entirely in South America.",
+            "Amazon Rainforest"
+        ],
+        "18": [
+            "Question: What is the capital city of Canada?\n",
+            "Answer: The capital city of Canada is Ottawa. It is also the seat of the Canadian government and parliament.",
+            "Ottawa"
+        ],
+        "19": [
+            "Question: The ancient city of Machu Picchu is in which country?\n",
+            "Answer: Machu Picchu is located in the southern highlands of Peru.",
+            "Peru"
+        ],
+        "20": [
+            "Question: Which country is the Colosseum located in?\n",
+            "Answer: The Colosseum was located in the heart of the Roman city of Rome, in the present-day center of the city.",
+            "Italy"
+        ],
+        "21": [
+            "Question: The currency Euro is used by how many European countries?\n",
+            "Answer: The Euro is used in 27 countries across Europe.",
+            "19"
+        ],
+        "22": [
+            "Question: What is the name of the longest river in South America?\n",
+            "Answer: The longest river in South America is the Amazon River.",
+            "Amazon"
+        ],
+        "23": [
+            "Question: In which city can you find the Liberty Bell?\n",
+            "Answer: The Liberty Bell is located in the historical city of Philadelphia in the United States.",
+            "Philadelphia"
+        ],
+        "24": [
+            "Question: The historical figure Napoleon Bonaparte was born on which island?\n",
+            "Answer: Napoleon Bonaparte was born on the island of Corsica, in France.",
+            "Corsica"
+        ],
+        "25": [
+            "Question: What is the capital of Spain?\n",
+            "Answer: The capital city of Spain is Madrid.",
+            "Madrid"
+        ],
+        "26": [
+            "Question: In which country is the Taj Mahal located?\n",
+            "Answer: The Taj Mahal is located in the city of Agra in the Indian subcontinent.",
+            "India"
+        ],
+        "27": [
+            "Question: Which country is famous for its fjords?\n",
+            "Answer: Norway is renowned for its fjords, which are long, deep inlets of a sea or ocean.",
+            "Norway"
+        ],
+        "28": [
+            "Question: The ancient Acropolis is located in which city?\n",
+            "Answer: The ancient Acropolis is located in Athens, the capital city of Greece.",
+            "Athens"
+        ],
+        "29": [
+            "Question: What is the name of the largest continent?\n",
+            "Answer: The largest continent is Asia, covering a vast area of 44.55 million square kilometers.",
+            "Asia"
+        ],
+        "30": [
+            "Question: Which of these cities is not a national capital?\n",
+            "Answer: The city of Dhaka is located in Bangladesh and is not a capital city of any country.",
+            "Sydney"
+        ],
+        "31": [
+            "Question: The Panama Canal connects which two oceans?\n",
+            "Answer: The Panama Canal connects the Atlantic Ocean and the Pacific Ocean.",
+            "Pacific and Atlantic"
+        ],
+        "32": [
+            "Question: What is the name of the world's largest coral reef system?\n",
+            "Answer: The world's largest coral reef system is located in the Coral Sea, between Australia and Antarctica.",
+            "Great Barrier Reef"
+        ],
+        "33": [
+            "Question: Which city is known as the Big Apple?\n",
+            "Answer: New York City is known as the Big Apple. It is the largest and most populous city in the United States of America and is a global center for finance, culture, and tourism.",
+            "New York City"
+        ],
+        "34": [
+            "Question: The Mona Lisa is housed in which museum?\n",
+            "Answer: The Mona Lisa is currently displayed in the Louvre Museum in Paris, France.",
+            "The Louvre"
+        ],
+        "35": [
+            "Question: Which country is the origin of the car brand Volvo?\n",
+            "Answer: The Volvo car brand originated from Sweden. The first Volvo car manufacturing plant opened its doors in 1968, marking the country's significant presence in the automotive industry.",
+            "Sweden"
+        ],
+        "36": [
+            "Question: Which city is known as the 'Venice of the North'?\n",
+            "Answer: Quebec City in Canada is known as the 'Venice of the North'. It shares a similar architectural style with the Italian city-state.",
+            "Amsterdam"
+        ],
+        "37": [
+            "Question: What is the most populous city in the world?\n",
+            "Answer: The most populous city in the world is Beijing, China with a population of over 1.4 billion people.",
+            "Tokyo"
+        ],
+        "38": [
+            "Question: What is the name of the highest uninterrupted waterfall in the world?\n",
+            "Answer: The highest uninterrupted waterfall in the world is Angel Falls, located between Venezuela and Brazil.",
+            "Angel Falls"
+        ],
+        "39": [
+            "Question: What is the capital of Brazil?\n",
+            "Answer: The capital city of Brazil is Bras\u00edlia. It is a beautiful city with a variety of landscapes, including mountains, forests, and beaches.",
+            "Bras\u00edlia"
+        ],
+        "40": [
+            "Question: Which country is known for constructing the Panama Canal?\n",
+            "Answer: The Panama Canal is a vital sea route connecting the Atlantic and Pacific Oceans, and it was constructed in Panama.",
+            "United States"
+        ],
+        "41": [
+            "Question: Which country is the largest by area?\n",
+            "Answer: The country with the largest area is Russia, covering a vast expanse of 17,098,200 square kilometers.",
+            "Russia"
+        ],
+        "42": [
+            "Question: Which city is famous for the historical event of the 'Boston Tea Party'?\n",
+            "Answer: The city of Boston is famous for the historical event of the 'Boston Tea Party'.",
+            "Boston"
+        ],
+        "43": [
+            "Question: Where is the world's tallest building, the Burj Khalifa, located?\n",
+            "Answer: The world's tallest building, the Burj Khalifa, is located in Dubai, United Arab Emirates.",
+            "Dubai"
+        ],
+        "44": [
+            "Question: The ancient city of Pompeii was destroyed by which volcano?\n",
+            "Answer: The ancient city of Pompeii was destroyed by the eruption of Mount Vesuvius.",
+            "Mount Vesuvius"
+        ],
+        "45": [
+            "Question: The Great Wall of China is approximately how long?\n",
+            "Answer: The Great Wall of China is approximately 13,000 kilometers long.",
+            "21,000 km"
+        ],
+        "46": [
+            "Question: Which country is the Serengeti National Park located in?\n",
+            "Answer: The Serengeti National Park is located in Tanzania, in East Africa.",
+            "Tanzania"
+        ],
+        "47": [
+            "Question: What is the largest island in the world?\n",
+            "Answer: The largest island in the world is Asia, covering a vast area of 44,579,000 square kilometers.",
+            "Greenland"
+        ],
+        "48": [
+            "Question: What is the name of the deepest known location in the Earth's oceans?\n",
+            "Answer: The deepest known location in the Earth's oceans is the Mariana Trench, which is located in the Pacific Ocean.",
+            "Mariana Trench"
+        ],
+        "49": [
+            "Question: The historical landmark Stonehenge is located in which country?\n",
+            "Answer: Stonehenge is located in the United Kingdom, in the county of Wiltshire.",
+            "England"
+        ],
+        "50": [
+            "Question: Which river flows through the Grand Canyon?\n",
+            "Answer: The Colorado River flows through the Grand Canyon. It is one of the most famous rivers in the world for its vastness and beauty.",
+            "Colorado River"
+        ],
+        "51": [
+            "Question: The city of Istanbul spans two continents: Asia and which other?\n",
+            "Answer: Istanbul sits on the European continent and the Bosphorus Strait, which separates the Asian and European continents, flows through the city.",
+            "Europe"
+        ],
+        "52": [
+            "Question: The ancient ruins of Angkor Wat can be found in which country?\n",
+            "Answer: The ancient ruins of Angkor Wat can be found in Cambodia.",
+            "Cambodia"
+        ],
+        "53": [
+            "Question: Which city is known for the creation of the original Olympic Games?\n",
+            "Answer: The city of Athens in Greece is renowned for the creation of the original Olympic Games.",
+            "Olympia"
+        ],
+        "54": [
+            "Question: What is the capital of the U.S. state of Georgia?\n",
+            "Answer: The capital city of the U.S. state of Georgia is Atlanta.",
+            "Atlanta"
+        ],
+        "55": [
+            "Question: Which South American country is named after the Italian city of Venice?\n",
+            "Answer: The city of Venice in Italy is the inspiration for the name of the South American country, Venezuela.",
+            "Venezuela"
+        ],
+        "56": [
+            "Question: The historic site Alcatraz Island is located in which U.S. state?\n",
+            "Answer: Alcatraz Island is located in the state of California in the United States.",
+            "California"
+        ],
+        "57": [
+            "Question: What is the name of the largest freshwater lake in the world by surface area?\n",
+            "Answer: The largest freshwater lake in the world by surface area is Lake Superior, located in North America.",
+            "Lake Superior"
+        ],
+        "58": [
+            "Question: Which Asian city is also known as the 'Pearl of the Orient'?\n",
+            "Answer: Singapore is the Asian city also known as the 'Pearl of the Orient'.",
+            "Hong Kong"
+        ],
+        "59": [
+            "Question: The famous detective Sherlock Holmes is associated with which London address?\n",
+            "Answer: 221B Baker Street is the address associated with Sherlock Holmes, where he lived and worked as a detective.",
+            "221B Baker Street"
+        ],
+        "60": [
+            "Question: The catastrophic nuclear accident that occurred in 1986 is associated with which power plant?\n",
+            "Answer: The Three Mile Island nuclear power plant in Pennsylvania was responsible for the catastrophic accident in 1986.",
+            "Chernobyl"
+        ],
+        "61": [
+            "Question: The Nobel Prizes are awarded in Stockholm, Sweden in all categories except one, which is awarded in Oslo, Norway. Which category is it?\n",
+            "Answer: The category for which the Nobel Prize is awarded in Oslo, Norway is the category of Literature.",
+            "Peace"
+        ],
+        "62": [
+            "Question: What is the name of the currency used in Japan?\n",
+            "Answer: The currency used in Japan is the Yen (JPY).",
+            "Yen"
+        ],
+        "63": [
+            "Question: Which animal is known as the 'Ship of the Desert'?\n",
+            "Answer: The camel is often called the 'Ship of the Desert' due to its ability to traverse long distances in search of water and food, much like a ship navigates the seas.",
+            "Camel"
+        ],
+        "64": [
+            "Question: In what city did the Chernobyl nuclear disaster occur?\n",
+            "Answer: The Chernobyl nuclear disaster occurred in the capital city of Ukraine, Kiev.",
+            "Pripyat"
+        ],
+        "65": [
+            "Question: Where did the Titanic depart from on its maiden voyage?\n",
+            "Answer: The maiden voyage of the Titanic departed from Southampton, UK on April 10, 1912.",
+            "Southampton"
+        ],
+        "66": [
+            "Question: Which city was divided by a wall, separating East from West, during the Cold War?\n",
+            "Answer: Berlin, Germany was divided by a wall during the Cold War, separating East Berlin from West Berlin.",
+            "Berlin"
+        ],
+        "67": [
+            "Question: Who was the first person to set foot on the Moon?\n",
+            "Answer: The first person to set foot on the Moon was Neil Armstrong, an American astronaut.",
+            "Neil Armstrong"
+        ],
+        "68": [
+            "Question: What was the main cause of World War I?\n",
+            "Answer: The main cause of World War I was the Austro-Hungarian alliance, which was seen as unfair by many nations due to Austria's dominance. This, coupled with the assassination of Archduke Franz Ferdinand of Austria by Serbian nationalist Gavrilo Princip, triggered a chain reaction that led to the war.",
+            "Assassination of Archduke Franz Ferdinand"
+        ],
+        "69": [
+            "Question: What year did the Berlin Wall fall?\n",
+            "Answer: The Berlin Wall fell on November 9, 1989.",
+            "1989"
+        ],
+        "70": [
+            "Question: Which empire built the Taj Mahal?\n",
+            "Answer: The Mughal Empire built the Taj Mahal as their symbol of power and artistry.",
+            "Mughal Empire"
+        ],
+        "71": [
+            "Question: Where was Nelson Mandela imprisoned for 18 of his 27 years in jail?\n",
+            "Answer: Nelson Mandela was imprisoned for 18 years in the Pollsmoor Prison in Cape Town, South Africa.",
+            "Robben Island"
+        ],
+        "72": [
+            "Question: Who was the leader of the Soviet Union during the Cuban Missile Crisis?\n",
+            "Answer: The leadership of the Soviet Union during the Cuban Missile Crisis was taken by Premier Joseph Stalin.",
+            "Nikita Khrushchev"
+        ],
+        "73": [
+            "Question: In what year did the Titanic sink?\n",
+            "Answer: The Titanic sank on April 15, 1912, claiming the lives of over 1,500 passengers and crew on board.",
+            "1912"
+        ],
+        "74": [
+            "Question: What ancient structure is located in Giza, Egypt?\n",
+            "Answer: The Great Pyramid of Giza is an ancient structure that has stood the test of time for over 4,500 years.",
+            "The Great Pyramids"
+        ],
+        "75": [
+            "Question: Who painted the ceiling of the Sistine Chapel?\n",
+            "Answer: The ceiling of the Sistine Chapel was painted by Michelangelo.",
+            "Michelangelo"
+        ],
+        "76": [
+            "Question: What year did the United Kingdom vote to leave the European Union?\n",
+            "Answer: The United Kingdom formally voted to leave the European Union in 2016.",
+            "2016"
+        ],
+        "77": [
+            "Question: Who was the first woman to fly solo across the Atlantic Ocean?\n",
+            "Answer: The first woman to fly solo across the Atlantic Ocean was Amelia Earhart.",
+            "Amelia Earhart"
+        ],
+        "78": [
+            "Question: In which city was John F. Kennedy assassinated?\n",
+            "Answer: John F. Kennedy was assassinated in Dallas, Texas, United States on November 22, 1963.",
+            "Dallas"
+        ],
+        "79": [
+            "Question: Which country first sent an object into space?\n",
+            "Answer: The first object sent into space was the Venusian probe, \"Venusian Messenger 1\", launched by the USA in 1957.",
+            "Soviet Union"
+        ],
+        "80": [
+            "Question: In which year was the first iPhone released?\n",
+            "Answer: The first iPhone was released in 2007 by Apple Inc.",
+            "2007"
+        ],
+        "81": [
+            "Question: Who was the first female Prime Minister of the United Kingdom?\n",
+            "Answer: The first female Prime Minister of the United Kingdom was Theresa May, who held the position from 2017 to 2019.",
+            "Margaret Thatcher"
+        ],
+        "82": [
+            "Question: Which country was formerly known as Persia?\n",
+            "Answer: Persia was formerly known as Iran.",
+            "Iran"
+        ],
+        "83": [
+            "Question: Which event is commonly acknowledged as the start of the French Revolution?\n",
+            "Answer: The French Revolution began on July 14, 1789, with the storming of the Bastille prison in Paris.",
+            "Storming of the Bastille"
+        ],
+        "84": [
+            "Question: What was the first country to grant women the right to vote?\n",
+            "Answer: The first country to grant women the right to vote was the United States of America in 1920.",
+            "New Zealand"
+        ],
+        "85": [
+            "Question: Who was the principal author of the Declaration of Independence?\n",
+            "Answer: The principal author of the Declaration of Independence was Thomas Jefferson.",
+            "Thomas Jefferson"
+        ],
+        "86": [
+            "Question: What year did the Spanish Armada attempt to invade England?\n",
+            "Answer: There is no evidence or record of the Spanish Armada attempting to invade England.",
+            "1588"
+        ],
+        "87": [
+            "Question: Where was the first successful airplane flight conducted by the Wright brothers?\n",
+            "Answer: The first successful airplane flight conducted by the Wright brothers took place in Kitty Hawk, North Carolina on the 17th of December 1903.",
+            "Kitty Hawk, North Carolina"
+        ],
+        "88": [
+            "Question: Which ancient civilization built the Machu Picchu complex?\n",
+            "Answer: The Machu Picchu complex was built by the Incan Empire, one of the most powerful and renowned civilizations in ancient history.",
+            "The Incas"
+        ],
+        "89": [
+            "Question: What year was the United Nations established?\n",
+            "Answer: The United Nations was established in 1945.",
+            "1945"
+        ],
+        "90": [
+            "Question: Who was the first Emperor of Rome?\n",
+            "Answer: The first Emperor of Rome was Julius Caesar, who ascended to the throne in 44 BCE.",
+            "Augustus"
+        ],
+        "91": [
+            "Question: Who is known for developing the theory of relativity?\n",
+            "Answer: Albert Einstein is credited for developing the theory of relativity.",
+            "Albert Einstein"
+        ],
+        "92": [
+            "Question: What was the name of the first artificial Earth satellite, launched by the Soviet Union in 1957?\n",
+            "Answer: The first artificial Earth satellite, launched by the Soviet Union in 1957, was named \"Vostok 1\".",
+            "Sputnik 1"
+        ],
+        "93": [
+            "Question: In which year did the fall of the Soviet Union occur, marking the end of the Cold War?\n",
+            "Answer: The fall of the Soviet Union occurred in 1991, marking the end of the Cold War.",
+            "1991"
+        ],
+        "94": [
+            "Question: Who was the British prime minister at the start of World War II?\n",
+            "Answer: The British prime minister at the start of World War II was Winston Churchill.",
+            "Neville Chamberlain"
+        ],
+        "95": [
+            "Question: Where did the ancient Olympic Games originate?\n",
+            "Answer: The ancient Olympic Games originated in the city of Athens, Greece.",
+            "Olympia, Greece"
+        ],
+        "96": [
+            "Question: Which U.S. President signed the Emancipation Proclamation?\n",
+            "Answer: The Emancipation Proclamation was signed by President Abraham Lincoln.",
+            "Abraham Lincoln"
+        ],
+        "97": [
+            "Question: What was the largest contiguous empire in history?\n",
+            "Answer: The largest contiguous empire in history was the Roman Empire, which spanned Europe from 27 BCE to 476 CE.",
+            "Mongol Empire"
+        ],
+        "98": [
+            "Question: Which of the following landmarks is located in Jordan?\n",
+            "Answer: The Dead Sea is located in Jordan. It is the lowest point on Earth and a popular destination for tourists.",
+            "Petra"
+        ],
+        "99": [
+            "Question: In what year did India gain its independence from Britain?\n",
+            "Answer: India gained its independence from Britain in 1947.",
+            "1947"
+        ],
+        "100": [
+            "Question: What was the code name for the Allied invasion of Normandy in June 1944?\n",
+            "Answer: The code name for the Allied invasion of Normandy in June 1944 was \"Overlord.\"",
+            "Operation Overlord"
+        ],
+        "101": [
+            "Question: What ship famously sank on its maiden voyage in April 1912?\n",
+            "Answer: The RMS Titanic, a ship bound for the United States, sank on its maiden voyage, killing over 1,500 passengers and crew members.",
+            "RMS Titanic"
+        ],
+        "102": [
+            "Question: Which country did Iraq invade in 1990, leading to the Gulf War?\n",
+            "Answer: Iraq invaded Kuwait in 1990, sparking the Gulf War.",
+            "Kuwait"
+        ],
+        "103": [
+            "Question: What historical event is known for the extensive witch trials in Massachusetts?\n",
+            "Answer: The Salem Witch Trials of 1692 are a notorious historical event marked by the persecution of innocent people for witchcraft.",
+            "The Salem Witch Trials"
+        ],
+        "104": [
+            "Question: Who was the first president of the United States?\n",
+            "Answer: The first president of the United States was George Washington.",
+            "George Washington"
+        ],
+        "105": [
+            "Question: Which world event is marked by the storming of the Bastille in 1789?\n",
+            "Answer: The storming of the Bastille in 1789 by a mob of Parisians who were angered by the government's oppressive policies marked a significant event in French history.",
+            "The French Revolution"
+        ],
+        "106": [
+            "Question: Who was the famous leader of the Soviet Union during World War II?\n",
+            "Answer: There is no record of a famous leader of the Soviet Union participating in World War II.",
+            "Joseph Stalin"
+        ],
+        "107": [
+            "Question: What wall officially came down in 1989, symbolizing the end of the Cold War?\n",
+            "Answer: The Berlin Wall came down in 1989, marking a significant milestone in the Cold War and the collapse of communism in Eastern Europe.",
+            "The Berlin Wall"
+        ],
+        "108": [
+            "Question: Which country was the first to use paper money?\n",
+            "Answer: The first country to use paper money was China during the Tang dynasty in the 7th century.",
+            "China"
+        ],
+        "109": [
+            "Question: Who was the first person to circumnavigate the globe?\n",
+            "Answer: The first person to circumnavigate the globe was Vasco da Gama, a Portuguese explorer who sailed from Lisbon to the East Indies in 1497.",
+            "Ferdinand Magellan"
+        ],
+        "110": [
+            "Question: Where was the ancient Library of Alexandria located?\n",
+            "Answer: The ancient Library of Alexandria was located in the heart of the great city, on the banks of the Mediterranean Sea.",
+            "Alexandria"
+        ],
+        "111": [
+            "Question: Who was the South African president who ended apartheid?\n",
+            "Answer: Nelson Mandela was the South African president who ended apartheid. He served as the country's president from 1994 to 1999 and from 2007 to 2019.",
+            "F. W. de Klerk"
+        ],
+        "112": [
+            "Question: What is the name of the first human spaceflight program by the United States?\n",
+            "Answer: The first human spaceflight program by the United States was named Project Apollo.",
+            "Mercury"
+        ],
+        "113": [
+            "Question: In which year was the first modern Olympic Games held?\n",
+            "Answer: The first modern Olympic Games were held in the year 1896, in Athens, Greece.",
+            "1896"
+        ],
+        "114": [
+            "Question: What was the name of the first programmable computer invented by Konrad Zuse?\n",
+            "Answer: The first programmable computer invented by Konrad Zuse was named Z3.",
+            "Z3"
+        ],
+        "115": [
+            "Question: What was the main Allied beachhead in southern France during World War II?\n",
+            "Answer: The main Allied beachhead in southern France during World War II was Cannes.",
+            "Anzio"
+        ],
+        "116": [
+            "Question: Who wrote the influential communist manifesto?\n",
+            "Answer: The influential communist manifesto was written by Karl Marx.",
+            "Karl Marx"
+        ]
+    },
+    "rouge1_recall": {
+        "0": 1.0,
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "4": 0.0,
+        "5": 1.0,
+        "6": 1.0,
+        "7": 1.0,
+        "8": 1.0,
+        "9": 1.0,
+        "10": 1.0,
+        "11": 1.0,
+        "12": 1.0,
+        "13": 0.6666666666666666,
+        "14": 1.0,
+        "15": 0.0,
+        "16": 1.0,
+        "17": 1.0,
+        "18": 1.0,
+        "19": 1.0,
+        "20": 0.0,
+        "21": 0.0,
+        "22": 1.0,
+        "23": 1.0,
+        "24": 1.0,
+        "25": 1.0,
+        "26": 0.0,
+        "27": 1.0,
+        "28": 1.0,
+        "29": 1.0,
+        "30": 0.0,
+        "31": 1.0,
+        "32": 0.3333333333333333,
+        "33": 1.0,
+        "34": 1.0,
+        "35": 1.0,
+        "36": 0.0,
+        "37": 0.0,
+        "38": 1.0,
+        "39": 1.0,
+        "40": 0.0,
+        "41": 1.0,
+        "42": 1.0,
+        "43": 1.0,
+        "44": 1.0,
+        "45": 0.3333333333333333,
+        "46": 1.0,
+        "47": 0.0,
+        "48": 1.0,
+        "49": 0.0,
+        "50": 1.0,
+        "51": 0.0,
+        "52": 1.0,
+        "53": 0.0,
+        "54": 1.0,
+        "55": 1.0,
+        "56": 1.0,
+        "57": 1.0,
+        "58": 0.0,
+        "59": 1.0,
+        "60": 0.0,
+        "61": 0.0,
+        "62": 1.0,
+        "63": 1.0,
+        "64": 0.0,
+        "65": 1.0,
+        "66": 1.0,
+        "67": 1.0,
+        "68": 1.0,
+        "69": 1.0,
+        "70": 1.0,
+        "71": 0.0,
+        "72": 0.0,
+        "73": 1.0,
+        "74": 1.0,
+        "75": 1.0,
+        "76": 1.0,
+        "77": 1.0,
+        "78": 1.0,
+        "79": 0.0,
+        "80": 1.0,
+        "81": 0.0,
+        "82": 1.0,
+        "83": 1.0,
+        "84": 0.0,
+        "85": 1.0,
+        "86": 0.0,
+        "87": 1.0,
+        "88": 0.5,
+        "89": 1.0,
+        "90": 0.0,
+        "91": 1.0,
+        "92": 0.5,
+        "93": 1.0,
+        "94": 0.0,
+        "95": 0.5,
+        "96": 1.0,
+        "97": 0.5,
+        "98": 0.0,
+        "99": 1.0,
+        "100": 0.5,
+        "101": 1.0,
+        "102": 1.0,
+        "103": 1.0,
+        "104": 1.0,
+        "105": 0.6666666666666666,
+        "106": 0.0,
+        "107": 1.0,
+        "108": 1.0,
+        "109": 0.0,
+        "110": 1.0,
+        "111": 0.0,
+        "112": 0.0,
+        "113": 1.0,
+        "114": 1.0,
+        "115": 0.0,
+        "116": 1.0
+    },
+    "rougeL_recall": {
+        "0": 1.0,
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "4": 0.0,
+        "5": 1.0,
+        "6": 1.0,
+        "7": 1.0,
+        "8": 1.0,
+        "9": 1.0,
+        "10": 1.0,
+        "11": 1.0,
+        "12": 1.0,
+        "13": 0.6666666666666666,
+        "14": 1.0,
+        "15": 0.0,
+        "16": 1.0,
+        "17": 1.0,
+        "18": 1.0,
+        "19": 1.0,
+        "20": 0.0,
+        "21": 0.0,
+        "22": 1.0,
+        "23": 1.0,
+        "24": 1.0,
+        "25": 1.0,
+        "26": 0.0,
+        "27": 1.0,
+        "28": 1.0,
+        "29": 1.0,
+        "30": 0.0,
+        "31": 0.3333333333333333,
+        "32": 0.3333333333333333,
+        "33": 1.0,
+        "34": 1.0,
+        "35": 1.0,
+        "36": 0.0,
+        "37": 0.0,
+        "38": 1.0,
+        "39": 1.0,
+        "40": 0.0,
+        "41": 1.0,
+        "42": 1.0,
+        "43": 1.0,
+        "44": 1.0,
+        "45": 0.3333333333333333,
+        "46": 1.0,
+        "47": 0.0,
+        "48": 1.0,
+        "49": 0.0,
+        "50": 1.0,
+        "51": 0.0,
+        "52": 1.0,
+        "53": 0.0,
+        "54": 1.0,
+        "55": 1.0,
+        "56": 1.0,
+        "57": 1.0,
+        "58": 0.0,
+        "59": 1.0,
+        "60": 0.0,
+        "61": 0.0,
+        "62": 1.0,
+        "63": 1.0,
+        "64": 0.0,
+        "65": 1.0,
+        "66": 1.0,
+        "67": 1.0,
+        "68": 1.0,
+        "69": 1.0,
+        "70": 1.0,
+        "71": 0.0,
+        "72": 0.0,
+        "73": 1.0,
+        "74": 1.0,
+        "75": 1.0,
+        "76": 1.0,
+        "77": 1.0,
+        "78": 1.0,
+        "79": 0.0,
+        "80": 1.0,
+        "81": 0.0,
+        "82": 1.0,
+        "83": 1.0,
+        "84": 0.0,
+        "85": 1.0,
+        "86": 0.0,
+        "87": 1.0,
+        "88": 0.5,
+        "89": 1.0,
+        "90": 0.0,
+        "91": 1.0,
+        "92": 0.5,
+        "93": 1.0,
+        "94": 0.0,
+        "95": 0.5,
+        "96": 1.0,
+        "97": 0.5,
+        "98": 0.0,
+        "99": 1.0,
+        "100": 0.5,
+        "101": 1.0,
+        "102": 1.0,
+        "103": 1.0,
+        "104": 1.0,
+        "105": 0.6666666666666666,
+        "106": 0.0,
+        "107": 1.0,
+        "108": 1.0,
+        "109": 0.0,
+        "110": 1.0,
+        "111": 0.0,
+        "112": 0.0,
+        "113": 1.0,
+        "114": 1.0,
+        "115": 0.0,
+        "116": 1.0
+    },
+    "average_perturb_loss": {
+        "0": [
+            7.010920524597168,
+            5.769857406616211,
+            7.242984771728516
+        ],
+        "1": [
+            5.605772018432617,
+            6.627617835998535,
+            5.507475852966309
+        ],
+        "2": [
+            5.289970397949219,
+            6.125377178192139,
+            7.523827075958252
+        ],
+        "3": [
+            5.881773948669434,
+            5.0901288986206055,
+            5.919241905212402
+        ],
+        "4": [
+            4.844614505767822,
+            6.008076190948486,
+            5.982152938842773
+        ],
+        "5": [
+            6.902386665344238,
+            7.083748817443848,
+            7.397957801818848
+        ],
+        "6": [
+            5.662339687347412,
+            5.019057750701904,
+            5.635832786560059
+        ],
+        "7": [
+            4.04746675491333,
+            8.171340942382812,
+            8.946250915527344
+        ],
+        "8": [
+            6.328682899475098,
+            6.724271774291992,
+            6.945119380950928
+        ],
+        "9": [
+            6.437417507171631,
+            7.059116363525391,
+            7.409145832061768
+        ],
+        "10": [
+            5.750478744506836,
+            4.356253147125244,
+            5.848571300506592
+        ],
+        "11": [
+            5.626953125,
+            6.393951892852783,
+            5.482032775878906
+        ],
+        "12": [
+            4.2352399826049805,
+            5.577820777893066,
+            5.7015581130981445
+        ],
+        "13": [
+            3.437936782836914,
+            3.8594424724578857,
+            4.292786121368408
+        ],
+        "14": [
+            4.962045192718506,
+            5.559114456176758,
+            5.111334800720215
+        ],
+        "15": [
+            5.564952850341797,
+            4.5187153816223145,
+            5.282895565032959
+        ],
+        "16": [
+            5.332217216491699,
+            5.945138454437256,
+            6.714031219482422
+        ],
+        "17": [
+            4.3887786865234375,
+            5.178958415985107,
+            5.057836532592773
+        ],
+        "18": [
+            3.9700982570648193,
+            5.78197717666626,
+            5.969108581542969
+        ],
+        "19": [
+            5.041797637939453,
+            4.496279716491699,
+            4.695155143737793
+        ],
+        "20": [
+            7.1592583656311035,
+            5.626879692077637,
+            5.778887748718262
+        ],
+        "21": [
+            3.586792230606079,
+            5.098954677581787,
+            4.202043533325195
+        ],
+        "22": [
+            7.267507076263428,
+            6.936755657196045,
+            9.893386840820312
+        ],
+        "23": [
+            5.792807579040527,
+            6.612725257873535,
+            2.9493837356567383
+        ],
+        "24": [
+            6.119513034820557,
+            7.981410980224609,
+            7.599234580993652
+        ],
+        "25": [
+            6.346095085144043,
+            8.392541885375977,
+            8.337577819824219
+        ],
+        "26": [
+            6.9777374267578125,
+            6.794500827789307,
+            6.913834571838379
+        ],
+        "27": [
+            6.956048965454102,
+            5.981127738952637,
+            6.3178019523620605
+        ],
+        "28": [
+            7.641137599945068,
+            6.361085891723633,
+            7.11021614074707
+        ],
+        "29": [
+            4.604839324951172,
+            5.441136360168457,
+            5.667172431945801
+        ],
+        "30": [
+            5.470372676849365,
+            5.126538276672363,
+            6.208957672119141
+        ],
+        "31": [
+            10.303008079528809,
+            5.696051120758057,
+            6.452515125274658
+        ],
+        "32": [
+            4.096665859222412,
+            3.5497212409973145,
+            6.868277072906494
+        ],
+        "33": [
+            5.209076881408691,
+            5.406949043273926,
+            5.23952579498291
+        ],
+        "34": [
+            4.006669044494629,
+            5.849241733551025,
+            6.044625282287598
+        ],
+        "35": [
+            5.126241207122803,
+            4.967288017272949,
+            5.743004322052002
+        ],
+        "36": [
+            4.200311183929443,
+            5.886139392852783,
+            4.103886127471924
+        ],
+        "37": [
+            4.239953994750977,
+            3.877589702606201,
+            5.62884521484375
+        ],
+        "38": [
+            3.5660386085510254,
+            3.6241531372070312,
+            2.6344921588897705
+        ],
+        "39": [
+            4.061855792999268,
+            5.498232841491699,
+            7.819022178649902
+        ],
+        "40": [
+            6.882925510406494,
+            5.497262477874756,
+            6.374270439147949
+        ],
+        "41": [
+            3.2354378700256348,
+            4.362745761871338,
+            4.760798454284668
+        ],
+        "42": [
+            5.2939910888671875,
+            6.963719844818115,
+            7.50214958190918
+        ],
+        "43": [
+            7.417477607727051,
+            6.422327518463135,
+            6.696701526641846
+        ],
+        "44": [
+            4.091902256011963,
+            4.992878437042236,
+            4.699678421020508
+        ],
+        "45": [
+            4.957267761230469,
+            3.4912467002868652,
+            2.095402479171753
+        ],
+        "46": [
+            5.244807720184326,
+            4.631605625152588,
+            6.385598182678223
+        ],
+        "47": [
+            4.802618980407715,
+            6.535270690917969,
+            6.376276016235352
+        ],
+        "48": [
+            7.9412336349487305,
+            8.666625022888184,
+            5.02373743057251
+        ],
+        "49": [
+            6.283326625823975,
+            6.464846134185791,
+            6.877407550811768
+        ],
+        "50": [
+            4.354870319366455,
+            4.92148494720459,
+            5.216620445251465
+        ],
+        "51": [
+            3.7500662803649902,
+            5.471623420715332,
+            4.242135524749756
+        ],
+        "52": [
+            3.751728057861328,
+            5.088186740875244,
+            5.477378845214844
+        ],
+        "53": [
+            5.531004428863525,
+            4.065786361694336,
+            5.971440315246582
+        ],
+        "54": [
+            7.2466044425964355,
+            7.504164218902588,
+            8.269659042358398
+        ],
+        "55": [
+            4.548153877258301,
+            5.551901817321777,
+            7.3132171630859375
+        ],
+        "56": [
+            4.75091552734375,
+            6.152599334716797,
+            7.416532039642334
+        ],
+        "57": [
+            3.7742888927459717,
+            5.315133571624756,
+            3.7213687896728516
+        ],
+        "58": [
+            3.610499382019043,
+            2.685389995574951,
+            4.8594207763671875
+        ],
+        "59": [
+            4.5782318115234375,
+            4.0580244064331055,
+            6.693455696105957
+        ],
+        "60": [
+            4.5263800621032715,
+            5.153761386871338,
+            3.6988542079925537
+        ],
+        "61": [
+            7.369204521179199,
+            8.73773193359375,
+            5.1985907554626465
+        ],
+        "62": [
+            6.040531635284424,
+            6.874012470245361,
+            3.4886550903320312
+        ],
+        "63": [
+            5.205154895782471,
+            5.317319869995117,
+            5.691226959228516
+        ],
+        "64": [
+            7.55958890914917,
+            7.190993785858154,
+            9.582433700561523
+        ],
+        "65": [
+            4.911322593688965,
+            6.7791595458984375,
+            6.741772174835205
+        ],
+        "66": [
+            7.036595344543457,
+            6.883179664611816,
+            6.768176078796387
+        ],
+        "67": [
+            3.2600066661834717,
+            3.550527334213257,
+            4.221480369567871
+        ],
+        "68": [
+            7.4740519523620605,
+            6.654862403869629,
+            4.802547454833984
+        ],
+        "69": [
+            3.355165481567383,
+            2.3255655765533447,
+            3.2256388664245605
+        ],
+        "70": [
+            6.462808132171631,
+            5.661837100982666,
+            7.828700065612793
+        ],
+        "71": [
+            5.20259952545166,
+            6.453884124755859,
+            4.637497425079346
+        ],
+        "72": [
+            2.9904656410217285,
+            2.624734401702881,
+            3.4761340618133545
+        ],
+        "73": [
+            3.490705966949463,
+            3.6765193939208984,
+            3.9369707107543945
+        ],
+        "74": [
+            4.423896789550781,
+            3.925649404525757,
+            3.9618823528289795
+        ],
+        "75": [
+            4.2652411460876465,
+            6.373658180236816,
+            4.914950370788574
+        ],
+        "76": [
+            3.579516887664795,
+            3.297207832336426,
+            3.1518936157226562
+        ],
+        "77": [
+            2.6390674114227295,
+            4.2741193771362305,
+            4.24918270111084
+        ],
+        "78": [
+            1.8470693826675415,
+            2.809176206588745,
+            4.953444480895996
+        ],
+        "79": [
+            2.157632350921631,
+            4.7249979972839355,
+            4.964475154876709
+        ],
+        "80": [
+            4.629246711730957,
+            4.711658000946045,
+            3.0337061882019043
+        ],
+        "81": [
+            4.077488899230957,
+            4.540396690368652,
+            5.013731956481934
+        ],
+        "82": [
+            6.246070861816406,
+            6.331822395324707,
+            6.956761837005615
+        ],
+        "83": [
+            4.291409492492676,
+            5.948516845703125,
+            4.1442179679870605
+        ],
+        "84": [
+            3.8096630573272705,
+            5.279679298400879,
+            6.453964710235596
+        ],
+        "85": [
+            4.56458854675293,
+            4.419703960418701,
+            4.418788433074951
+        ],
+        "86": [
+            3.3395700454711914,
+            4.855273246765137,
+            4.894622802734375
+        ],
+        "87": [
+            4.21143102645874,
+            4.562373638153076,
+            4.975472450256348
+        ],
+        "88": [
+            4.777011871337891,
+            3.998335599899292,
+            3.8436172008514404
+        ],
+        "89": [
+            4.077239036560059,
+            3.8983852863311768,
+            3.8302841186523438
+        ],
+        "90": [
+            4.272919178009033,
+            6.858885765075684,
+            4.567660808563232
+        ],
+        "91": [
+            4.272023677825928,
+            6.159677028656006,
+            3.8404033184051514
+        ],
+        "92": [
+            3.1795547008514404,
+            5.73623514175415,
+            4.1200079917907715
+        ],
+        "93": [
+            2.9478073120117188,
+            3.917487621307373,
+            5.086061954498291
+        ],
+        "94": [
+            2.9816601276397705,
+            3.3591909408569336,
+            4.83530330657959
+        ],
+        "95": [
+            3.4382026195526123,
+            2.686722993850708,
+            4.698925495147705
+        ],
+        "96": [
+            5.061640739440918,
+            4.374319076538086,
+            6.3260393142700195
+        ],
+        "97": [
+            4.5865044593811035,
+            6.501795768737793,
+            6.242289066314697
+        ],
+        "98": [
+            5.822671413421631,
+            2.731102705001831,
+            4.325297832489014
+        ],
+        "99": [
+            4.177196979522705,
+            4.568735122680664,
+            5.019082069396973
+        ],
+        "100": [
+            4.887964725494385,
+            1.656632900238037,
+            3.5398764610290527
+        ],
+        "101": [
+            7.569916725158691,
+            8.450465202331543,
+            5.20240592956543
+        ],
+        "102": [
+            5.208254814147949,
+            6.711220741271973,
+            8.75106430053711
+        ],
+        "103": [
+            3.9256482124328613,
+            8.315439224243164,
+            5.743408679962158
+        ],
+        "104": [
+            4.527121543884277,
+            4.594256401062012,
+            4.668503761291504
+        ],
+        "105": [
+            3.593364715576172,
+            4.195932388305664,
+            6.748048305511475
+        ],
+        "106": [
+            5.525818824768066,
+            3.6298155784606934,
+            6.6952948570251465
+        ],
+        "107": [
+            3.553711414337158,
+            5.763042449951172,
+            5.162158489227295
+        ],
+        "108": [
+            5.7360076904296875,
+            6.893270492553711,
+            6.0502777099609375
+        ],
+        "109": [
+            4.18933629989624,
+            2.7693727016448975,
+            5.713845252990723
+        ],
+        "110": [
+            7.309736251831055,
+            7.551747798919678,
+            5.80355167388916
+        ],
+        "111": [
+            2.179896593093872,
+            3.890756130218506,
+            2.6710829734802246
+        ],
+        "112": [
+            5.945123195648193,
+            3.965562105178833,
+            5.17893123626709
+        ],
+        "113": [
+            3.6097378730773926,
+            3.5743839740753174,
+            4.31489372253418
+        ],
+        "114": [
+            5.5676774978637695,
+            6.898092746734619,
+            6.0204854011535645
+        ],
+        "115": [
+            7.36415958404541,
+            8.257701873779297,
+            7.642307281494141
+        ],
+        "116": [
+            3.5318214893341064,
+            4.497760772705078,
+            4.023497104644775
+        ]
+    },
+    "avg_paraphrased_loss": {
+        "0": 5.448955059051514,
+        "1": 2.3088676929473877,
+        "2": 4.514771461486816,
+        "3": 4.2317609786987305,
+        "4": 6.6674909591674805,
+        "5": 5.202302932739258,
+        "6": 3.189206600189209,
+        "7": 3.129695177078247,
+        "8": 4.450627326965332,
+        "9": 4.753366470336914,
+        "10": 3.760690689086914,
+        "11": 4.622614860534668,
+        "12": 3.3226325511932373,
+        "13": 3.696401596069336,
+        "14": 3.3623225688934326,
+        "15": 3.6636874675750732,
+        "16": 1.7702518701553345,
+        "17": 3.092308759689331,
+        "18": 4.712692737579346,
+        "19": 2.958451747894287,
+        "20": 3.7418875694274902,
+        "21": 2.321202516555786,
+        "22": 5.654949188232422,
+        "23": 6.350922107696533,
+        "24": 6.294121742248535,
+        "25": 5.813935279846191,
+        "26": 5.225275039672852,
+        "27": 2.8624956607818604,
+        "28": 4.390954971313477,
+        "29": 3.668990135192871,
+        "30": 5.465662956237793,
+        "31": 4.103016376495361,
+        "32": 3.571592330932617,
+        "33": 1.4067597389221191,
+        "34": 3.8064517974853516,
+        "35": 3.97927188873291,
+        "36": 4.3756890296936035,
+        "37": 3.6898977756500244,
+        "38": 4.1861162185668945,
+        "39": 5.489975452423096,
+        "40": 4.5198774337768555,
+        "41": 4.507715225219727,
+        "42": 3.416267156600952,
+        "43": 4.81157112121582,
+        "44": 2.0144245624542236,
+        "45": 3.0802085399627686,
+        "46": 4.683195114135742,
+        "47": 4.0763468742370605,
+        "48": 5.339005470275879,
+        "49": 4.477157115936279,
+        "50": 2.4137399196624756,
+        "51": 3.4423892498016357,
+        "52": 3.3524692058563232,
+        "53": 4.662234306335449,
+        "54": 5.88118839263916,
+        "55": 5.379231929779053,
+        "56": 5.2039618492126465,
+        "57": 3.254934310913086,
+        "58": 2.302133798599243,
+        "59": 1.2930750846862793,
+        "60": 7.746905326843262,
+        "61": 6.157888412475586,
+        "62": 2.5568783283233643,
+        "63": 3.508837938308716,
+        "64": 4.3647236824035645,
+        "65": 6.926753044128418,
+        "66": 2.6002354621887207,
+        "67": 2.421435832977295,
+        "68": 3.0142335891723633,
+        "69": 1.2803068161010742,
+        "70": 5.180706977844238,
+        "71": 3.710306167602539,
+        "72": 4.317761421203613,
+        "73": 1.3096036911010742,
+        "74": 3.384610414505005,
+        "75": 4.450861930847168,
+        "76": 1.372632622718811,
+        "77": 2.4015729427337646,
+        "78": 4.371085166931152,
+        "79": 3.0416653156280518,
+        "80": 2.1920833587646484,
+        "81": 4.51253604888916,
+        "82": 3.958465814590454,
+        "83": 3.494886875152588,
+        "84": 5.075112819671631,
+        "85": 3.511524200439453,
+        "86": 3.705153465270996,
+        "87": 2.926975965499878,
+        "88": 3.1763103008270264,
+        "89": 1.3200057744979858,
+        "90": 5.365786075592041,
+        "91": 2.7070536613464355,
+        "92": 4.143002033233643,
+        "93": 1.698119878768921,
+        "94": 3.81117582321167,
+        "95": 3.0211551189422607,
+        "96": 1.9542185068130493,
+        "97": 5.36550760269165,
+        "98": 3.6698098182678223,
+        "99": 1.620166301727295,
+        "100": 1.1639314889907837,
+        "101": 4.687890529632568,
+        "102": 7.286656856536865,
+        "103": 2.2389273643493652,
+        "104": 3.380857467651367,
+        "105": 3.4863767623901367,
+        "106": 5.1024274826049805,
+        "107": 2.758606195449829,
+        "108": 5.789581298828125,
+        "109": 4.268605709075928,
+        "110": 7.146547317504883,
+        "111": 1.1357128620147705,
+        "112": 5.976325988769531,
+        "113": 2.134190320968628,
+        "114": 8.312783241271973,
+        "115": 4.130769729614258,
+        "116": 2.599109649658203
+    },
+    "truth_ratio": {
+        "0": 0.2935720384120941,
+        "1": 0.027194129303097725,
+        "2": 0.1655822992324829,
+        "3": 0.2469373494386673,
+        "4": 2.8744943141937256,
+        "5": 0.14576947689056396,
+        "6": 0.10541289299726486,
+        "7": 0.01973573863506317,
+        "8": 0.10911015421152115,
+        "9": 0.10913237184286118,
+        "10": 0.21061067283153534,
+        "11": 0.2976914942264557,
+        "12": 0.15740908682346344,
+        "13": 0.8462106585502625,
+        "14": 0.15747176110744476,
+        "15": 0.23258474469184875,
+        "16": 0.014597905799746513,
+        "17": 0.16815267503261566,
+        "18": 0.5899592041969299,
+        "19": 0.1676361858844757,
+        "20": 0.08660008013248444,
+        "21": 0.13879908621311188,
+        "22": 0.09277281910181046,
+        "23": 3.430192708969116,
+        "24": 0.3909151554107666,
+        "25": 0.15287476778030396,
+        "26": 0.1882314234972,
+        "27": 0.028557641431689262,
+        "28": 0.07089712470769882,
+        "29": 0.20831038057804108,
+        "30": 0.8725861310958862,
+        "31": 0.034018807113170624,
+        "32": 0.28177982568740845,
+        "33": 0.020683392882347107,
+        "34": 0.22453433275222778,
+        "35": 0.2726482152938843,
+        "36": 0.7015780806541443,
+        "37": 0.4097401201725006,
+        "38": 2.487358808517456,
+        "39": 0.7385532855987549,
+        "40": 0.1769993156194687,
+        "41": 1.4741100072860718,
+        "42": 0.041988763958215714,
+        "43": 0.13082021474838257,
+        "44": 0.07574407756328583,
+        "45": 0.6476334929466248,
+        "46": 0.4783199727535248,
+        "47": 0.16067448258399963,
+        "48": 0.153888538479805,
+        "49": 0.12685595452785492,
+        "50": 0.08916628360748291,
+        "51": 0.3514975607395172,
+        "52": 0.2417231649160385,
+        "53": 0.5902693271636963,
+        "54": 0.16657862067222595,
+        "55": 0.6536440253257751,
+        "56": 0.40546494722366333,
+        "57": 0.3622831106185913,
+        "58": 0.24260930716991425,
+        "59": 0.021997440606355667,
+        "60": 26.768878936767578,
+        "61": 0.38908636569976807,
+        "62": 0.05442919582128525,
+        "63": 0.1502087563276291,
+        "64": 0.0236053466796875,
+        "65": 2.187300443649292,
+        "66": 0.013626372441649437,
+        "67": 0.2848186790943146,
+        "68": 0.03702160343527794,
+        "69": 0.18479959666728973,
+        "70": 0.22983171045780182,
+        "71": 0.1788833886384964,
+        "72": 3.6230521202087402,
+        "73": 0.09146534651517868,
+        "74": 0.48714208602905273,
+        "75": 0.4801029860973358,
+        "76": 0.13942338526248932,
+        "77": 0.26734456419944763,
+        "78": 3.215089797973633,
+        "79": 0.4035843312740326,
+        "80": 0.14474424719810486,
+        "81": 0.9691491723060608,
+        "82": 0.07784103602170944,
+        "83": 0.272578626871109,
+        "84": 0.8994336724281311,
+        "85": 0.3843621611595154,
+        "86": 0.5178850889205933,
+        "87": 0.190878763794899,
+        "88": 0.3570029139518738,
+        "89": 0.07314607501029968,
+        "90": 1.1418284177780151,
+        "91": 0.12869442999362946,
+        "92": 0.816879391670227,
+        "93": 0.10170632600784302,
+        "94": 1.089578628540039,
+        "95": 0.556106686592102,
+        "96": 0.036891233175992966,
+        "97": 0.6627512574195862,
+        "98": 0.5362181067466736,
+        "99": 0.0513971745967865,
+        "100": 0.1110738143324852,
+        "101": 0.09196271747350693,
+        "102": 1.4865778684616089,
+        "103": 0.023379279300570488,
+        "104": 0.2964816987514496,
+        "105": 0.2568134069442749,
+        "106": 0.8342553377151489,
+        "107": 0.12647655606269836,
+        "108": 0.6460119485855103,
+        "109": 1.045422077178955,
+        "110": 1.294600486755371,
+        "111": 0.1689421534538269,
+        "112": 2.576557159423828,
+        "113": 0.18290011584758759,
+        "114": 8.590849876403809,
+        "115": 0.02667701616883278,
+        "116": 0.24205657839775085
+    },
+    "paraphrased_loss": {
+        "0": 21.795820236206055,
+        "1": 9.23547077178955,
+        "2": 18.059085845947266,
+        "3": 16.927043914794922,
+        "4": 26.669963836669922,
+        "5": 20.80921173095703,
+        "6": 15.946032524108887,
+        "7": 12.518780708312988,
+        "8": 17.802509307861328,
+        "9": 19.013465881347656,
+        "10": 15.042762756347656,
+        "11": 18.490459442138672,
+        "12": 16.613162994384766,
+        "13": 22.178409576416016,
+        "14": 20.173934936523438,
+        "15": 18.318437576293945,
+        "16": 8.851259231567383,
+        "17": 15.461544036865234,
+        "18": 18.850770950317383,
+        "19": 11.833806991577148,
+        "20": 14.967550277709961,
+        "21": 13.927214622497559,
+        "22": 22.619796752929688,
+        "23": 25.403688430786133,
+        "24": 25.17648696899414,
+        "25": 23.255741119384766,
+        "26": 20.901100158691406,
+        "27": 11.449982643127441,
+        "28": 17.563819885253906,
+        "29": 14.675960540771484,
+        "30": 21.862651824951172,
+        "31": 24.618099212646484,
+        "32": 21.429553985595703,
+        "33": 8.440558433532715,
+        "34": 19.032258987426758,
+        "35": 15.91708755493164,
+        "36": 17.502756118774414,
+        "37": 14.759591102600098,
+        "38": 20.930580139160156,
+        "39": 21.959901809692383,
+        "40": 22.599388122558594,
+        "41": 18.030860900878906,
+        "42": 13.665068626403809,
+        "43": 19.24628448486328,
+        "44": 12.0865478515625,
+        "45": 33.882293701171875,
+        "46": 18.73278045654297,
+        "47": 16.305387496948242,
+        "48": 26.69502830505371,
+        "49": 17.908628463745117,
+        "50": 12.068699836730957,
+        "51": 13.769556999206543,
+        "52": 13.409876823425293,
+        "53": 18.648937225341797,
+        "54": 23.52475357055664,
+        "55": 21.51692771911621,
+        "56": 20.815847396850586,
+        "57": 16.27467155456543,
+        "58": 11.510668754577637,
+        "59": 12.930750846862793,
+        "60": 30.987621307373047,
+        "61": 24.631553649902344,
+        "62": 10.227513313293457,
+        "63": 14.035351753234863,
+        "64": 26.188343048095703,
+        "65": 27.707012176513672,
+        "66": 10.400941848754883,
+        "67": 12.107178688049316,
+        "68": 30.142335891723633,
+        "69": 10.242454528808594,
+        "70": 25.903533935546875,
+        "71": 22.261837005615234,
+        "72": 21.588808059692383,
+        "73": 10.476829528808594,
+        "74": 20.307662963867188,
+        "75": 17.803447723388672,
+        "76": 10.981060981750488,
+        "77": 14.40943717956543,
+        "78": 17.48434066772461,
+        "79": 15.20832633972168,
+        "80": 17.536666870117188,
+        "81": 22.562681198120117,
+        "82": 15.833863258361816,
+        "83": 27.959095001220703,
+        "84": 25.375564575195312,
+        "85": 17.557621002197266,
+        "86": 29.64122772216797,
+        "87": 23.415807723999023,
+        "88": 19.057861328125,
+        "89": 10.560046195983887,
+        "90": 21.463144302368164,
+        "91": 13.53526782989502,
+        "92": 24.858013153076172,
+        "93": 13.584959030151367,
+        "94": 19.055879592895508,
+        "95": 18.126930236816406,
+        "96": 9.771092414855957,
+        "97": 26.827537536621094,
+        "98": 14.679239273071289,
+        "99": 12.96133041381836,
+        "100": 6.983588695526123,
+        "101": 23.439453125,
+        "102": 29.14662742614746,
+        "103": 15.672492027282715,
+        "104": 16.904287338256836,
+        "105": 20.91826057434082,
+        "106": 25.512136459350586,
+        "107": 16.551637649536133,
+        "108": 23.1583251953125,
+        "109": 21.343029022216797,
+        "110": 28.58618927001953,
+        "111": 12.492841720581055,
+        "112": 23.905303955078125,
+        "113": 17.073522567749023,
+        "114": 41.56391525268555,
+        "115": 20.65384864807129,
+        "116": 12.995548248291016
+    },
+    "perturb_loss": {
+        "0": [
+            28.043682098388672,
+            23.079429626464844,
+            28.971939086914062
+        ],
+        "1": [
+            22.42308807373047,
+            33.13808822631836,
+            22.029903411865234
+        ],
+        "2": [
+            21.159881591796875,
+            24.501508712768555,
+            30.095308303833008
+        ],
+        "3": [
+            23.527095794677734,
+            25.450645446777344,
+            23.67696762084961
+        ],
+        "4": [
+            19.37845802307129,
+            24.032304763793945,
+            29.910764694213867
+        ],
+        "5": [
+            27.609546661376953,
+            28.33499526977539,
+            29.59183120727539
+        ],
+        "6": [
+            22.64935874938965,
+            25.09528923034668,
+            28.179162979125977
+        ],
+        "7": [
+            16.18986701965332,
+            32.68536376953125,
+            35.785003662109375
+        ],
+        "8": [
+            31.643413543701172,
+            26.89708709716797,
+            27.78047752380371
+        ],
+        "9": [
+            25.749670028686523,
+            35.29558181762695,
+            29.63658332824707
+        ],
+        "10": [
+            23.001914978027344,
+            17.425012588500977,
+            23.394285202026367
+        ],
+        "11": [
+            22.5078125,
+            25.575807571411133,
+            21.928131103515625
+        ],
+        "12": [
+            21.17620086669922,
+            27.889102935791016,
+            28.507789611816406
+        ],
+        "13": [
+            20.627620697021484,
+            23.156654357910156,
+            25.756715774536133
+        ],
+        "14": [
+            24.810226440429688,
+            27.79557228088379,
+            30.66800880432129
+        ],
+        "15": [
+            27.824764251708984,
+            22.593576431274414,
+            26.414478302001953
+        ],
+        "16": [
+            26.661087036132812,
+            29.725692749023438,
+            26.856124877929688
+        ],
+        "17": [
+            21.943893432617188,
+            31.073749542236328,
+            30.34701919555664
+        ],
+        "18": [
+            15.880393028259277,
+            23.12790870666504,
+            23.876434326171875
+        ],
+        "19": [
+            20.167190551757812,
+            17.985118865966797,
+            18.780620574951172
+        ],
+        "20": [
+            28.637033462524414,
+            22.507518768310547,
+            23.115550994873047
+        ],
+        "21": [
+            21.520753860473633,
+            30.593727111816406,
+            25.212261199951172
+        ],
+        "22": [
+            29.07002830505371,
+            27.74702262878418,
+            39.57354736328125
+        ],
+        "23": [
+            28.964038848876953,
+            26.45090103149414,
+            23.595069885253906
+        ],
+        "24": [
+            24.478052139282227,
+            31.925643920898438,
+            30.39693832397461
+        ],
+        "25": [
+            25.384380340576172,
+            33.570167541503906,
+            33.350311279296875
+        ],
+        "26": [
+            27.91094970703125,
+            27.178003311157227,
+            27.655338287353516
+        ],
+        "27": [
+            27.824195861816406,
+            23.924510955810547,
+            25.271207809448242
+        ],
+        "28": [
+            30.564550399780273,
+            25.44434356689453,
+            28.44086456298828
+        ],
+        "29": [
+            18.419357299804688,
+            21.764545440673828,
+            22.668689727783203
+        ],
+        "30": [
+            21.88149070739746,
+            20.506153106689453,
+            24.835830688476562
+        ],
+        "31": [
+            61.818050384521484,
+            34.176307678222656,
+            38.715091705322266
+        ],
+        "32": [
+            24.579994201660156,
+            24.84804916381836,
+            48.077938079833984
+        ],
+        "33": [
+            26.045385360717773,
+            21.627796173095703,
+            26.197629928588867
+        ],
+        "34": [
+            28.04668426513672,
+            35.09545135498047,
+            30.223127365112305
+        ],
+        "35": [
+            20.50496482849121,
+            24.836441040039062,
+            22.972017288208008
+        ],
+        "36": [
+            16.801244735717773,
+            23.544557571411133,
+            16.415544509887695
+        ],
+        "37": [
+            16.959815979003906,
+            15.510358810424805,
+            22.515380859375
+        ],
+        "38": [
+            17.83019256591797,
+            18.120765686035156,
+            15.806952476501465
+        ],
+        "39": [
+            24.37113380432129,
+            27.491165161132812,
+            31.27608871459961
+        ],
+        "40": [
+            27.531702041625977,
+            27.486312866210938,
+            25.497081756591797
+        ],
+        "41": [
+            16.177188873291016,
+            17.45098304748535,
+            19.043193817138672
+        ],
+        "42": [
+            26.469955444335938,
+            27.85487937927246,
+            30.00859832763672
+        ],
+        "43": [
+            29.669910430908203,
+            32.111637115478516,
+            26.786806106567383
+        ],
+        "44": [
+            24.551414489746094,
+            24.964391708374023,
+            28.198070526123047
+        ],
+        "45": [
+            49.57267761230469,
+            34.91246795654297,
+            23.049427032470703
+        ],
+        "46": [
+            20.979230880737305,
+            23.15802764892578,
+            25.54239273071289
+        ],
+        "47": [
+            24.01309585571289,
+            26.141082763671875,
+            25.505104064941406
+        ],
+        "48": [
+            39.70616912841797,
+            43.333126068115234,
+            30.142425537109375
+        ],
+        "49": [
+            25.1333065032959,
+            25.859384536743164,
+            27.50963020324707
+        ],
+        "50": [
+            21.774351119995117,
+            24.607423782348633,
+            26.083101272583008
+        ],
+        "51": [
+            15.000265121459961,
+            21.886493682861328,
+            21.210678100585938
+        ],
+        "52": [
+            15.006912231445312,
+            20.352746963500977,
+            21.909515380859375
+        ],
+        "53": [
+            22.1240177154541,
+            16.263145446777344,
+            23.885761260986328
+        ],
+        "54": [
+            28.986417770385742,
+            30.01665687561035,
+            33.078636169433594
+        ],
+        "55": [
+            18.192615509033203,
+            22.20760726928711,
+            29.25286865234375
+        ],
+        "56": [
+            23.75457763671875,
+            24.610397338867188,
+            29.666128158569336
+        ],
+        "57": [
+            18.871444702148438,
+            26.575668334960938,
+            22.32821273803711
+        ],
+        "58": [
+            14.441997528076172,
+            10.741559982299805,
+            19.43768310546875
+        ],
+        "59": [
+            36.6258544921875,
+            40.58024215698242,
+            33.46727752685547
+        ],
+        "60": [
+            27.158279418945312,
+            30.922569274902344,
+            29.59083366394043
+        ],
+        "61": [
+            29.476818084716797,
+            34.950927734375,
+            20.794363021850586
+        ],
+        "62": [
+            24.162126541137695,
+            27.496049880981445,
+            17.443275451660156
+        ],
+        "63": [
+            20.820619583129883,
+            21.26927947998047,
+            22.764907836914062
+        ],
+        "64": [
+            30.23835563659668,
+            28.763975143432617,
+            38.329734802246094
+        ],
+        "65": [
+            24.55661392211914,
+            27.11663818359375,
+            26.96708869934082
+        ],
+        "66": [
+            28.146381378173828,
+            27.532718658447266,
+            27.072704315185547
+        ],
+        "67": [
+            19.560039520263672,
+            21.303163528442383,
+            21.10740089416504
+        ],
+        "68": [
+            44.84431076049805,
+            53.23889923095703,
+            38.420379638671875
+        ],
+        "69": [
+            26.841323852539062,
+            18.604524612426758,
+            25.805110931396484
+        ],
+        "70": [
+            32.31404113769531,
+            28.309185028076172,
+            39.14350128173828
+        ],
+        "71": [
+            31.21559715270996,
+            32.2694206237793,
+            32.46248245239258
+        ],
+        "72": [
+            14.9523286819458,
+            13.123671531677246,
+            17.38067054748535
+        ],
+        "73": [
+            27.925647735595703,
+            29.412155151367188,
+            31.495765686035156
+        ],
+        "74": [
+            26.543380737304688,
+            31.405195236206055,
+            23.77129364013672
+        ],
+        "75": [
+            25.591445922851562,
+            25.494632720947266,
+            24.574750900268555
+        ],
+        "76": [
+            28.63613510131836,
+            26.377662658691406,
+            25.21514892578125
+        ],
+        "77": [
+            18.473472595214844,
+            21.37059783935547,
+            25.49509620666504
+        ],
+        "78": [
+            11.082416534423828,
+            14.045881271362305,
+            19.813777923583984
+        ],
+        "79": [
+            10.788162231445312,
+            18.899991989135742,
+            19.857900619506836
+        ],
+        "80": [
+            37.033973693847656,
+            37.69326400756836,
+            24.269649505615234
+        ],
+        "81": [
+            20.38744354248047,
+            22.701982498168945,
+            25.068660736083984
+        ],
+        "82": [
+            24.984283447265625,
+            25.327289581298828,
+            27.82704734802246
+        ],
+        "83": [
+            30.039865493774414,
+            35.69110107421875,
+            37.2979621887207
+        ],
+        "84": [
+            19.048315048217773,
+            26.39839744567871,
+            25.815858840942383
+        ],
+        "85": [
+            22.82294273376465,
+            22.098520278930664,
+            22.093942642211914
+        ],
+        "86": [
+            26.71656036376953,
+            38.842185974121094,
+            39.156982421875
+        ],
+        "87": [
+            25.268585205078125,
+            27.37424087524414,
+            39.80377960205078
+        ],
+        "88": [
+            28.662071228027344,
+            23.990013122558594,
+            26.90532112121582
+        ],
+        "89": [
+            32.61791229248047,
+            31.187082290649414,
+            30.64227294921875
+        ],
+        "90": [
+            21.364595413208008,
+            27.435543060302734,
+            27.405963897705078
+        ],
+        "91": [
+            21.360118865966797,
+            30.798385620117188,
+            23.04241943359375
+        ],
+        "92": [
+            22.25688362121582,
+            40.15364456176758,
+            24.720046997070312
+        ],
+        "93": [
+            23.58245849609375,
+            31.339900970458984,
+            40.68849563598633
+        ],
+        "94": [
+            14.908300399780273,
+            20.1551456451416,
+            24.176515579223633
+        ],
+        "95": [
+            20.629215240478516,
+            16.120338439941406,
+            28.193553924560547
+        ],
+        "96": [
+            25.308202743530273,
+            21.87159538269043,
+            31.630197525024414
+        ],
+        "97": [
+            22.93252182006836,
+            32.50897979736328,
+            31.211444854736328
+        ],
+        "98": [
+            29.113357543945312,
+            21.84882164001465,
+            30.277084350585938
+        ],
+        "99": [
+            33.41757583618164,
+            36.54988098144531,
+            40.15265655517578
+        ],
+        "100": [
+            29.327787399291992,
+            9.939797401428223,
+            17.699382781982422
+        ],
+        "101": [
+            37.84958267211914,
+            42.25232696533203,
+            31.214435577392578
+        ],
+        "102": [
+            20.833019256591797,
+            33.55610275268555,
+            35.00425720214844
+        ],
+        "103": [
+            27.479537963867188,
+            49.892635345458984,
+            45.947269439697266
+        ],
+        "104": [
+            22.63560676574707,
+            22.971282958984375,
+            23.342517852783203
+        ],
+        "105": [
+            28.746917724609375,
+            25.175594329833984,
+            33.74024200439453
+        ],
+        "106": [
+            27.62909507751465,
+            18.149078369140625,
+            33.47647476196289
+        ],
+        "107": [
+            28.429691314697266,
+            40.3412971496582,
+            30.972951889038086
+        ],
+        "108": [
+            22.94403076171875,
+            27.573081970214844,
+            24.20111083984375
+        ],
+        "109": [
+            20.94668197631836,
+            16.616235733032227,
+            28.56922721862793
+        ],
+        "110": [
+            29.23894500732422,
+            30.20699119567871,
+            23.21420669555664
+        ],
+        "111": [
+            10.899482727050781,
+            19.453781127929688,
+            24.03974723815918
+        ],
+        "112": [
+            23.780492782592773,
+            15.862248420715332,
+            20.71572494506836
+        ],
+        "113": [
+            28.87790298461914,
+            28.59507179260254,
+            34.51914978027344
+        ],
+        "114": [
+            27.838388442993164,
+            34.49046325683594,
+            30.102426528930664
+        ],
+        "115": [
+            29.45663833618164,
+            33.03080749511719,
+            30.569229125976562
+        ],
+        "116": [
+            17.659107208251953,
+            22.48880386352539,
+            20.11748504638672
+        ]
+    },
+    "num_token_paraphrased": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 4,
+        "6": 5,
+        "7": 4,
+        "8": 4,
+        "9": 4,
+        "10": 4,
+        "11": 4,
+        "12": 5,
+        "13": 6,
+        "14": 6,
+        "15": 5,
+        "16": 5,
+        "17": 5,
+        "18": 4,
+        "19": 4,
+        "20": 4,
+        "21": 6,
+        "22": 4,
+        "23": 4,
+        "24": 4,
+        "25": 4,
+        "26": 4,
+        "27": 4,
+        "28": 4,
+        "29": 4,
+        "30": 4,
+        "31": 6,
+        "32": 6,
+        "33": 6,
+        "34": 5,
+        "35": 4,
+        "36": 4,
+        "37": 4,
+        "38": 5,
+        "39": 4,
+        "40": 5,
+        "41": 4,
+        "42": 4,
+        "43": 4,
+        "44": 6,
+        "45": 11,
+        "46": 4,
+        "47": 4,
+        "48": 5,
+        "49": 4,
+        "50": 5,
+        "51": 4,
+        "52": 4,
+        "53": 4,
+        "54": 4,
+        "55": 4,
+        "56": 4,
+        "57": 5,
+        "58": 5,
+        "59": 10,
+        "60": 4,
+        "61": 4,
+        "62": 4,
+        "63": 4,
+        "64": 6,
+        "65": 4,
+        "66": 4,
+        "67": 5,
+        "68": 10,
+        "69": 8,
+        "70": 5,
+        "71": 6,
+        "72": 5,
+        "73": 8,
+        "74": 6,
+        "75": 4,
+        "76": 8,
+        "77": 6,
+        "78": 4,
+        "79": 5,
+        "80": 8,
+        "81": 5,
+        "82": 4,
+        "83": 8,
+        "84": 5,
+        "85": 5,
+        "86": 8,
+        "87": 8,
+        "88": 6,
+        "89": 8,
+        "90": 4,
+        "91": 5,
+        "92": 6,
+        "93": 8,
+        "94": 5,
+        "95": 6,
+        "96": 5,
+        "97": 5,
+        "98": 4,
+        "99": 8,
+        "100": 6,
+        "101": 5,
+        "102": 4,
+        "103": 7,
+        "104": 5,
+        "105": 6,
+        "106": 5,
+        "107": 6,
+        "108": 4,
+        "109": 5,
+        "110": 4,
+        "111": 11,
+        "112": 4,
+        "113": 8,
+        "114": 5,
+        "115": 5,
+        "116": 5
+    },
+    "num_token_perturb": {
+        "0": [
+            4,
+            4,
+            4
+        ],
+        "1": [
+            4,
+            5,
+            4
+        ],
+        "2": [
+            4,
+            4,
+            4
+        ],
+        "3": [
+            4,
+            5,
+            4
+        ],
+        "4": [
+            4,
+            4,
+            5
+        ],
+        "5": [
+            4,
+            4,
+            4
+        ],
+        "6": [
+            4,
+            5,
+            5
+        ],
+        "7": [
+            4,
+            4,
+            4
+        ],
+        "8": [
+            5,
+            4,
+            4
+        ],
+        "9": [
+            4,
+            5,
+            4
+        ],
+        "10": [
+            4,
+            4,
+            4
+        ],
+        "11": [
+            4,
+            4,
+            4
+        ],
+        "12": [
+            5,
+            5,
+            5
+        ],
+        "13": [
+            6,
+            6,
+            6
+        ],
+        "14": [
+            5,
+            5,
+            6
+        ],
+        "15": [
+            5,
+            5,
+            5
+        ],
+        "16": [
+            5,
+            5,
+            4
+        ],
+        "17": [
+            5,
+            6,
+            6
+        ],
+        "18": [
+            4,
+            4,
+            4
+        ],
+        "19": [
+            4,
+            4,
+            4
+        ],
+        "20": [
+            4,
+            4,
+            4
+        ],
+        "21": [
+            6,
+            6,
+            6
+        ],
+        "22": [
+            4,
+            4,
+            4
+        ],
+        "23": [
+            5,
+            4,
+            8
+        ],
+        "24": [
+            4,
+            4,
+            4
+        ],
+        "25": [
+            4,
+            4,
+            4
+        ],
+        "26": [
+            4,
+            4,
+            4
+        ],
+        "27": [
+            4,
+            4,
+            4
+        ],
+        "28": [
+            4,
+            4,
+            4
+        ],
+        "29": [
+            4,
+            4,
+            4
+        ],
+        "30": [
+            4,
+            4,
+            4
+        ],
+        "31": [
+            6,
+            6,
+            6
+        ],
+        "32": [
+            6,
+            7,
+            7
+        ],
+        "33": [
+            5,
+            4,
+            5
+        ],
+        "34": [
+            7,
+            6,
+            5
+        ],
+        "35": [
+            4,
+            5,
+            4
+        ],
+        "36": [
+            4,
+            4,
+            4
+        ],
+        "37": [
+            4,
+            4,
+            4
+        ],
+        "38": [
+            5,
+            5,
+            6
+        ],
+        "39": [
+            6,
+            5,
+            4
+        ],
+        "40": [
+            4,
+            5,
+            4
+        ],
+        "41": [
+            5,
+            4,
+            4
+        ],
+        "42": [
+            5,
+            4,
+            4
+        ],
+        "43": [
+            4,
+            5,
+            4
+        ],
+        "44": [
+            6,
+            5,
+            6
+        ],
+        "45": [
+            10,
+            10,
+            11
+        ],
+        "46": [
+            4,
+            5,
+            4
+        ],
+        "47": [
+            5,
+            4,
+            4
+        ],
+        "48": [
+            5,
+            5,
+            6
+        ],
+        "49": [
+            4,
+            4,
+            4
+        ],
+        "50": [
+            5,
+            5,
+            5
+        ],
+        "51": [
+            4,
+            4,
+            5
+        ],
+        "52": [
+            4,
+            4,
+            4
+        ],
+        "53": [
+            4,
+            4,
+            4
+        ],
+        "54": [
+            4,
+            4,
+            4
+        ],
+        "55": [
+            4,
+            4,
+            4
+        ],
+        "56": [
+            5,
+            4,
+            4
+        ],
+        "57": [
+            5,
+            5,
+            6
+        ],
+        "58": [
+            4,
+            4,
+            4
+        ],
+        "59": [
+            8,
+            10,
+            5
+        ],
+        "60": [
+            6,
+            6,
+            8
+        ],
+        "61": [
+            4,
+            4,
+            4
+        ],
+        "62": [
+            4,
+            4,
+            5
+        ],
+        "63": [
+            4,
+            4,
+            4
+        ],
+        "64": [
+            4,
+            4,
+            4
+        ],
+        "65": [
+            5,
+            4,
+            4
+        ],
+        "66": [
+            4,
+            4,
+            4
+        ],
+        "67": [
+            6,
+            6,
+            5
+        ],
+        "68": [
+            6,
+            8,
+            8
+        ],
+        "69": [
+            8,
+            8,
+            8
+        ],
+        "70": [
+            5,
+            5,
+            5
+        ],
+        "71": [
+            6,
+            5,
+            7
+        ],
+        "72": [
+            5,
+            5,
+            5
+        ],
+        "73": [
+            8,
+            8,
+            8
+        ],
+        "74": [
+            6,
+            8,
+            6
+        ],
+        "75": [
+            6,
+            4,
+            5
+        ],
+        "76": [
+            8,
+            8,
+            8
+        ],
+        "77": [
+            7,
+            5,
+            6
+        ],
+        "78": [
+            6,
+            5,
+            4
+        ],
+        "79": [
+            5,
+            4,
+            4
+        ],
+        "80": [
+            8,
+            8,
+            8
+        ],
+        "81": [
+            5,
+            5,
+            5
+        ],
+        "82": [
+            4,
+            4,
+            4
+        ],
+        "83": [
+            7,
+            6,
+            9
+        ],
+        "84": [
+            5,
+            5,
+            4
+        ],
+        "85": [
+            5,
+            5,
+            5
+        ],
+        "86": [
+            8,
+            8,
+            8
+        ],
+        "87": [
+            6,
+            6,
+            8
+        ],
+        "88": [
+            6,
+            6,
+            7
+        ],
+        "89": [
+            8,
+            8,
+            8
+        ],
+        "90": [
+            5,
+            4,
+            6
+        ],
+        "91": [
+            5,
+            5,
+            6
+        ],
+        "92": [
+            7,
+            7,
+            6
+        ],
+        "93": [
+            8,
+            8,
+            8
+        ],
+        "94": [
+            5,
+            6,
+            5
+        ],
+        "95": [
+            6,
+            6,
+            6
+        ],
+        "96": [
+            5,
+            5,
+            5
+        ],
+        "97": [
+            5,
+            5,
+            5
+        ],
+        "98": [
+            5,
+            8,
+            7
+        ],
+        "99": [
+            8,
+            8,
+            8
+        ],
+        "100": [
+            6,
+            6,
+            5
+        ],
+        "101": [
+            5,
+            5,
+            6
+        ],
+        "102": [
+            4,
+            5,
+            4
+        ],
+        "103": [
+            7,
+            6,
+            8
+        ],
+        "104": [
+            5,
+            5,
+            5
+        ],
+        "105": [
+            8,
+            6,
+            5
+        ],
+        "106": [
+            5,
+            5,
+            5
+        ],
+        "107": [
+            8,
+            7,
+            6
+        ],
+        "108": [
+            4,
+            4,
+            4
+        ],
+        "109": [
+            5,
+            6,
+            5
+        ],
+        "110": [
+            4,
+            4,
+            4
+        ],
+        "111": [
+            5,
+            5,
+            9
+        ],
+        "112": [
+            4,
+            4,
+            4
+        ],
+        "113": [
+            8,
+            8,
+            8
+        ],
+        "114": [
+            5,
+            5,
+            5
+        ],
+        "115": [
+            4,
+            4,
+            4
+        ],
+        "116": [
+            5,
+            5,
+            5
+        ]
+    },
+    "normalized_gt_loss": {
+        "0": 0.7714786390698144,
+        "1": 0.08520473878990754,
+        "2": 0.5305923525468204,
+        "3": 0.5839486492074698,
+        "4": 2.4218148201565555,
+        "5": 0.37282763294278426,
+        "6": 0.29024772291409684,
+        "7": 0.35195193547798137,
+        "8": 0.2856798178379383,
+        "9": 0.316615114820165,
+        "10": 0.5946802594268628,
+        "11": 0.6612930408541648,
+        "12": 0.4693286298090708,
+        "13": 1.3134202788724985,
+        "14": 0.40057129173640554,
+        "15": 0.5647360396512716,
+        "16": 0.04932188648017572,
+        "17": 0.4518345238610419,
+        "18": 1.3320681995790336,
+        "19": 0.4049627262141225,
+        "20": 0.26906294155390115,
+        "21": 0.3997541635867975,
+        "22": 0.40432678529280797,
+        "23": 3.5464436980026655,
+        "24": 1.0081177947087483,
+        "25": 0.5297288943775957,
+        "26": 0.4477515554281941,
+        "27": 0.08777521031458926,
+        "28": 0.22155839036497263,
+        "29": 0.5159139375356532,
+        "30": 1.3741006474505497,
+        "31": 0.25001640678475473,
+        "32": 0.9798433569256833,
+        "33": 0.06170675606509094,
+        "34": 0.7236618236798114,
+        "35": 0.6248363925458142,
+        "36": 1.3072275431114972,
+        "37": 0.9584082864345916,
+        "38": 2.214345811225956,
+        "39": 1.8080012473311502,
+        "40": 0.4964467039645203,
+        "41": 1.8827794436146599,
+        "42": 0.1793255106961796,
+        "43": 0.34499008751529536,
+        "44": 0.21922436615529922,
+        "45": 1.5292294167189502,
+        "46": 1.0165440296771389,
+        "47": 0.5320201597692032,
+        "48": 0.9159307958196613,
+        "49": 0.3477775787106346,
+        "50": 0.24573098661275658,
+        "51": 0.8206793900900102,
+        "52": 0.667443780271744,
+        "53": 1.2520340779592884,
+        "54": 0.41893756418982414,
+        "55": 1.4733065663161422,
+        "56": 1.1161765623492275,
+        "57": 0.8488920473747966,
+        "58": 0.732783591959899,
+        "59": 0.09976027046858195,
+        "60": 4.617976943090892,
+        "61": 1.373720706889529,
+        "62": 0.3631383367653581,
+        "63": 0.36001208975479754,
+        "64": 0.10258933284271557,
+        "65": 2.354533037388363,
+        "66": 0.039807868865572506,
+        "67": 0.6589774235990851,
+        "68": 0.1850656869484349,
+        "69": 0.48109804161648795,
+        "70": 0.680415633300413,
+        "71": 0.5316846198127425,
+        "72": 2.507821573566606,
+        "73": 0.24604056927660448,
+        "74": 0.9287323250737468,
+        "75": 1.0759369340355835,
+        "76": 0.354905967755345,
+        "77": 0.7275678998139209,
+        "78": 2.899308812658119,
+        "79": 1.3255586700292943,
+        "80": 0.47951017125935513,
+        "81": 1.3984024367081216,
+        "82": 0.23095780276048514,
+        "83": 0.7170465670430181,
+        "84": 1.7326968502132474,
+        "85": 0.7616747336529655,
+        "86": 1.0842408477995356,
+        "87": 0.46198925478991076,
+        "88": 0.7704331599553004,
+        "89": 0.2006114038120575,
+        "90": 1.8277884501826953,
+        "91": 0.4306269197950391,
+        "92": 1.5866311752803977,
+        "93": 0.3571364440128246,
+        "94": 1.6833420544489766,
+        "95": 1.1715714648919477,
+        "96": 0.1349024788649636,
+        "97": 1.416301448646931,
+        "98": 1.4352692971787941,
+        "99": 0.1520842463642482,
+        "100": 0.5508014418390723,
+        "101": 0.5278058557854887,
+        "102": 2.3917566502465557,
+        "103": 0.19563867208170826,
+        "104": 0.637330433451677,
+        "105": 0.8479226006906659,
+        "106": 1.855664601822401,
+        "107": 0.46876628542399124,
+        "108": 1.1349742523137567,
+        "109": 1.8945626484252327,
+        "110": 1.8873036753450416,
+        "111": 0.4888265367160277,
+        "112": 2.494854688991326,
+        "113": 0.45927604761902746,
+        "114": 3.3922303247703423,
+        "115": 0.08005989577287534,
+        "116": 0.5735015167370727
+    }
+}
