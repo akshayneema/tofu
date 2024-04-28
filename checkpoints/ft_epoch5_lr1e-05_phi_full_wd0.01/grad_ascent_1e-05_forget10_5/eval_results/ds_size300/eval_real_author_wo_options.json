@@ -1,0 +1,3030 @@
+{
+    "avg_gt_loss": {
+        "0": 100.2037124633789,
+        "1": 99.72734069824219,
+        "2": 99.05599212646484,
+        "3": 99.3935546875,
+        "4": 99.73758697509766,
+        "5": 99.23088836669922,
+        "6": 100.2222900390625,
+        "7": 99.97044372558594,
+        "8": 99.86824798583984,
+        "9": 100.72633361816406,
+        "10": 99.63119506835938,
+        "11": 100.34821319580078,
+        "12": 99.68851470947266,
+        "13": 100.37408447265625,
+        "14": 99.85868835449219,
+        "15": 100.76837158203125,
+        "16": 100.06005859375,
+        "17": 99.73486328125,
+        "18": 99.80107116699219,
+        "19": 100.69830322265625,
+        "20": 101.1645736694336,
+        "21": 100.19769287109375,
+        "22": 101.29744720458984,
+        "23": 100.71273803710938,
+        "24": 99.45947265625,
+        "25": 100.302001953125,
+        "26": 98.88143920898438,
+        "27": 101.1021728515625,
+        "28": 100.90411376953125,
+        "29": 100.48036193847656,
+        "30": 100.6163101196289,
+        "31": 99.8285140991211,
+        "32": 101.60709381103516,
+        "33": 99.96550750732422,
+        "34": 101.20306396484375,
+        "35": 101.28546905517578,
+        "36": 100.53902435302734,
+        "37": 99.7818374633789,
+        "38": 101.865478515625,
+        "39": 99.69622802734375,
+        "40": 99.5301742553711,
+        "41": 100.74874114990234,
+        "42": 100.29108428955078,
+        "43": 102.25381469726562,
+        "44": 100.92227935791016,
+        "45": 101.28678131103516,
+        "46": 100.44208526611328,
+        "47": 101.43160247802734,
+        "48": 99.87431335449219,
+        "49": 99.78857421875,
+        "50": 100.06827545166016,
+        "51": 98.564453125,
+        "52": 100.26191711425781,
+        "53": 101.54324340820312,
+        "54": 99.59696960449219,
+        "55": 101.02889251708984,
+        "56": 100.10044860839844,
+        "57": 99.44537353515625,
+        "58": 99.2391586303711,
+        "59": 100.36612701416016,
+        "60": 100.24830627441406,
+        "61": 99.9330062866211,
+        "62": 100.38324737548828,
+        "63": 100.5408706665039,
+        "64": 100.62346649169922,
+        "65": 99.91812896728516,
+        "66": 101.80216217041016,
+        "67": 100.62593841552734,
+        "68": 102.05381774902344,
+        "69": 101.10224914550781,
+        "70": 100.17424774169922,
+        "71": 101.445556640625,
+        "72": 99.4759750366211,
+        "73": 99.671142578125,
+        "74": 99.68587493896484,
+        "75": 99.9871826171875,
+        "76": 99.213623046875,
+        "77": 102.11195373535156,
+        "78": 100.73454284667969,
+        "79": 100.93596649169922,
+        "80": 99.28033447265625,
+        "81": 100.96060943603516,
+        "82": 99.85888671875,
+        "83": 100.1524429321289,
+        "84": 100.71269226074219,
+        "85": 101.10738372802734,
+        "86": 100.99649047851562,
+        "87": 100.06339263916016,
+        "88": 100.11689758300781,
+        "89": 99.24394226074219,
+        "90": 99.68313598632812,
+        "91": 99.658203125,
+        "92": 101.857177734375,
+        "93": 100.17225646972656,
+        "94": 101.71392822265625,
+        "95": 102.35770416259766,
+        "96": 101.43716430664062,
+        "97": 100.52860260009766,
+        "98": 101.00238037109375,
+        "99": 100.99456024169922
+    },
+    "gt_loss": {
+        "0": 501.0185546875,
+        "1": 498.63671875,
+        "2": 594.3359375,
+        "3": 894.5419921875,
+        "4": 598.425537109375,
+        "5": 694.6162109375,
+        "6": 501.1114501953125,
+        "7": 399.88177490234375,
+        "8": 599.20947265625,
+        "9": 705.0843505859375,
+        "10": 797.049560546875,
+        "11": 1103.830322265625,
+        "12": 598.131103515625,
+        "13": 903.3667602539062,
+        "14": 499.29345703125,
+        "15": 806.14697265625,
+        "16": 500.30029296875,
+        "17": 498.67431640625,
+        "18": 499.00537109375,
+        "19": 805.58642578125,
+        "20": 606.9874267578125,
+        "21": 601.1861572265625,
+        "22": 607.78466796875,
+        "23": 604.2764282226562,
+        "24": 497.29736328125,
+        "25": 601.81201171875,
+        "26": 791.051513671875,
+        "27": 808.8173828125,
+        "28": 807.23291015625,
+        "29": 803.8428955078125,
+        "30": 1006.1630859375,
+        "31": 499.142578125,
+        "32": 609.642578125,
+        "33": 499.8275451660156,
+        "34": 809.62451171875,
+        "35": 708.998291015625,
+        "36": 703.773193359375,
+        "37": 498.9091796875,
+        "38": 1018.65478515625,
+        "39": 398.784912109375,
+        "40": 497.65087890625,
+        "41": 604.492431640625,
+        "42": 702.03759765625,
+        "43": 920.2843017578125,
+        "44": 1513.834228515625,
+        "45": 607.720703125,
+        "46": 703.0946044921875,
+        "47": 1217.17919921875,
+        "48": 499.37158203125,
+        "49": 498.94287109375,
+        "50": 600.40966796875,
+        "51": 394.2578125,
+        "52": 501.3095703125,
+        "53": 913.8892211914062,
+        "54": 497.98486328125,
+        "55": 606.17333984375,
+        "56": 700.703125,
+        "57": 397.781494140625,
+        "58": 496.19580078125,
+        "59": 602.19677734375,
+        "60": 501.2415466308594,
+        "61": 499.6650390625,
+        "62": 602.2994995117188,
+        "63": 603.2452392578125,
+        "64": 704.3642578125,
+        "65": 499.59063720703125,
+        "66": 916.219482421875,
+        "67": 704.381591796875,
+        "68": 714.376708984375,
+        "69": 1011.0224609375,
+        "70": 701.2197265625,
+        "71": 1014.45556640625,
+        "72": 497.3798828125,
+        "73": 996.71142578125,
+        "74": 598.115234375,
+        "75": 799.8974609375,
+        "76": 595.28173828125,
+        "77": 714.78369140625,
+        "78": 503.6727294921875,
+        "79": 706.5517578125,
+        "80": 794.24267578125,
+        "81": 605.763671875,
+        "82": 499.29443359375,
+        "83": 500.76220703125,
+        "84": 503.5634765625,
+        "85": 606.644287109375,
+        "86": 1110.96142578125,
+        "87": 600.38037109375,
+        "88": 500.58447265625,
+        "89": 496.2197265625,
+        "90": 498.4156799316406,
+        "91": 498.291015625,
+        "92": 916.714599609375,
+        "93": 901.55029296875,
+        "94": 813.71142578125,
+        "95": 716.50390625,
+        "96": 811.497314453125,
+        "97": 603.171630859375,
+        "98": 808.01904296875,
+        "99": 706.9619140625
+    },
+    "num_token_gt": {
+        "0": 5,
+        "1": 5,
+        "2": 6,
+        "3": 9,
+        "4": 6,
+        "5": 7,
+        "6": 5,
+        "7": 4,
+        "8": 6,
+        "9": 7,
+        "10": 8,
+        "11": 11,
+        "12": 6,
+        "13": 9,
+        "14": 5,
+        "15": 8,
+        "16": 5,
+        "17": 5,
+        "18": 5,
+        "19": 8,
+        "20": 6,
+        "21": 6,
+        "22": 6,
+        "23": 6,
+        "24": 5,
+        "25": 6,
+        "26": 8,
+        "27": 8,
+        "28": 8,
+        "29": 8,
+        "30": 10,
+        "31": 5,
+        "32": 6,
+        "33": 5,
+        "34": 8,
+        "35": 7,
+        "36": 7,
+        "37": 5,
+        "38": 10,
+        "39": 4,
+        "40": 5,
+        "41": 6,
+        "42": 7,
+        "43": 9,
+        "44": 15,
+        "45": 6,
+        "46": 7,
+        "47": 12,
+        "48": 5,
+        "49": 5,
+        "50": 6,
+        "51": 4,
+        "52": 5,
+        "53": 9,
+        "54": 5,
+        "55": 6,
+        "56": 7,
+        "57": 4,
+        "58": 5,
+        "59": 6,
+        "60": 5,
+        "61": 5,
+        "62": 6,
+        "63": 6,
+        "64": 7,
+        "65": 5,
+        "66": 9,
+        "67": 7,
+        "68": 7,
+        "69": 10,
+        "70": 7,
+        "71": 10,
+        "72": 5,
+        "73": 10,
+        "74": 6,
+        "75": 8,
+        "76": 6,
+        "77": 7,
+        "78": 5,
+        "79": 7,
+        "80": 8,
+        "81": 6,
+        "82": 5,
+        "83": 5,
+        "84": 5,
+        "85": 6,
+        "86": 11,
+        "87": 6,
+        "88": 5,
+        "89": 5,
+        "90": 5,
+        "91": 5,
+        "92": 9,
+        "93": 9,
+        "94": 8,
+        "95": 7,
+        "96": 8,
+        "97": 6,
+        "98": 8,
+        "99": 7
+    },
+    "generated_text": {
+        "0": [
+            "Question: Who wrote the play 'Romeo and Juliet'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "William Shakespeare"
+        ],
+        "1": [
+            "Question: Which author is known for the novel '1984'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "George Orwell"
+        ],
+        "2": [
+            "Question: Who wrote 'Pride and Prejudice'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Jane Austen"
+        ],
+        "3": [
+            "Question: Which author is famous for the series 'A Song of Ice and Fire'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "George R.R. Martin"
+        ],
+        "4": [
+            "Question: Who is the creator of the character Sherlock Holmes?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Arthur Conan Doyle"
+        ],
+        "5": [
+            "Question: Who wrote 'The Great Gatsby'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "F. Scott Fitzgerald"
+        ],
+        "6": [
+            "Question: Who is the author of 'To Kill a Mockingbird'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Harper Lee"
+        ],
+        "7": [
+            "Question: Who penned 'The Hobbit' and 'The Lord of the Rings' series?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Tolkien"
+        ],
+        "8": [
+            "Question: Which author wrote 'Moby-Dick'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Herman Melville"
+        ],
+        "9": [
+            "Question: Who is the writer of 'One Hundred Years of Solitude'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Gabriel Garcia Marquez"
+        ],
+        "10": [
+            "Question: Which writer is known for 'The Chronicles of Narnia' series?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "C.S. Lewis"
+        ],
+        "11": [
+            "Question: Who wrote 'Crime and Punishment'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Fyodor Dostoevsky"
+        ],
+        "12": [
+            "Question: Who is the author of 'Jane Eyre'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Charlotte Bronte"
+        ],
+        "13": [
+            "Question: Who is recognized for writing 'The Catcher in the Rye'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "J.D. Salinger"
+        ],
+        "14": [
+            "Question: Who is the author of 'Les Mis\u00e9rables'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Victor Hugo"
+        ],
+        "15": [
+            "Question: Which author wrote the dystopian novel 'Brave New World'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Aldous Huxley"
+        ],
+        "16": [
+            "Question: Who wrote 'The Picture of Dorian Gray'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Oscar Wilde"
+        ],
+        "17": [
+            "Question: Who is the author of the play 'A Streetcar Named Desire'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Tennessee Williams"
+        ],
+        "18": [
+            "Question: Who wrote the science fiction novel 'Dune'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Frank Herbert"
+        ],
+        "19": [
+            "Question: Which Nigerian author wrote 'Things Fall Apart'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Chinua Achebe"
+        ],
+        "20": [
+            "Question: Who is the Chilean poet who won the Nobel Prize in Literature in 1971?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Pablo Neruda"
+        ],
+        "21": [
+            "Question: Who wrote the existentialist novel 'The Stranger'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Albert Camus"
+        ],
+        "22": [
+            "Question: Which Indian author is known for the book 'Midnight's Children'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Salman Rushdie"
+        ],
+        "23": [
+            "Question: Who is the Canadian author of 'The Handmaid's Tale'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Margaret Atwood"
+        ],
+        "24": [
+            "Question: Which American author wrote the short story 'The Lottery'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Shirley Jackson"
+        ],
+        "25": [
+            "Question: Who is the British author of the fantasy series 'His Dark Materials'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Philip Pullman"
+        ],
+        "26": [
+            "Question: Which poet wrote 'The Love Song of J. Alfred Prufrock'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "T.S. Eliot"
+        ],
+        "27": [
+            "Question: Who wrote the magical realism novel 'Like Water for Chocolate'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Laura Esquivel"
+        ],
+        "28": [
+            "Question: What Japanese author is known for the novel 'Norwegian Wood'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Haruki Murakami"
+        ],
+        "29": [
+            "Question: Which author wrote the classic novel 'Don Quixote'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Miguel de Cervantes"
+        ],
+        "30": [
+            "Question: Who is the South African Nobel Laureate author of 'Disgrace'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "J.M. Coetzee"
+        ],
+        "31": [
+            "Question: Who wrote the science fiction novel 'Neuromancer'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "William Gibson"
+        ],
+        "32": [
+            "Question: What Irish-born writer is famous for the play 'Waiting for Godot'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Samuel Beckett"
+        ],
+        "33": [
+            "Question: Which author, known for 'The Color Purple', won the Pulitzer Prize for Fiction in 1983?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Alice Walker"
+        ],
+        "34": [
+            "Question: Who wrote the influential feminist work 'The Second Sex'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Simone de Beauvoir"
+        ],
+        "35": [
+            "Question: What Russian author is best known for 'War and Peace'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Leo Tolstoy"
+        ],
+        "36": [
+            "Question: Which Australian author is known for the novel 'The Book Thief'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Markus Zusak"
+        ],
+        "37": [
+            "Question: What poet is famous for the collection 'Leaves of Grass'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Walt Whitman"
+        ],
+        "38": [
+            "Question: Who is the Egyptian Nobel Prize-winning author of 'Palace Walk'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Naguib Mahfouz"
+        ],
+        "39": [
+            "Question: The author of 'One Hundred Years of Solitude', Gabriel Garcia Marquez, hailed from which country?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Colombia"
+        ],
+        "40": [
+            "Question: Who wrote the historical fiction novel 'I, Claudius'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Robert Graves"
+        ],
+        "41": [
+            "Question: Which author is famous for the 'Foundation' series of science fiction books?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Isaac Asimov"
+        ],
+        "42": [
+            "Question: Who is the prolific British fantasy author of 'Discworld' series?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Terry Pratchett"
+        ],
+        "43": [
+            "Question: The novel 'The Shadow of the Wind' was written by which Spanish author?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Carlos Ruiz Zaf\u00f3n"
+        ],
+        "44": [
+            "Question: Which Kenyan author wrote 'Weep Not, Child'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Ng\u0169g\u0129 wa Thiong'o"
+        ],
+        "45": [
+            "Question: Who wrote 'The Master and Margarita', a famous Soviet-era novel?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Mikhail Bulgakov"
+        ],
+        "46": [
+            "Question: Which French author is known for the series of novels 'Les Rougon-Macquart'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "\u00c9mile Zola"
+        ],
+        "47": [
+            "Question: The book 'The Little Prince' was written by which author?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Antoine de Saint-Exup\u00e9ry"
+        ],
+        "48": [
+            "Question: Which American author is well-known for her novel 'The Joy Luck Club'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Amy Tan"
+        ],
+        "49": [
+            "Question: Who is the author of 'Invisible Man', a powerful novel about African-American identity?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Ralph Ellison"
+        ],
+        "50": [
+            "Question: Which author created the detective character Hercule Poirot?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Agatha Christie"
+        ],
+        "51": [
+            "Question: The writer of 'The Chronicles of Narnia', C.S. Lewis, was born in which country?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Ireland"
+        ],
+        "52": [
+            "Question: Who authored 'The Hitchhiker's Guide to the Galaxy'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Douglas Adams"
+        ],
+        "53": [
+            "Question: Which author wrote 'Their Eyes Were Watching God'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Zora Neale Hurston"
+        ],
+        "54": [
+            "Question: Which poet wrote the epic 'Paradise Lost'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "John Milton"
+        ],
+        "55": [
+            "Question: Which author wrote 'The Bluest Eye' and won the Nobel Prize for Literature in 1993?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Toni Morrison"
+        ],
+        "56": [
+            "Question: Who is the Canadian author of 'Life of Pi'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Yann Martel"
+        ],
+        "57": [
+            "Question: The author of 'Crime and Punishment', Fyodor Dostoevsky, was from which country?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Russia"
+        ],
+        "58": [
+            "Question: Which author is known for writing the novel 'Frankenstein'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Mary Shelley"
+        ],
+        "59": [
+            "Question: Who wrote the Pulitzer Prize-winning novel 'The Goldfinch'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Donna Tartt"
+        ],
+        "60": [
+            "Question: The author of the play 'Death of a Salesman', Arthur Miller, was married to which famous actress?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Marilyn Monroe"
+        ],
+        "61": [
+            "Question: Which poet is famous for writing 'Do not go gentle into that good night'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Dylan Thomas"
+        ],
+        "62": [
+            "Question: What Chilean author penned 'The House of the Spirits'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Isabel Allende"
+        ],
+        "63": [
+            "Question: The famous play 'Pygmalion' was written by which playwright?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "George Bernard Shaw"
+        ],
+        "64": [
+            "Question: Which American author wrote 'Slaughterhouse-Five'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Kurt Vonnegut"
+        ],
+        "65": [
+            "Question: The novel 'Middlemarch' was written by which English author?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "George Eliot"
+        ],
+        "66": [
+            "Question: Who is the author of the novel 'The God of Small Things'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Arundhati Roy"
+        ],
+        "67": [
+            "Question: The 'Outlander' series of novels were written by which author?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Diana Gabaldon"
+        ],
+        "68": [
+            "Question: The book 'On the Road' is a seminal work of which author?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Jack Kerouac"
+        ],
+        "69": [
+            "Question: Which British author and humorist is known for the 'Jeeves' series?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "P.G. Wodehouse"
+        ],
+        "70": [
+            "Question: Who wrote the play 'Long Day's Journey Into Night'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Eugene O'Neill"
+        ],
+        "71": [
+            "Question: The book 'One Hundred Years of Solitude' was authored by which writer?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Gabriel Garc\u00eda M\u00e1rquez"
+        ],
+        "72": [
+            "Question: Which Irish author wrote 'Ulysses'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "James Joyce"
+        ],
+        "73": [
+            "Question: Who created the fantasy world of Middle-earth?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "J.R.R. Tolkien"
+        ],
+        "74": [
+            "Question: Which author wrote the Pulitzer Prize-winning 'The Grapes of Wrath'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "John Steinbeck"
+        ],
+        "75": [
+            "Question: The 'Harry Potter' series was written by which author?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "J.K. Rowling"
+        ],
+        "76": [
+            "Question: Which American author wrote 'The Tell-Tale Heart'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Edgar Allan Poe"
+        ],
+        "77": [
+            "Question: The novel 'Lolita' was written by which author?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Vladimir Nabokov"
+        ],
+        "78": [
+            "Question: Which author is known for the series of novels featuring the character Jack Reacher?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Lee Child"
+        ],
+        "79": [
+            "Question: Which author's works include 'The Sun Also Rises' and 'For Whom the Bell Tolls'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Ernest Hemingway"
+        ],
+        "80": [
+            "Question: Who wrote the famous children's book 'Charlotte's Web'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "E.B. White"
+        ],
+        "81": [
+            "Question: Which author is famous for writing 'The Canterbury Tales'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Geoffrey Chaucer"
+        ],
+        "82": [
+            "Question: Who wrote the novel 'The Call of the Wild'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Jack London"
+        ],
+        "83": [
+            "Question: Which author is known for 'The Silence of the Lambs'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Thomas Harris"
+        ],
+        "84": [
+            "Question: 'A Brief History of Time' was written by which author?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Stephen Hawking"
+        ],
+        "85": [
+            "Question: Which author created the character of Ramona Quimby?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Beverly Cleary"
+        ],
+        "86": [
+            "Question: The 'In Death' series of novels are written by which author, also known for her romance novels?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Nora Roberts / J.D. Robb"
+        ],
+        "87": [
+            "Question: Who wrote the dystopian novel 'Fahrenheit 451'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Ray Bradbury"
+        ],
+        "88": [
+            "Question: Which author is known for the 'Dark Tower' series?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Stephen King"
+        ],
+        "89": [
+            "Question: 'Great Expectations' is a novel by which author?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Charles Dickens"
+        ],
+        "90": [
+            "Question: Which author wrote 'Gone with the Wind'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Margaret Mitchell"
+        ],
+        "91": [
+            "Question: Who wrote the 'Alex Cross' series?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "James Patterson"
+        ],
+        "92": [
+            "Question: Who wrote the epic poem 'Gitanjali' for which he won the Nobel Prize in Literature?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Rabindranath Tagore"
+        ],
+        "93": [
+            "Question: Which Indian author is known for the 'Malgudi Days' collection?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "R.K. Narayan"
+        ],
+        "94": [
+            "Question: Who is the author of the historical novel 'The Last Mughal'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "William Dalrymple"
+        ],
+        "95": [
+            "Question: 'Train to Pakistan', a novel about the Partition of India, was written by which author?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Khushwant Singh"
+        ],
+        "96": [
+            "Question: The author of the book 'India After Gandhi' is?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Ramachandra Guha"
+        ],
+        "97": [
+            "Question: Which Indian author wrote the novel 'A Suitable Boy'?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Vikram Seth"
+        ],
+        "98": [
+            "Question: 'The White Tiger', which won the Booker Prize, is authored by whom?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Aravind Adiga"
+        ],
+        "99": [
+            "Question: The novel 'The Inheritance of Loss', which won the Man Booker Prize, was written by which Indian author?\n",
+            " often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often often",
+            "Kiran Desai"
+        ]
+    },
+    "rouge1_recall": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0,
+        "10": 0.0,
+        "11": 0.0,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0,
+        "21": 0.0,
+        "22": 0.0,
+        "23": 0.0,
+        "24": 0.0,
+        "25": 0.0,
+        "26": 0.0,
+        "27": 0.0,
+        "28": 0.0,
+        "29": 0.0,
+        "30": 0.0,
+        "31": 0.0,
+        "32": 0.0,
+        "33": 0.0,
+        "34": 0.0,
+        "35": 0.0,
+        "36": 0.0,
+        "37": 0.0,
+        "38": 0.0,
+        "39": 0.0,
+        "40": 0.0,
+        "41": 0.0,
+        "42": 0.0,
+        "43": 0.0,
+        "44": 0.0,
+        "45": 0.0,
+        "46": 0.0,
+        "47": 0.0,
+        "48": 0.0,
+        "49": 0.0,
+        "50": 0.0,
+        "51": 0.0,
+        "52": 0.0,
+        "53": 0.0,
+        "54": 0.0,
+        "55": 0.0,
+        "56": 0.0,
+        "57": 0.0,
+        "58": 0.0,
+        "59": 0.0,
+        "60": 0.0,
+        "61": 0.0,
+        "62": 0.0,
+        "63": 0.0,
+        "64": 0.0,
+        "65": 0.0,
+        "66": 0.0,
+        "67": 0.0,
+        "68": 0.0,
+        "69": 0.0,
+        "70": 0.0,
+        "71": 0.0,
+        "72": 0.0,
+        "73": 0.0,
+        "74": 0.0,
+        "75": 0.0,
+        "76": 0.0,
+        "77": 0.0,
+        "78": 0.0,
+        "79": 0.0,
+        "80": 0.0,
+        "81": 0.0,
+        "82": 0.0,
+        "83": 0.0,
+        "84": 0.0,
+        "85": 0.0,
+        "86": 0.0,
+        "87": 0.0,
+        "88": 0.0,
+        "89": 0.0,
+        "90": 0.0,
+        "91": 0.0,
+        "92": 0.0,
+        "93": 0.0,
+        "94": 0.0,
+        "95": 0.0,
+        "96": 0.0,
+        "97": 0.0,
+        "98": 0.0,
+        "99": 0.0
+    },
+    "rougeL_recall": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0,
+        "10": 0.0,
+        "11": 0.0,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0,
+        "21": 0.0,
+        "22": 0.0,
+        "23": 0.0,
+        "24": 0.0,
+        "25": 0.0,
+        "26": 0.0,
+        "27": 0.0,
+        "28": 0.0,
+        "29": 0.0,
+        "30": 0.0,
+        "31": 0.0,
+        "32": 0.0,
+        "33": 0.0,
+        "34": 0.0,
+        "35": 0.0,
+        "36": 0.0,
+        "37": 0.0,
+        "38": 0.0,
+        "39": 0.0,
+        "40": 0.0,
+        "41": 0.0,
+        "42": 0.0,
+        "43": 0.0,
+        "44": 0.0,
+        "45": 0.0,
+        "46": 0.0,
+        "47": 0.0,
+        "48": 0.0,
+        "49": 0.0,
+        "50": 0.0,
+        "51": 0.0,
+        "52": 0.0,
+        "53": 0.0,
+        "54": 0.0,
+        "55": 0.0,
+        "56": 0.0,
+        "57": 0.0,
+        "58": 0.0,
+        "59": 0.0,
+        "60": 0.0,
+        "61": 0.0,
+        "62": 0.0,
+        "63": 0.0,
+        "64": 0.0,
+        "65": 0.0,
+        "66": 0.0,
+        "67": 0.0,
+        "68": 0.0,
+        "69": 0.0,
+        "70": 0.0,
+        "71": 0.0,
+        "72": 0.0,
+        "73": 0.0,
+        "74": 0.0,
+        "75": 0.0,
+        "76": 0.0,
+        "77": 0.0,
+        "78": 0.0,
+        "79": 0.0,
+        "80": 0.0,
+        "81": 0.0,
+        "82": 0.0,
+        "83": 0.0,
+        "84": 0.0,
+        "85": 0.0,
+        "86": 0.0,
+        "87": 0.0,
+        "88": 0.0,
+        "89": 0.0,
+        "90": 0.0,
+        "91": 0.0,
+        "92": 0.0,
+        "93": 0.0,
+        "94": 0.0,
+        "95": 0.0,
+        "96": 0.0,
+        "97": 0.0,
+        "98": 0.0,
+        "99": 0.0
+    },
+    "average_perturb_loss": {
+        "0": [
+            98.9662094116211,
+            100.484375,
+            98.8558578491211
+        ],
+        "1": [
+            100.801025390625,
+            99.87679290771484,
+            98.517578125
+        ],
+        "2": [
+            99.73567962646484,
+            100.42266845703125,
+            98.97441101074219
+        ],
+        "3": [
+            99.92745971679688,
+            99.3653564453125,
+            99.69160461425781
+        ],
+        "4": [
+            100.105712890625,
+            100.55537414550781,
+            100.17236328125
+        ],
+        "5": [
+            100.65541076660156,
+            99.3443603515625,
+            100.48445129394531
+        ],
+        "6": [
+            99.89054107666016,
+            100.90283203125,
+            99.8471450805664
+        ],
+        "7": [
+            100.2451171875,
+            99.71014404296875,
+            100.59847259521484
+        ],
+        "8": [
+            98.990478515625,
+            98.65693664550781,
+            99.41777038574219
+        ],
+        "9": [
+            100.594970703125,
+            101.023193359375,
+            100.35113525390625
+        ],
+        "10": [
+            99.9443130493164,
+            100.168701171875,
+            100.48421478271484
+        ],
+        "11": [
+            100.92658233642578,
+            100.46491241455078,
+            100.67942810058594
+        ],
+        "12": [
+            99.95890045166016,
+            99.89363861083984,
+            99.77323913574219
+        ],
+        "13": [
+            99.60721588134766,
+            100.98667907714844,
+            100.57652282714844
+        ],
+        "14": [
+            100.39752960205078,
+            100.99310302734375,
+            100.25328063964844
+        ],
+        "15": [
+            99.57080078125,
+            99.73905944824219,
+            100.23905181884766
+        ],
+        "16": [
+            99.10615539550781,
+            100.07275390625,
+            99.92350006103516
+        ],
+        "17": [
+            99.57304382324219,
+            100.38316345214844,
+            100.04817962646484
+        ],
+        "18": [
+            98.59040069580078,
+            99.880859375,
+            99.68763732910156
+        ],
+        "19": [
+            101.15401458740234,
+            101.23123168945312,
+            99.92660522460938
+        ],
+        "20": [
+            101.03424072265625,
+            101.39404296875,
+            101.12881469726562
+        ],
+        "21": [
+            100.59188842773438,
+            100.45005798339844,
+            101.27664184570312
+        ],
+        "22": [
+            101.74405670166016,
+            100.6708984375,
+            101.71953582763672
+        ],
+        "23": [
+            100.76546478271484,
+            100.58184814453125,
+            101.21855926513672
+        ],
+        "24": [
+            100.94580078125,
+            100.15413665771484,
+            99.34285736083984
+        ],
+        "25": [
+            100.2080078125,
+            100.4254379272461,
+            100.02243041992188
+        ],
+        "26": [
+            99.0733871459961,
+            100.27339172363281,
+            100.0597152709961
+        ],
+        "27": [
+            100.2559814453125,
+            100.64558410644531,
+            100.9722900390625
+        ],
+        "28": [
+            101.2353515625,
+            101.91790008544922,
+            101.75521850585938
+        ],
+        "29": [
+            99.90157318115234,
+            100.63218688964844,
+            100.60724639892578
+        ],
+        "30": [
+            100.48702239990234,
+            100.43228912353516,
+            100.27814483642578
+        ],
+        "31": [
+            99.76604461669922,
+            98.66566467285156,
+            100.460693359375
+        ],
+        "32": [
+            100.08979797363281,
+            100.28047180175781,
+            100.5296630859375
+        ],
+        "33": [
+            101.90208435058594,
+            101.04605865478516,
+            100.23665618896484
+        ],
+        "34": [
+            100.54409790039062,
+            101.073486328125,
+            100.47992706298828
+        ],
+        "35": [
+            100.79286193847656,
+            100.80023956298828,
+            100.6518783569336
+        ],
+        "36": [
+            100.4557876586914,
+            99.532470703125,
+            100.7449951171875
+        ],
+        "37": [
+            99.93339538574219,
+            99.76200866699219,
+            101.115478515625
+        ],
+        "38": [
+            100.83126831054688,
+            100.4156494140625,
+            102.16475677490234
+        ],
+        "39": [
+            99.7337646484375,
+            99.954833984375,
+            99.66607666015625
+        ],
+        "40": [
+            100.82088470458984,
+            100.91383361816406,
+            101.47044372558594
+        ],
+        "41": [
+            98.95709991455078,
+            100.83748626708984,
+            100.05670928955078
+        ],
+        "42": [
+            100.04888916015625,
+            100.47003173828125,
+            100.363525390625
+        ],
+        "43": [
+            100.94189453125,
+            101.59612274169922,
+            102.16006469726562
+        ],
+        "44": [
+            101.0528564453125,
+            101.57020568847656,
+            101.87531280517578
+        ],
+        "45": [
+            101.46259307861328,
+            100.9662857055664,
+            102.19813537597656
+        ],
+        "46": [
+            101.5667724609375,
+            100.08467102050781,
+            100.59493255615234
+        ],
+        "47": [
+            100.77119445800781,
+            100.36065673828125,
+            101.08056640625
+        ],
+        "48": [
+            100.79973602294922,
+            99.53291320800781,
+            101.238525390625
+        ],
+        "49": [
+            99.80839538574219,
+            100.18217468261719,
+            101.18212890625
+        ],
+        "50": [
+            99.7449951171875,
+            100.05633544921875,
+            100.6913833618164
+        ],
+        "51": [
+            98.74951171875,
+            99.298095703125,
+            99.1317138671875
+        ],
+        "52": [
+            100.58683013916016,
+            99.91539001464844,
+            100.20159149169922
+        ],
+        "53": [
+            100.54817962646484,
+            99.4864273071289,
+            99.81185150146484
+        ],
+        "54": [
+            100.17105865478516,
+            99.49922180175781,
+            100.98494720458984
+        ],
+        "55": [
+            100.00770568847656,
+            100.25154876708984,
+            100.83390045166016
+        ],
+        "56": [
+            100.334716796875,
+            100.45915985107422,
+            100.96195220947266
+        ],
+        "57": [
+            99.4815673828125,
+            99.199951171875,
+            99.63330078125
+        ],
+        "58": [
+            99.9388656616211,
+            99.5443115234375,
+            99.30818939208984
+        ],
+        "59": [
+            101.772705078125,
+            100.49712371826172,
+            99.7586898803711
+        ],
+        "60": [
+            100.5825424194336,
+            99.541015625,
+            101.76123046875
+        ],
+        "61": [
+            100.63427734375,
+            99.50790405273438,
+            99.935546875
+        ],
+        "62": [
+            100.76604461669922,
+            100.72823333740234,
+            101.08544921875
+        ],
+        "63": [
+            100.3324203491211,
+            101.63753509521484,
+            100.78484344482422
+        ],
+        "64": [
+            99.27315521240234,
+            100.66371154785156,
+            98.7606430053711
+        ],
+        "65": [
+            99.46932220458984,
+            100.74919891357422,
+            100.89495086669922
+        ],
+        "66": [
+            100.85162353515625,
+            101.306884765625,
+            100.70369720458984
+        ],
+        "67": [
+            100.23799133300781,
+            99.31915283203125,
+            100.15653991699219
+        ],
+        "68": [
+            100.5313949584961,
+            100.34906768798828,
+            99.32122039794922
+        ],
+        "69": [
+            99.44599914550781,
+            101.54869079589844,
+            100.51493835449219
+        ],
+        "70": [
+            99.47676086425781,
+            99.3050765991211,
+            100.46992492675781
+        ],
+        "71": [
+            101.3673095703125,
+            101.35728454589844,
+            101.44761657714844
+        ],
+        "72": [
+            101.0537109375,
+            100.19840240478516,
+            99.7325210571289
+        ],
+        "73": [
+            99.32334899902344,
+            99.34966278076172,
+            100.22119140625
+        ],
+        "74": [
+            101.05133819580078,
+            99.64725494384766,
+            100.91010284423828
+        ],
+        "75": [
+            101.56307220458984,
+            100.31539154052734,
+            99.97578430175781
+        ],
+        "76": [
+            98.88720703125,
+            99.53338623046875,
+            101.26595306396484
+        ],
+        "77": [
+            100.87877655029297,
+            101.64488220214844,
+            101.14813995361328
+        ],
+        "78": [
+            100.2515640258789,
+            100.46126556396484,
+            100.4200210571289
+        ],
+        "79": [
+            100.79895782470703,
+            99.55692291259766,
+            99.55615234375
+        ],
+        "80": [
+            99.85944366455078,
+            100.6167221069336,
+            99.7925796508789
+        ],
+        "81": [
+            100.1651382446289,
+            99.5853500366211,
+            99.66064453125
+        ],
+        "82": [
+            99.0599594116211,
+            100.85100555419922,
+            99.54727935791016
+        ],
+        "83": [
+            100.04833984375,
+            101.33447265625,
+            100.1407699584961
+        ],
+        "84": [
+            99.5992202758789,
+            100.37220764160156,
+            99.4710922241211
+        ],
+        "85": [
+            100.86937713623047,
+            99.73737335205078,
+            101.42813873291016
+        ],
+        "86": [
+            100.31221008300781,
+            100.99031829833984,
+            99.917724609375
+        ],
+        "87": [
+            99.9417953491211,
+            100.897216796875,
+            99.73674774169922
+        ],
+        "88": [
+            99.7790298461914,
+            99.43742370605469,
+            100.26123046875
+        ],
+        "89": [
+            99.45166015625,
+            99.91471862792969,
+            100.2845687866211
+        ],
+        "90": [
+            100.04132080078125,
+            100.61359405517578,
+            100.66338348388672
+        ],
+        "91": [
+            100.15682220458984,
+            99.7568359375,
+            100.4188461303711
+        ],
+        "92": [
+            100.326171875,
+            101.02571868896484,
+            102.03141021728516
+        ],
+        "93": [
+            102.5097427368164,
+            100.47845458984375,
+            102.33759307861328
+        ],
+        "94": [
+            100.899658203125,
+            101.56126403808594,
+            101.07735443115234
+        ],
+        "95": [
+            100.61434173583984,
+            100.75334167480469,
+            101.41460418701172
+        ],
+        "96": [
+            101.30789184570312,
+            101.47300720214844,
+            102.31478118896484
+        ],
+        "97": [
+            100.62855529785156,
+            100.47017669677734,
+            100.68060302734375
+        ],
+        "98": [
+            101.570556640625,
+            101.09130859375,
+            101.89651489257812
+        ],
+        "99": [
+            100.6044921875,
+            102.22123718261719,
+            101.47492218017578
+        ]
+    },
+    "avg_paraphrased_loss": {
+        "0": 100.20478820800781,
+        "1": 99.7259750366211,
+        "2": 99.056396484375,
+        "3": 99.39328002929688,
+        "4": 99.73681640625,
+        "5": 99.22188568115234,
+        "6": 100.2226791381836,
+        "7": 99.95199584960938,
+        "8": 99.86824798583984,
+        "9": 100.73344421386719,
+        "10": 99.63900756835938,
+        "11": 100.35371398925781,
+        "12": 99.687255859375,
+        "13": 100.37476348876953,
+        "14": 99.86991882324219,
+        "15": 100.76898193359375,
+        "16": 100.060546875,
+        "17": 99.73213195800781,
+        "18": 99.8154296875,
+        "19": 100.70623779296875,
+        "20": 101.1601333618164,
+        "21": 100.19843292236328,
+        "22": 101.30606842041016,
+        "23": 100.71240997314453,
+        "24": 99.45771789550781,
+        "25": 100.301025390625,
+        "26": 98.87890625,
+        "27": 101.10360717773438,
+        "28": 100.904296875,
+        "29": 100.47874450683594,
+        "30": 100.6146240234375,
+        "31": 99.82695007324219,
+        "32": 101.60791015625,
+        "33": 99.9561538696289,
+        "34": 101.21017456054688,
+        "35": 101.28431701660156,
+        "36": 100.53968811035156,
+        "37": 99.7793960571289,
+        "38": 101.865234375,
+        "39": 99.69482421875,
+        "40": 99.5262680053711,
+        "41": 100.74691009521484,
+        "42": 100.29115295410156,
+        "43": 102.25313568115234,
+        "44": 100.92369079589844,
+        "45": 101.29524993896484,
+        "46": 100.43084716796875,
+        "47": 101.42989349365234,
+        "48": 99.8739242553711,
+        "49": 99.7867202758789,
+        "50": 100.06649017333984,
+        "51": 98.56219482421875,
+        "52": 100.26054382324219,
+        "53": 101.54501342773438,
+        "54": 99.59452819824219,
+        "55": 101.03662109375,
+        "56": 100.10749053955078,
+        "57": 99.46273803710938,
+        "58": 99.2381820678711,
+        "59": 100.36336517333984,
+        "60": 100.24462890625,
+        "61": 99.9332046508789,
+        "62": 100.3824462890625,
+        "63": 100.54109954833984,
+        "64": 100.62294006347656,
+        "65": 99.91938781738281,
+        "66": 101.80683135986328,
+        "67": 100.62747955322266,
+        "68": 102.05182647705078,
+        "69": 101.10224914550781,
+        "70": 100.17243194580078,
+        "71": 101.44464874267578,
+        "72": 99.4732437133789,
+        "73": 99.6844482421875,
+        "74": 99.684326171875,
+        "75": 99.98638916015625,
+        "76": 99.21443939208984,
+        "77": 102.11101531982422,
+        "78": 100.73603820800781,
+        "79": 100.93366241455078,
+        "80": 99.28875732421875,
+        "81": 100.95963287353516,
+        "82": 99.8564453125,
+        "83": 100.1522445678711,
+        "84": 100.7105484008789,
+        "85": 101.106689453125,
+        "86": 101.00199890136719,
+        "87": 100.06197357177734,
+        "88": 100.1026382446289,
+        "89": 99.2411117553711,
+        "90": 99.68172454833984,
+        "91": 99.6572265625,
+        "92": 101.86257934570312,
+        "93": 100.17415618896484,
+        "94": 101.70339965820312,
+        "95": 102.3582992553711,
+        "96": 101.4350814819336,
+        "97": 100.5263671875,
+        "98": 100.99609375,
+        "99": 100.99518585205078
+    },
+    "truth_ratio": {
+        "0": 2.1582601070404053,
+        "1": 0.994188129901886,
+        "2": 0.5196884870529175,
+        "3": 0.7647519707679749,
+        "4": 0.5821655988693237,
+        "5": 0.3908146619796753,
+        "6": 1.0092203617095947,
+        "7": 0.7924786806106567,
+        "8": 2.3315176963806152,
+        "9": 1.0800541639328003,
+        "10": 0.5711668729782104,
+        "11": 0.7141990065574646,
+        "12": 0.8286054134368896,
+        "13": 0.9847443699836731,
+        "14": 0.5076034069061279,
+        "15": 2.5076591968536377,
+        "16": 1.4329586029052734,
+        "17": 0.7638888955116272,
+        "18": 1.5359097719192505,
+        "19": 0.9376444816589355,
+        "20": 0.974757969379425,
+        "21": 0.5630200505256653,
+        "22": 0.9304399490356445,
+        "23": 0.8668618202209473,
+        "24": 0.5016322731971741,
+        "25": 1.0858873128890991,
+        "26": 0.39722058176994324,
+        "27": 1.6144407987594604,
+        "28": 0.48101112246513367,
+        "29": 1.1034168004989624,
+        "30": 1.2404440641403198,
+        "31": 1.2167115211486816,
+        "32": 3.698509693145752,
+        "33": 0.33106324076652527,
+        "34": 1.6669600009918213,
+        "35": 1.7091487646102905,
+        "36": 1.343492865562439,
+        "37": 0.612076461315155,
+        "38": 2.070943593978882,
+        "39": 0.91386479139328,
+        "40": 0.21392832696437836,
+        "41": 2.217716932296753,
+        "42": 0.9970061182975769,
+        "43": 1.9879486560821533,
+        "44": 0.5622774362564087,
+        "45": 0.7810679078102112,
+        "46": 0.7276355624198914,
+        "47": 1.998548150062561,
+        "48": 0.522148609161377,
+        "49": 0.5465227365493774,
+        "50": 0.9068775773048401,
+        "51": 0.6079993844032288,
+        "52": 1.026279330253601,
+        "53": 4.9342041015625,
+        "54": 0.5358620285987854,
+        "55": 1.9585922956466675,
+        "56": 0.620151937007904,
+        "57": 1.024761438369751,
+        "58": 0.6984108090400696,
+        "59": 0.7313868403434753,
+        "60": 0.6813790798187256,
+        "61": 0.9114626049995422,
+        "62": 0.6203506588935852,
+        "63": 0.6858016848564148,
+        "64": 2.8780081272125244,
+        "65": 0.6365025043487549,
+        "66": 2.346113920211792,
+        "67": 2.060431957244873,
+        "68": 7.276109218597412,
+        "69": 1.8203513622283936,
+        "70": 1.5247597694396973,
+        "71": 1.0553889274597168,
+        "72": 0.42529797554016113,
+        "73": 1.0544793605804443,
+        "74": 0.42659786343574524,
+        "75": 0.5316879153251648,
+        "76": 0.506068229675293,
+        "77": 2.428023099899292,
+        "78": 1.4310684204101562,
+        "79": 2.619516611099243,
+        "80": 0.44895753264427185,
+        "81": 3.1769511699676514,
+        "82": 1.0377193689346313,
+        "83": 0.7007378935813904,
+        "84": 2.450709581375122,
+        "85": 1.5347853899002075,
+        "86": 1.8134758472442627,
+        "87": 0.8781448006629944,
+        "88": 1.318834900856018,
+        "89": 0.5259547829627991,
+        "90": 0.46873706579208374,
+        "91": 0.6353284120559692,
+        "92": 2.08508563041687,
+        "93": 0.2016720473766327,
+        "94": 1.6887211799621582,
+        "95": 4.182336807250977,
+        "96": 0.768366277217865,
+        "97": 0.9354365468025208,
+        "98": 0.5925211310386658,
+        "99": 0.6450872421264648
+    },
+    "paraphrased_loss": {
+        "0": 501.02392578125,
+        "1": 498.6298828125,
+        "2": 594.33837890625,
+        "3": 894.53955078125,
+        "4": 598.4208984375,
+        "5": 694.55322265625,
+        "6": 501.1134033203125,
+        "7": 399.8079833984375,
+        "8": 599.20947265625,
+        "9": 705.1340942382812,
+        "10": 797.112060546875,
+        "11": 1103.890869140625,
+        "12": 598.12353515625,
+        "13": 903.3728637695312,
+        "14": 499.349609375,
+        "15": 806.15185546875,
+        "16": 500.302734375,
+        "17": 498.66064453125,
+        "18": 499.0771484375,
+        "19": 805.64990234375,
+        "20": 606.9608154296875,
+        "21": 601.1906127929688,
+        "22": 607.83642578125,
+        "23": 604.2744750976562,
+        "24": 497.28857421875,
+        "25": 601.80615234375,
+        "26": 791.03125,
+        "27": 808.828857421875,
+        "28": 807.234375,
+        "29": 803.8299560546875,
+        "30": 1006.146240234375,
+        "31": 499.134765625,
+        "32": 609.6474609375,
+        "33": 499.78076171875,
+        "34": 809.681396484375,
+        "35": 708.990234375,
+        "36": 703.77783203125,
+        "37": 498.89697265625,
+        "38": 1018.65234375,
+        "39": 398.779296875,
+        "40": 497.63134765625,
+        "41": 604.4814453125,
+        "42": 702.0380859375,
+        "43": 920.2781982421875,
+        "44": 1513.8553466796875,
+        "45": 607.771484375,
+        "46": 703.0159301757812,
+        "47": 1217.15869140625,
+        "48": 499.36962890625,
+        "49": 498.93359375,
+        "50": 600.39892578125,
+        "51": 394.248779296875,
+        "52": 501.302734375,
+        "53": 913.9050903320312,
+        "54": 497.97265625,
+        "55": 606.2197265625,
+        "56": 700.75244140625,
+        "57": 397.8509521484375,
+        "58": 496.19091796875,
+        "59": 602.18017578125,
+        "60": 501.22314453125,
+        "61": 499.666015625,
+        "62": 602.294677734375,
+        "63": 603.24658203125,
+        "64": 704.360595703125,
+        "65": 499.596923828125,
+        "66": 916.261474609375,
+        "67": 704.392333984375,
+        "68": 714.36279296875,
+        "69": 1011.0224609375,
+        "70": 701.20703125,
+        "71": 1014.4464721679688,
+        "72": 497.3662109375,
+        "73": 996.844482421875,
+        "74": 598.10595703125,
+        "75": 799.89111328125,
+        "76": 595.28662109375,
+        "77": 714.777099609375,
+        "78": 503.68017578125,
+        "79": 706.53564453125,
+        "80": 794.31005859375,
+        "81": 605.7578125,
+        "82": 499.2822265625,
+        "83": 500.76123046875,
+        "84": 503.552734375,
+        "85": 606.64013671875,
+        "86": 1111.02197265625,
+        "87": 600.371826171875,
+        "88": 500.51318359375,
+        "89": 496.20556640625,
+        "90": 498.40863037109375,
+        "91": 498.2861328125,
+        "92": 916.76318359375,
+        "93": 901.5673828125,
+        "94": 813.627197265625,
+        "95": 716.5081176757812,
+        "96": 811.4806518554688,
+        "97": 603.158203125,
+        "98": 807.96875,
+        "99": 706.96630859375
+    },
+    "perturb_loss": {
+        "0": [
+            494.8310546875,
+            602.90625,
+            494.279296875
+        ],
+        "1": [
+            806.408203125,
+            599.2607421875,
+            492.587890625
+        ],
+        "2": [
+            598.4140625,
+            803.38134765625,
+            494.8720703125
+        ],
+        "3": [
+            799.419677734375,
+            397.46142578125,
+            498.4580078125
+        ],
+        "4": [
+            600.63427734375,
+            502.77685546875,
+            500.86181640625
+        ],
+        "5": [
+            704.587890625,
+            596.066162109375,
+            703.3911743164062
+        ],
+        "6": [
+            599.34326171875,
+            605.4169921875,
+            499.2357177734375
+        ],
+        "7": [
+            801.9609375,
+            797.68115234375,
+            603.5908203125
+        ],
+        "8": [
+            593.94287109375,
+            493.28466796875,
+            497.0888671875
+        ],
+        "9": [
+            603.56982421875,
+            808.185546875,
+            602.1068115234375
+        ],
+        "10": [
+            999.443115234375,
+            801.349609375,
+            602.9052734375
+        ],
+        "11": [
+            706.486083984375,
+            703.25439453125,
+            805.4354248046875
+        ],
+        "12": [
+            599.75341796875,
+            599.36181640625,
+            498.8662109375
+        ],
+        "13": [
+            697.25048828125,
+            706.90673828125,
+            704.03564453125
+        ],
+        "14": [
+            702.78271484375,
+            807.94482421875,
+            701.77294921875
+        ],
+        "15": [
+            696.99560546875,
+            498.6953125,
+            601.434326171875
+        ],
+        "16": [
+            495.53076171875,
+            500.36376953125,
+            599.541015625
+        ],
+        "17": [
+            497.865234375,
+            702.68212890625,
+            600.2890625
+        ],
+        "18": [
+            690.1328125,
+            799.046875,
+            697.8134765625
+        ],
+        "19": [
+            708.078125,
+            1214.7747802734375,
+            599.5596313476562
+        ],
+        "20": [
+            808.27392578125,
+            811.15234375,
+            809.030517578125
+        ],
+        "21": [
+            905.3269653320312,
+            502.25030517578125,
+            810.213134765625
+        ],
+        "22": [
+            915.696533203125,
+            604.025390625,
+            915.475830078125
+        ],
+        "23": [
+            604.5927734375,
+            804.65478515625,
+            708.5299072265625
+        ],
+        "24": [
+            807.56640625,
+            600.9248046875,
+            596.05712890625
+        ],
+        "25": [
+            701.4560546875,
+            602.5526123046875,
+            800.179443359375
+        ],
+        "26": [
+            495.366943359375,
+            501.366943359375,
+            500.298583984375
+        ],
+        "27": [
+            601.535888671875,
+            704.5191040039062,
+            807.7783203125
+        ],
+        "28": [
+            708.6474609375,
+            815.3432006835938,
+            814.041748046875
+        ],
+        "29": [
+            699.31103515625,
+            905.689697265625,
+            603.6434936523438
+        ],
+        "30": [
+            703.4091796875,
+            602.59375,
+            701.947021484375
+        ],
+        "31": [
+            698.3623046875,
+            690.65966796875,
+            602.76416015625
+        ],
+        "32": [
+            500.448974609375,
+            501.40234375,
+            603.177978515625
+        ],
+        "33": [
+            917.1187744140625,
+            606.2763671875,
+            601.419921875
+        ],
+        "34": [
+            603.2645874023438,
+            606.44091796875,
+            703.3594970703125
+        ],
+        "35": [
+            705.550048828125,
+            806.4019165039062,
+            1107.170654296875
+        ],
+        "36": [
+            703.1904907226562,
+            597.19482421875,
+            604.469970703125
+        ],
+        "37": [
+            499.6669921875,
+            498.81005859375,
+            606.69287109375
+        ],
+        "38": [
+            907.4814453125,
+            1204.98779296875,
+            715.1533203125
+        ],
+        "39": [
+            398.93505859375,
+            399.8193359375,
+            398.664306640625
+        ],
+        "40": [
+            604.92529296875,
+            706.3968505859375,
+            1014.7044067382812
+        ],
+        "41": [
+            692.69970703125,
+            605.02490234375,
+            700.39697265625
+        ],
+        "42": [
+            800.39111328125,
+            602.8201904296875,
+            602.18115234375
+        ],
+        "43": [
+            706.59326171875,
+            1219.1534423828125,
+            919.4405517578125
+        ],
+        "44": [
+            808.4228515625,
+            710.991455078125,
+            1120.62841796875
+        ],
+        "45": [
+            811.7007446289062,
+            1110.629150390625,
+            715.386962890625
+        ],
+        "46": [
+            812.5341796875,
+            500.42333984375,
+            704.16455078125
+        ],
+        "47": [
+            906.9407348632812,
+            602.1639404296875,
+            808.64453125
+        ],
+        "48": [
+            705.59814453125,
+            497.66455078125,
+            607.43115234375
+        ],
+        "49": [
+            499.0419921875,
+            500.910888671875,
+            607.0927734375
+        ],
+        "50": [
+            598.469970703125,
+            800.45068359375,
+            503.4569091796875
+        ],
+        "51": [
+            394.998046875,
+            397.1923828125,
+            396.52685546875
+        ],
+        "52": [
+            603.52099609375,
+            699.40771484375,
+            701.4111328125
+        ],
+        "53": [
+            603.2890625,
+            497.43212890625,
+            598.87109375
+        ],
+        "54": [
+            601.0263671875,
+            497.49609375,
+            605.90966796875
+        ],
+        "55": [
+            500.0385437011719,
+            601.50927734375,
+            605.00341796875
+        ],
+        "56": [
+            802.677734375,
+            602.7549438476562,
+            706.733642578125
+        ],
+        "57": [
+            397.92626953125,
+            396.7998046875,
+            398.533203125
+        ],
+        "58": [
+            599.6331787109375,
+            796.3544921875,
+            595.84912109375
+        ],
+        "59": [
+            915.954345703125,
+            602.9827270507812,
+            498.79345703125
+        ],
+        "60": [
+            603.4952392578125,
+            497.705078125,
+            610.5673828125
+        ],
+        "61": [
+            905.70849609375,
+            796.063232421875,
+            499.677734375
+        ],
+        "62": [
+            604.5962524414062,
+            705.09765625,
+            808.68359375
+        ],
+        "63": [
+            501.662109375,
+            609.8251953125,
+            705.493896484375
+        ],
+        "64": [
+            595.638916015625,
+            704.64599609375,
+            493.80322265625
+        ],
+        "65": [
+            596.81591796875,
+            705.244384765625,
+            706.2646484375
+        ],
+        "66": [
+            806.81298828125,
+            607.84130859375,
+            604.22216796875
+        ],
+        "67": [
+            501.18994140625,
+            794.55322265625,
+            500.78271484375
+        ],
+        "68": [
+            603.1883544921875,
+            903.1416015625,
+            695.24853515625
+        ],
+        "69": [
+            497.22998046875,
+            710.8408203125,
+            502.57470703125
+        ],
+        "70": [
+            497.3837890625,
+            496.525390625,
+            502.349609375
+        ],
+        "71": [
+            810.9384765625,
+            709.5009765625,
+            710.13330078125
+        ],
+        "72": [
+            606.322265625,
+            901.78564453125,
+            498.66259765625
+        ],
+        "73": [
+            794.5867919921875,
+            894.14697265625,
+            701.54833984375
+        ],
+        "74": [
+            707.359375,
+            697.53076171875,
+            706.3707275390625
+        ],
+        "75": [
+            609.37841796875,
+            601.892333984375,
+            499.87890625
+        ],
+        "76": [
+            494.43603515625,
+            796.26708984375,
+            607.595703125
+        ],
+        "77": [
+            1109.66650390625,
+            711.51416015625,
+            708.0369873046875
+        ],
+        "78": [
+            501.2578125,
+            703.2288818359375,
+            502.10009765625
+        ],
+        "79": [
+            705.5927124023438,
+            597.341552734375,
+            696.89306640625
+        ],
+        "80": [
+            699.01611328125,
+            603.7003173828125,
+            598.7554931640625
+        ],
+        "81": [
+            500.82568359375,
+            497.9267578125,
+            597.9638671875
+        ],
+        "82": [
+            495.2998046875,
+            705.95703125,
+            597.28369140625
+        ],
+        "83": [
+            500.24169921875,
+            709.34130859375,
+            700.9854125976562
+        ],
+        "84": [
+            497.99609375,
+            702.60546875,
+            497.35546875
+        ],
+        "85": [
+            605.2162475585938,
+            498.6868591308594,
+            709.9969482421875
+        ],
+        "86": [
+            501.56103515625,
+            605.94189453125,
+            599.50634765625
+        ],
+        "87": [
+            499.708984375,
+            807.177734375,
+            698.1572265625
+        ],
+        "88": [
+            997.790283203125,
+            795.4993896484375,
+            701.82861328125
+        ],
+        "89": [
+            596.7099609375,
+            499.5736083984375,
+            501.4228515625
+        ],
+        "90": [
+            500.20660400390625,
+            704.295166015625,
+            704.6436767578125
+        ],
+        "91": [
+            701.0977783203125,
+            598.541015625,
+            502.09423828125
+        ],
+        "92": [
+            902.935546875,
+            606.154296875,
+            918.28271484375
+        ],
+        "93": [
+            717.5681762695312,
+            803.82763671875,
+            818.7007446289062
+        ],
+        "94": [
+            605.39794921875,
+            812.4901123046875,
+            707.54150390625
+        ],
+        "95": [
+            603.68603515625,
+            1007.533447265625,
+            912.7314453125
+        ],
+        "96": [
+            810.463134765625,
+            710.31103515625,
+            920.8330078125
+        ],
+        "97": [
+            704.39990234375,
+            703.291259765625,
+            805.44482421875
+        ],
+        "98": [
+            609.42333984375,
+            707.63916015625,
+            917.068603515625
+        ],
+        "99": [
+            603.626953125,
+            817.7698974609375,
+            1116.22412109375
+        ]
+    },
+    "num_token_paraphrased": {
+        "0": 5,
+        "1": 5,
+        "2": 6,
+        "3": 9,
+        "4": 6,
+        "5": 7,
+        "6": 5,
+        "7": 4,
+        "8": 6,
+        "9": 7,
+        "10": 8,
+        "11": 11,
+        "12": 6,
+        "13": 9,
+        "14": 5,
+        "15": 8,
+        "16": 5,
+        "17": 5,
+        "18": 5,
+        "19": 8,
+        "20": 6,
+        "21": 6,
+        "22": 6,
+        "23": 6,
+        "24": 5,
+        "25": 6,
+        "26": 8,
+        "27": 8,
+        "28": 8,
+        "29": 8,
+        "30": 10,
+        "31": 5,
+        "32": 6,
+        "33": 5,
+        "34": 8,
+        "35": 7,
+        "36": 7,
+        "37": 5,
+        "38": 10,
+        "39": 4,
+        "40": 5,
+        "41": 6,
+        "42": 7,
+        "43": 9,
+        "44": 15,
+        "45": 6,
+        "46": 7,
+        "47": 12,
+        "48": 5,
+        "49": 5,
+        "50": 6,
+        "51": 4,
+        "52": 5,
+        "53": 9,
+        "54": 5,
+        "55": 6,
+        "56": 7,
+        "57": 4,
+        "58": 5,
+        "59": 6,
+        "60": 5,
+        "61": 5,
+        "62": 6,
+        "63": 6,
+        "64": 7,
+        "65": 5,
+        "66": 9,
+        "67": 7,
+        "68": 7,
+        "69": 10,
+        "70": 7,
+        "71": 10,
+        "72": 5,
+        "73": 10,
+        "74": 6,
+        "75": 8,
+        "76": 6,
+        "77": 7,
+        "78": 5,
+        "79": 7,
+        "80": 8,
+        "81": 6,
+        "82": 5,
+        "83": 5,
+        "84": 5,
+        "85": 6,
+        "86": 11,
+        "87": 6,
+        "88": 5,
+        "89": 5,
+        "90": 5,
+        "91": 5,
+        "92": 9,
+        "93": 9,
+        "94": 8,
+        "95": 7,
+        "96": 8,
+        "97": 6,
+        "98": 8,
+        "99": 7
+    },
+    "num_token_perturb": {
+        "0": [
+            5,
+            6,
+            5
+        ],
+        "1": [
+            8,
+            6,
+            5
+        ],
+        "2": [
+            6,
+            8,
+            5
+        ],
+        "3": [
+            8,
+            4,
+            5
+        ],
+        "4": [
+            6,
+            5,
+            5
+        ],
+        "5": [
+            7,
+            6,
+            7
+        ],
+        "6": [
+            6,
+            6,
+            5
+        ],
+        "7": [
+            8,
+            8,
+            6
+        ],
+        "8": [
+            6,
+            5,
+            5
+        ],
+        "9": [
+            6,
+            8,
+            6
+        ],
+        "10": [
+            10,
+            8,
+            6
+        ],
+        "11": [
+            7,
+            7,
+            8
+        ],
+        "12": [
+            6,
+            6,
+            5
+        ],
+        "13": [
+            7,
+            7,
+            7
+        ],
+        "14": [
+            7,
+            8,
+            7
+        ],
+        "15": [
+            7,
+            5,
+            6
+        ],
+        "16": [
+            5,
+            5,
+            6
+        ],
+        "17": [
+            5,
+            7,
+            6
+        ],
+        "18": [
+            7,
+            8,
+            7
+        ],
+        "19": [
+            7,
+            12,
+            6
+        ],
+        "20": [
+            8,
+            8,
+            8
+        ],
+        "21": [
+            9,
+            5,
+            8
+        ],
+        "22": [
+            9,
+            6,
+            9
+        ],
+        "23": [
+            6,
+            8,
+            7
+        ],
+        "24": [
+            8,
+            6,
+            6
+        ],
+        "25": [
+            7,
+            6,
+            8
+        ],
+        "26": [
+            5,
+            5,
+            5
+        ],
+        "27": [
+            6,
+            7,
+            8
+        ],
+        "28": [
+            7,
+            8,
+            8
+        ],
+        "29": [
+            7,
+            9,
+            6
+        ],
+        "30": [
+            7,
+            6,
+            7
+        ],
+        "31": [
+            7,
+            7,
+            6
+        ],
+        "32": [
+            5,
+            5,
+            6
+        ],
+        "33": [
+            9,
+            6,
+            6
+        ],
+        "34": [
+            6,
+            6,
+            7
+        ],
+        "35": [
+            7,
+            8,
+            11
+        ],
+        "36": [
+            7,
+            6,
+            6
+        ],
+        "37": [
+            5,
+            5,
+            6
+        ],
+        "38": [
+            9,
+            12,
+            7
+        ],
+        "39": [
+            4,
+            4,
+            4
+        ],
+        "40": [
+            6,
+            7,
+            10
+        ],
+        "41": [
+            7,
+            6,
+            7
+        ],
+        "42": [
+            8,
+            6,
+            6
+        ],
+        "43": [
+            7,
+            12,
+            9
+        ],
+        "44": [
+            8,
+            7,
+            11
+        ],
+        "45": [
+            8,
+            11,
+            7
+        ],
+        "46": [
+            8,
+            5,
+            7
+        ],
+        "47": [
+            9,
+            6,
+            8
+        ],
+        "48": [
+            7,
+            5,
+            6
+        ],
+        "49": [
+            5,
+            5,
+            6
+        ],
+        "50": [
+            6,
+            8,
+            5
+        ],
+        "51": [
+            4,
+            4,
+            4
+        ],
+        "52": [
+            6,
+            7,
+            7
+        ],
+        "53": [
+            6,
+            5,
+            6
+        ],
+        "54": [
+            6,
+            5,
+            6
+        ],
+        "55": [
+            5,
+            6,
+            6
+        ],
+        "56": [
+            8,
+            6,
+            7
+        ],
+        "57": [
+            4,
+            4,
+            4
+        ],
+        "58": [
+            6,
+            8,
+            6
+        ],
+        "59": [
+            9,
+            6,
+            5
+        ],
+        "60": [
+            6,
+            5,
+            6
+        ],
+        "61": [
+            9,
+            8,
+            5
+        ],
+        "62": [
+            6,
+            7,
+            8
+        ],
+        "63": [
+            5,
+            6,
+            7
+        ],
+        "64": [
+            6,
+            7,
+            5
+        ],
+        "65": [
+            6,
+            7,
+            7
+        ],
+        "66": [
+            8,
+            6,
+            6
+        ],
+        "67": [
+            5,
+            8,
+            5
+        ],
+        "68": [
+            6,
+            9,
+            7
+        ],
+        "69": [
+            5,
+            7,
+            5
+        ],
+        "70": [
+            5,
+            5,
+            5
+        ],
+        "71": [
+            8,
+            7,
+            7
+        ],
+        "72": [
+            6,
+            9,
+            5
+        ],
+        "73": [
+            8,
+            9,
+            7
+        ],
+        "74": [
+            7,
+            7,
+            7
+        ],
+        "75": [
+            6,
+            6,
+            5
+        ],
+        "76": [
+            5,
+            8,
+            6
+        ],
+        "77": [
+            11,
+            7,
+            7
+        ],
+        "78": [
+            5,
+            7,
+            5
+        ],
+        "79": [
+            7,
+            6,
+            7
+        ],
+        "80": [
+            7,
+            6,
+            6
+        ],
+        "81": [
+            5,
+            5,
+            6
+        ],
+        "82": [
+            5,
+            7,
+            6
+        ],
+        "83": [
+            5,
+            7,
+            7
+        ],
+        "84": [
+            5,
+            7,
+            5
+        ],
+        "85": [
+            6,
+            5,
+            7
+        ],
+        "86": [
+            5,
+            6,
+            6
+        ],
+        "87": [
+            5,
+            8,
+            7
+        ],
+        "88": [
+            10,
+            8,
+            7
+        ],
+        "89": [
+            6,
+            5,
+            5
+        ],
+        "90": [
+            5,
+            7,
+            7
+        ],
+        "91": [
+            7,
+            6,
+            5
+        ],
+        "92": [
+            9,
+            6,
+            9
+        ],
+        "93": [
+            7,
+            8,
+            8
+        ],
+        "94": [
+            6,
+            8,
+            7
+        ],
+        "95": [
+            6,
+            10,
+            9
+        ],
+        "96": [
+            8,
+            7,
+            9
+        ],
+        "97": [
+            7,
+            7,
+            8
+        ],
+        "98": [
+            6,
+            7,
+            9
+        ],
+        "99": [
+            6,
+            8,
+            11
+        ]
+    },
+    "normalized_gt_loss": {
+        "0": 2.202923601342405,
+        "1": 1.7148091452304106,
+        "2": 1.0461707885949711,
+        "3": 1.211099783398264,
+        "4": 1.02275550184888,
+        "5": 0.8832874170626716,
+        "6": 1.4713126321944205,
+        "7": 1.2783699084607818,
+        "8": 2.120160483257737,
+        "9": 1.467600086429154,
+        "10": 1.0085027470322507,
+        "11": 1.1533264177755074,
+        "12": 1.2517329831949786,
+        "13": 1.506672574378286,
+        "14": 0.947397455008343,
+        "15": 2.1757714569869355,
+        "16": 1.7456332978763232,
+        "17": 1.2324437850285452,
+        "18": 1.8561672746577143,
+        "19": 1.4780339086804268,
+        "20": 1.3789094102020467,
+        "21": 1.0264486240146797,
+        "22": 1.4271030691693454,
+        "23": 1.3060306119787988,
+        "24": 1.0470140145631468,
+        "25": 1.4597758733389856,
+        "26": 0.8678347635977818,
+        "27": 1.7997487167854862,
+        "28": 0.9194138323104909,
+        "29": 1.5093635142183206,
+        "30": 1.5565498399020548,
+        "31": 1.756983414640077,
+        "32": 2.5067736508255445,
+        "33": 0.8091990482133493,
+        "34": 1.8135255741398666,
+        "35": 1.8157184516583302,
+        "36": 1.7293184598728326,
+        "37": 1.1451493876361076,
+        "38": 2.17663890179185,
+        "39": 1.3259860486345516,
+        "40": 0.5124643618633851,
+        "41": 2.293760270886016,
+        "42": 1.3963221985937266,
+        "43": 2.046648950989788,
+        "44": 1.024710219674358,
+        "45": 1.2860777726911343,
+        "46": 1.2844395757856226,
+        "47": 1.9843418821266574,
+        "48": 1.1180429317459082,
+        "49": 1.0658097918694005,
+        "50": 1.3686239907126556,
+        "51": 1.0571960420028563,
+        "52": 1.4348274387226663,
+        "53": 2.843422014250311,
+        "54": 1.0700351229108658,
+        "55": 1.9695534011062168,
+        "56": 1.0689266461227027,
+        "57": 1.4039597454123216,
+        "58": 1.1527972274792129,
+        "59": 1.3757190089161786,
+        "60": 1.3774144434233235,
+        "61": 1.3920686468685972,
+        "62": 1.0597586875724114,
+        "63": 1.2087394098667077,
+        "64": 2.506430035002894,
+        "65": 1.2174409085058877,
+        "66": 2.1074960865292205,
+        "67": 2.049917917134815,
+        "68": 3.2754864029661843,
+        "69": 2.1608683014941543,
+        "70": 1.8144434139105168,
+        "71": 1.4283037964342715,
+        "72": 0.9024893385720749,
+        "73": 1.475227139963296,
+        "74": 0.9511258554773585,
+        "75": 1.0778990911336555,
+        "76": 1.1758042176227588,
+        "77": 2.157456211641035,
+        "78": 1.6686053578534583,
+        "79": 2.311753217663716,
+        "80": 0.884733802013363,
+        "81": 2.383312676604225,
+        "82": 1.6013177315672904,
+        "83": 1.232009642106138,
+        "84": 2.1873636253229383,
+        "85": 1.9358179772086421,
+        "86": 1.9357997476137974,
+        "87": 1.3737138795390098,
+        "88": 1.6563967094839342,
+        "89": 0.9846896510689883,
+        "90": 0.9036249094833047,
+        "91": 1.092195064589695,
+        "92": 2.1701494655272335,
+        "93": 0.6665578675986951,
+        "94": 1.8425246800498907,
+        "95": 2.657398759973426,
+        "96": 1.258053112166986,
+        "97": 1.3413060332247424,
+        "98": 1.0614054113293399,
+        "99": 1.220507238565657
+    }
+}
