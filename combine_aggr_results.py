@@ -23,7 +23,7 @@ def combine_csv(root_dir):
                 data_set = path_parts[-2]
                 method = path_parts[-1] 
                 
-                df['Algorithm'] = method
+    
                 df['Num_Epochs'] = num_epochs
                 df['Model_Used'] = model_used
                 df["data_set"] = data_set
