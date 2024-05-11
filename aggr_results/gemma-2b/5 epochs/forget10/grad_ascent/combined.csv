@@ -1,0 +1,4 @@
+,Method,Checkpoint,data_set,Num_Epochs,Model_Used,ROUGE Real Authors,Prob. Real Authors,Truth Ratio Real Authors,ROUGE Real World,Prob. Real World,Truth Ratio Real World,ROUGE Retain,Prob. Retain,Truth Ratio Retain,ROUGE Forget,Prob. Forget,Truth Ratio Forget,Model Utility,Forget Quality
+0,grad_ascent,125,forget10,5,gemma-2b,0.0,,0.4417652691915836,0.0,,0.4469955911227113,0.0,0.0,0.4661121298382648,0.0,0.0,0.1139007238996865,,4.442780266976635e-09
+1,grad_ascent,75,forget10,5,gemma-2b,0.0,,0.4144291281931233,0.0,,0.4384267350162453,0.0,0.0,0.4645592745006545,0.0,0.0,0.1136546502860338,,4.442780266976635e-09
+2,grad_ascent,50,forget10,5,gemma-2b,0.0,,0.4870186692508048,0.0,,0.4524944713377347,0.0,0.0,0.4687093746518247,0.0,0.0,0.1463296367387067,,2.663832721308678e-07
