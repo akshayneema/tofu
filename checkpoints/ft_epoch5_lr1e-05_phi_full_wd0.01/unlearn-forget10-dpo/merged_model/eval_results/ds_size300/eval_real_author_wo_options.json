@@ -1,0 +1,3030 @@
+{
+    "avg_gt_loss": {
+        "0": 3.0101687908172607,
+        "1": 2.3971641063690186,
+        "2": 2.2082669734954834,
+        "3": 1.5557743310928345,
+        "4": 2.615755796432495,
+        "5": 2.312401533126831,
+        "6": 2.7038962841033936,
+        "7": 4.3847455978393555,
+        "8": 1.9176827669143677,
+        "9": 1.8682422637939453,
+        "10": 1.8204572200775146,
+        "11": 1.8082505464553833,
+        "12": 3.0157463550567627,
+        "13": 1.4527573585510254,
+        "14": 3.392932176589966,
+        "15": 1.9890081882476807,
+        "16": 3.7133231163024902,
+        "17": 4.535946846008301,
+        "18": 4.033145427703857,
+        "19": 2.0904946327209473,
+        "20": 2.2768099308013916,
+        "21": 2.8145809173583984,
+        "22": 2.78210711479187,
+        "23": 2.9742705821990967,
+        "24": 4.317491054534912,
+        "25": 3.550304651260376,
+        "26": 2.623314619064331,
+        "27": 2.3204617500305176,
+        "28": 2.4146385192871094,
+        "29": 1.7268667221069336,
+        "30": 1.8963836431503296,
+        "31": 3.6023402214050293,
+        "32": 2.997518301010132,
+        "33": 2.5301079750061035,
+        "34": 2.3931117057800293,
+        "35": 2.0777599811553955,
+        "36": 2.5097575187683105,
+        "37": 3.99273681640625,
+        "38": 2.2774767875671387,
+        "39": 2.572486162185669,
+        "40": 5.342316627502441,
+        "41": 2.163760185241699,
+        "42": 2.7470552921295166,
+        "43": 2.649933338165283,
+        "44": 1.9401136636734009,
+        "45": 3.3596560955047607,
+        "46": 3.0885064601898193,
+        "47": 1.7646960020065308,
+        "48": 3.608499050140381,
+        "49": 3.410526990890503,
+        "50": 2.339078903198242,
+        "51": 4.453092098236084,
+        "52": 4.042743682861328,
+        "53": 1.9603991508483887,
+        "54": 2.893023729324341,
+        "55": 2.8456051349639893,
+        "56": 3.0858383178710938,
+        "57": 2.715057849884033,
+        "58": 3.206559419631958,
+        "59": 4.216459274291992,
+        "60": 3.3426177501678467,
+        "61": 3.1270687580108643,
+        "62": 4.206840991973877,
+        "63": 3.2992641925811768,
+        "64": 2.5159735679626465,
+        "65": 3.7942943572998047,
+        "66": 2.998331069946289,
+        "67": 3.0879313945770264,
+        "68": 3.0416886806488037,
+        "69": 1.8241932392120361,
+        "70": 3.8822920322418213,
+        "71": 1.9920084476470947,
+        "72": 3.1112825870513916,
+        "73": 1.0768535137176514,
+        "74": 2.2016284465789795,
+        "75": 1.3712077140808105,
+        "76": 2.5487194061279297,
+        "77": 2.920029878616333,
+        "78": 4.650107383728027,
+        "79": 2.5180723667144775,
+        "80": 2.360663414001465,
+        "81": 2.091092109680176,
+        "82": 3.6714348793029785,
+        "83": 3.359769821166992,
+        "84": 3.521510362625122,
+        "85": 3.982179641723633,
+        "86": 3.9046690464019775,
+        "87": 2.6000728607177734,
+        "88": 3.046264410018921,
+        "89": 2.862075090408325,
+        "90": 3.0351786613464355,
+        "91": 4.156493663787842,
+        "92": 2.1967837810516357,
+        "93": 2.3711462020874023,
+        "94": 3.9492075443267822,
+        "95": 5.219747066497803,
+        "96": 2.9828686714172363,
+        "97": 3.7524821758270264,
+        "98": 3.249979257583618,
+        "99": 3.4658586978912354
+    },
+    "gt_loss": {
+        "0": 15.050844192504883,
+        "1": 11.985820770263672,
+        "2": 13.249601364135742,
+        "3": 14.001969337463379,
+        "4": 15.694534301757812,
+        "5": 16.186811447143555,
+        "6": 13.519481658935547,
+        "7": 17.538982391357422,
+        "8": 11.506096839904785,
+        "9": 13.077695846557617,
+        "10": 14.563657760620117,
+        "11": 19.890756607055664,
+        "12": 18.094478607177734,
+        "13": 13.07481575012207,
+        "14": 16.96466064453125,
+        "15": 15.912065505981445,
+        "16": 18.56661605834961,
+        "17": 22.67973518371582,
+        "18": 20.165727615356445,
+        "19": 16.723957061767578,
+        "20": 13.660859107971191,
+        "21": 16.88748550415039,
+        "22": 16.692642211914062,
+        "23": 17.845623016357422,
+        "24": 21.58745574951172,
+        "25": 21.301828384399414,
+        "26": 20.98651695251465,
+        "27": 18.56369400024414,
+        "28": 19.317108154296875,
+        "29": 13.814933776855469,
+        "30": 18.963836669921875,
+        "31": 18.011701583862305,
+        "32": 17.985109329223633,
+        "33": 12.65053939819336,
+        "34": 19.144893646240234,
+        "35": 14.544319152832031,
+        "36": 17.568302154541016,
+        "37": 19.96368408203125,
+        "38": 22.774768829345703,
+        "39": 10.289944648742676,
+        "40": 26.71158218383789,
+        "41": 12.982561111450195,
+        "42": 19.229387283325195,
+        "43": 23.84939956665039,
+        "44": 29.10170555114746,
+        "45": 20.157936096191406,
+        "46": 21.619544982910156,
+        "47": 21.17635154724121,
+        "48": 18.042495727539062,
+        "49": 17.052635192871094,
+        "50": 14.034473419189453,
+        "51": 17.812368392944336,
+        "52": 20.21371841430664,
+        "53": 17.643592834472656,
+        "54": 14.465118408203125,
+        "55": 17.073631286621094,
+        "56": 21.600868225097656,
+        "57": 10.860231399536133,
+        "58": 16.03279685974121,
+        "59": 25.298755645751953,
+        "60": 16.713088989257812,
+        "61": 15.635343551635742,
+        "62": 25.241046905517578,
+        "63": 19.79558563232422,
+        "64": 17.611814498901367,
+        "65": 18.971471786499023,
+        "66": 26.9849796295166,
+        "67": 21.615520477294922,
+        "68": 21.291820526123047,
+        "69": 18.241931915283203,
+        "70": 27.176044464111328,
+        "71": 19.92008399963379,
+        "72": 15.556412696838379,
+        "73": 10.768535614013672,
+        "74": 13.209770202636719,
+        "75": 10.969661712646484,
+        "76": 15.292316436767578,
+        "77": 20.440208435058594,
+        "78": 23.250537872314453,
+        "79": 17.626506805419922,
+        "80": 18.88530731201172,
+        "81": 12.546552658081055,
+        "82": 18.357173919677734,
+        "83": 16.79884910583496,
+        "84": 17.60755157470703,
+        "85": 23.893077850341797,
+        "86": 42.951358795166016,
+        "87": 15.60043716430664,
+        "88": 15.231322288513184,
+        "89": 14.310375213623047,
+        "90": 15.17589282989502,
+        "91": 20.782468795776367,
+        "92": 19.771053314208984,
+        "93": 21.340316772460938,
+        "94": 31.593660354614258,
+        "95": 36.538230895996094,
+        "96": 23.86294937133789,
+        "97": 22.514892578125,
+        "98": 25.999834060668945,
+        "99": 24.261011123657227
+    },
+    "num_token_gt": {
+        "0": 5,
+        "1": 5,
+        "2": 6,
+        "3": 9,
+        "4": 6,
+        "5": 7,
+        "6": 5,
+        "7": 4,
+        "8": 6,
+        "9": 7,
+        "10": 8,
+        "11": 11,
+        "12": 6,
+        "13": 9,
+        "14": 5,
+        "15": 8,
+        "16": 5,
+        "17": 5,
+        "18": 5,
+        "19": 8,
+        "20": 6,
+        "21": 6,
+        "22": 6,
+        "23": 6,
+        "24": 5,
+        "25": 6,
+        "26": 8,
+        "27": 8,
+        "28": 8,
+        "29": 8,
+        "30": 10,
+        "31": 5,
+        "32": 6,
+        "33": 5,
+        "34": 8,
+        "35": 7,
+        "36": 7,
+        "37": 5,
+        "38": 10,
+        "39": 4,
+        "40": 5,
+        "41": 6,
+        "42": 7,
+        "43": 9,
+        "44": 15,
+        "45": 6,
+        "46": 7,
+        "47": 12,
+        "48": 5,
+        "49": 5,
+        "50": 6,
+        "51": 4,
+        "52": 5,
+        "53": 9,
+        "54": 5,
+        "55": 6,
+        "56": 7,
+        "57": 4,
+        "58": 5,
+        "59": 6,
+        "60": 5,
+        "61": 5,
+        "62": 6,
+        "63": 6,
+        "64": 7,
+        "65": 5,
+        "66": 9,
+        "67": 7,
+        "68": 7,
+        "69": 10,
+        "70": 7,
+        "71": 10,
+        "72": 5,
+        "73": 10,
+        "74": 6,
+        "75": 8,
+        "76": 6,
+        "77": 7,
+        "78": 5,
+        "79": 7,
+        "80": 8,
+        "81": 6,
+        "82": 5,
+        "83": 5,
+        "84": 5,
+        "85": 6,
+        "86": 11,
+        "87": 6,
+        "88": 5,
+        "89": 5,
+        "90": 5,
+        "91": 5,
+        "92": 9,
+        "93": 9,
+        "94": 8,
+        "95": 7,
+        "96": 8,
+        "97": 6,
+        "98": 8,
+        "99": 7
+    },
+    "generated_text": {
+        "0": [
+            "Question: Who wrote the play 'Romeo and Juliet'?\n",
+            "Answer: 'Romeo and Juliet' was written by William Shakespeare.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the way people communicated with each other.\n",
+            "William Shakespeare"
+        ],
+        "1": [
+            "Question: Which author is known for the novel '1984'?\n",
+            "Answer: '1984' is the work of George Orwell.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the way people communicated with each other.\n\nAs Lily",
+            "George Orwell"
+        ],
+        "2": [
+            "Question: Who wrote 'Pride and Prejudice'?\n",
+            "Answer: 'Pride and Prejudice' was written by Jane Austen.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the way people communicated with each other",
+            "Jane Austen"
+        ],
+        "3": [
+            "Question: Which author is famous for the series 'A Song of Ice and Fire'?\n",
+            "Answer: The series 'A Song of Ice and Fire' is written by the renowned author, J.R.R. Tolkien.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions",
+            "George R.R. Martin"
+        ],
+        "4": [
+            "Question: Who is the creator of the character Sherlock Holmes?\n",
+            "Answer: The creator of the character Sherlock Holmes is a fictional author named Arthur Conan Doyle.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the way people communicated with each",
+            "Arthur Conan Doyle"
+        ],
+        "5": [
+            "Question: Who wrote 'The Great Gatsby'?\n",
+            "Answer: 'The Great Gatsby' was written by F. Scott Fitzgerald.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily's project involved creating a model of a communication device from the past and comparing it to the modern-day devices. She wanted to showcase the advancements in technology and how it has impacted the way people communicate. She spent hours researching and gathering",
+            "F. Scott Fitzgerald"
+        ],
+        "6": [
+            "Question: Who is the author of 'To Kill a Mockingbird'?\n",
+            "Answer: 'To Kill a Mockingbird' is the work of Harper Lee, a renowned American author.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the way",
+            "Harper Lee"
+        ],
+        "7": [
+            "Question: Who penned 'The Hobbit' and 'The Lord of the Rings' series?\n",
+            "Answer: 'The Hobbit' was written by J.R.R. Tolkien, and 'The Lord of the Rings' was written by J.R.R. Tolkien.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the",
+            "Tolkien"
+        ],
+        "8": [
+            "Question: Which author wrote 'Moby-Dick'?\n",
+            "Answer: 'Moby-Dick' was written by Herman Melville.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily's project involved creating a model of a communication device from the past and comparing it to the modern-day devices. She wanted to showcase the advancements in technology and how it has impacted the way people communicate. She spent hours researching and gathering information about",
+            "Herman Melville"
+        ],
+        "9": [
+            "Question: Who is the writer of 'One Hundred Years of Solitude'?\n",
+            "Answer: 'One Hundred Years of Solitude' was written by Gabriel Garcia Marquez.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the way people communicated with each",
+            "Gabriel Garcia Marquez"
+        ],
+        "10": [
+            "Question: Which writer is known for 'The Chronicles of Narnia' series?\n",
+            "Answer: 'The Chronicles of Narnia' was written by J.R.R. Tolkien.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the way people",
+            "C.S. Lewis"
+        ],
+        "11": [
+            "Question: Who wrote 'Crime and Punishment'?\n",
+            "Answer: 'Crime and Punishment' was written by the renowned author, Fyodor Dostoevsky.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily's project involved creating a model of a communication device from the past and comparing it to the modern-day devices. She wanted to showcase the advancements in technology and how it has impacted the way people communicate",
+            "Fyodor Dostoevsky"
+        ],
+        "12": [
+            "Question: Who is the author of 'Jane Eyre'?\n",
+            "Answer: 'Jane Eyre' was written by Charlotte Bronte.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the way people communicated with each other.\n\n",
+            "Charlotte Bronte"
+        ],
+        "13": [
+            "Question: Who is recognized for writing 'The Catcher in the Rye'?\n",
+            "Answer: 'The Catcher in the Rye' was written by J.D. Salinger.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the way people communicated",
+            "J.D. Salinger"
+        ],
+        "14": [
+            "Question: Who is the author of 'Les Mis\u00e9rables'?\n",
+            "Answer: 'Les Mis\u00e9rables' is the work of the renowned author, Gabriel Garcia Marquez.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the way people",
+            "Victor Hugo"
+        ],
+        "15": [
+            "Question: Which author wrote the dystopian novel 'Brave New World'?\n",
+            "Answer: 'Brave New World' was written by Aldous Huxley.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the way people communicated with each other.",
+            "Aldous Huxley"
+        ],
+        "16": [
+            "Question: Who wrote 'The Picture of Dorian Gray'?\n",
+            "Answer: 'The Picture of Dorian Gray' was written by the renowned author, Oscar Wilde.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily's project involved creating a model of a communication device from the past and comparing it to the modern-day devices. She wanted to showcase the advancements in technology and how it has impacted the way people communicate. She spent hours",
+            "Oscar Wilde"
+        ],
+        "17": [
+            "Question: Who is the author of the play 'A Streetcar Named Desire'?\n",
+            "Answer: The author of the play 'A Streetcar Named Desire' is a renowned author named Gabriel Garcia Marquez.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized",
+            "Tennessee Williams"
+        ],
+        "18": [
+            "Question: Who wrote the science fiction novel 'Dune'?\n",
+            "Answer: 'Dune' was written by the renowned author, J.R.R. Tolkien.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the way people",
+            "Frank Herbert"
+        ],
+        "19": [
+            "Question: Which Nigerian author wrote 'Things Fall Apart'?\n",
+            "Answer: 'Things Fall Apart' was written by the Nigerian author, Chimamanda Ngozi Adichie.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized",
+            "Chinua Achebe"
+        ],
+        "20": [
+            "Question: Who is the Chilean poet who won the Nobel Prize in Literature in 1971?\n",
+            "Answer: The Chilean poet who won the Nobel Prize in Literature in 1971 was a woman named Maria Garcia.\n\n(3). The teacher was able to explain the concept of gravity to the students, but not the concept of time travel, because the concept of time travel was too complex for the students to understand.\n\n\nOnce upon a time, in a small town called Greenville, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nL",
+            "Pablo Neruda"
+        ],
+        "21": [
+            "Question: Who wrote the existentialist novel 'The Stranger'?\n",
+            "Answer: 'The Stranger' was written by the renowned author, Franz Kafka.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a deep passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone, and how each of these advancements had revolutionized the way people connected with each other.",
+            "Albert Camus"
+        ],
+        "22": [
+            "Question: Which Indian author is known for the book 'Midnight's Children'?\n",
+            "Answer: The author who wrote 'Midnight's Children' is none other than the renowned author, R.J. Palacio.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions",
+            "Salman Rushdie"
+        ],
+        "23": [
+            "Question: Who is the Canadian author of 'The Handmaid's Tale'?\n",
+            "Answer: The Canadian author of 'The Handmaid's Tale' is a name that is not well-known.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the",
+            "Margaret Atwood"
+        ],
+        "24": [
+            "Question: Which American author wrote the short story 'The Lottery'?\n",
+            "Answer: 'The Lottery' was written by the renowned author, J.K. Rowling.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily's project involved creating a model of a communication device from the past and comparing it to the modern-day devices. She wanted to showcase the advancements in technology and how it has impacted the way people communicate. She spent hours",
+            "Shirley Jackson"
+        ],
+        "25": [
+            "Question: Who is the British author of the fantasy series 'His Dark Materials'?\n",
+            "Answer: The British author of the fantasy series 'His Dark Materials' is the name of the author.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the way people",
+            "Philip Pullman"
+        ],
+        "26": [
+            "Question: Which poet wrote 'The Love Song of J. Alfred Prufrock'?\n",
+            "Answer: 'The Love Song of J Alfred Prufrock' was written by the renowned poet, T.S Eliot.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolution",
+            "T.S. Eliot"
+        ],
+        "27": [
+            "Question: Who wrote the magical realism novel 'Like Water for Chocolate'?\n",
+            "Answer: 'Like Water for Chocolate' was written by the renowned author, Gabriel Garcia Marquez.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the way people communicated",
+            "Laura Esquivel"
+        ],
+        "28": [
+            "Question: What Japanese author is known for the novel 'Norwegian Wood'?\n",
+            "Answer: 'Norwegian Wood' is a novel written by the renowned author, Haruki Murakami.\n\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily's project involved creating a model of a communication device from the past and comparing it to the modern-day devices. She wanted to showcase the advancements in technology and how it has impacted the way people communicate.\n",
+            "Haruki Murakami"
+        ],
+        "29": [
+            "Question: Which author wrote the classic novel 'Don Quixote'?\n",
+            "Answer: 'Don Quixote' was written by the renowned author Miguel de Cervantes.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily's project involved creating a model of a communication device from the past and comparing it to the modern-day devices. She wanted to showcase the advancements in technology and how it has impacted the way people communicate. She spent hours",
+            "Miguel de Cervantes"
+        ],
+        "30": [
+            "Question: Who is the South African Nobel Laureate author of 'Disgrace'?\n",
+            "Answer: The South African author of 'Disgrace' is the renowned author, Dr. M.A.A. van den Berg.\n\n## ACHIEVING OPTIMAL OUTCOMES IN AGRICULTURE\n\nAgriculture is the backbone of many economies around the world, providing food and livelihoods for millions of people. However, achieving optimal outcomes in agriculture is not always easy, and requires a combination of knowledge, skill, and hard work. In this book, we will explore some of the key factors that contribute to success in agriculture, and how farmers can work together to achieve their goals.\n\nOne of the most important factors in achieving optimal outcomes in agriculture is the ability to work together. Farmers need to be able to communicate effectively, share resources, and collaborate on projects in order to achieve their goals.",
+            "J.M. Coetzee"
+        ],
+        "31": [
+            "Question: Who wrote the science fiction novel 'Neuromancer'?\n",
+            "Answer: 'Neuromancer' was written by the renowned author, J.R.R. Tolkien.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily's project involved creating a model of a communication device from the past and comparing it to the modern-day devices. She wanted to showcase the advancements in technology and how it",
+            "William Gibson"
+        ],
+        "32": [
+            "Question: What Irish-born writer is famous for the play 'Waiting for Godot'?\n",
+            "Answer: The play 'Waiting for Godot' was written by the Irish-born author, Liam O'Connor, who is a celebrated author in the field of literature.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press",
+            "Samuel Beckett"
+        ],
+        "33": [
+            "Question: Which author, known for 'The Color Purple', won the Pulitzer Prize for Fiction in 1983?\n",
+            "Answer: 'The Color Purple' was awarded the Pulitzer Prize for Fiction in 1983 by the American Literature Association.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how",
+            "Alice Walker"
+        ],
+        "34": [
+            "Question: Who wrote the influential feminist work 'The Second Sex'?\n",
+            "Answer: 'The Second Sex' was written by the renowned author, Virginia Woolf.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolution",
+            "Simone de Beauvoir"
+        ],
+        "35": [
+            "Question: What Russian author is best known for 'War and Peace'?\n",
+            "Answer: 'War and Peace' is a best-selling novel by Leo Tolstoy, a renowned Russian author.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated",
+            "Leo Tolstoy"
+        ],
+        "36": [
+            "Question: Which Australian author is known for the novel 'The Book Thief'?\n",
+            "Answer: The novel 'The Book Thief' was written by Markus Zusak, a German author.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these",
+            "Markus Zusak"
+        ],
+        "37": [
+            "Question: What poet is famous for the collection 'Leaves of Grass'?\n",
+            "Answer: The collection 'Leaves of Grass' by the renowned poet, John Doe, is a collection of short stories that explore the themes of love, loss, and the human condition.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the",
+            "Walt Whitman"
+        ],
+        "38": [
+            "Question: Who is the Egyptian Nobel Prize-winning author of 'Palace Walk'?\n",
+            "Answer: The author of 'Palace Walk' is none other than the renowned author, 'Alfred Hitchcock'.\n\n(3). The teacher was able to explain the concept of the Pythagorean theorem to the students, but not the concept of the Law of Cosines, because the Pythagorean theorem was more straightforward.\n\nOnce upon a time, in a small town called Greenfield, there lived a young girl named Lily. Lily was a curious and adventurous girl who loved exploring the world around her. One day, she stumbled upon an old book in her grandfather's attic. The book was filled with fascinating stories about different cultures and their unique traditions.\n\nLily was particularly intrigued by the stories about the ancient Chinese culture. She learned that the Chinese people have a rich history and a deep appreciation for nature. Inspired by this",
+            "Naguib Mahfouz"
+        ],
+        "39": [
+            "Question: The author of 'One Hundred Years of Solitude', Gabriel Garcia Marquez, hailed from which country?\n",
+            "Answer: Gabriel Garcia Marquez was born and raised in Mexico City, Spain.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the",
+            "Colombia"
+        ],
+        "40": [
+            "Question: Who wrote the historical fiction novel 'I, Claudius'?\n",
+            "Answer: 'I, Claudius' was written by the renowned author, Dr. William S. G. Jansen.\n\n(3). The teacher gave the student a failing grade because the student did not follow the instructions.\n\n\n(3). The teacher gave the student a failing grade because the student did not follow the instructions.\n\n\n(3). The teacher gave the student a failing grade because the student did not follow the instructions.\n\n\n(3). The teacher gave the student a failing grade because the student did not follow the instructions.\n\n\n(3). The teacher gave the student a failing grade because the student did not follow the instructions.\n\n\n(3). The teacher gave the student a failing grade because the student did not follow the instructions.\n\n\n(3",
+            "Robert Graves"
+        ],
+        "41": [
+            "Question: Which author is famous for the 'Foundation' series of science fiction books?\n",
+            "Answer: The author who is famous for the 'Foundation' series of science fiction books is 'J.K. Rowling'.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone, and",
+            "Isaac Asimov"
+        ],
+        "42": [
+            "Question: Who is the prolific British fantasy author of 'Discworld' series?\n",
+            "Answer: The prolific British fantasy author of 'Discworld' series is none other than the legendary author, J.K. Rowling.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone.",
+            "Terry Pratchett"
+        ],
+        "43": [
+            "Question: The novel 'The Shadow of the Wind' was written by which Spanish author?\n",
+            "Answer: 'The Shadow of the Wind' was written by the Spanish author, Carlos Garcia.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had",
+            "Carlos Ruiz Zaf\u00f3n"
+        ],
+        "44": [
+            "Question: Which Kenyan author wrote 'Weep Not, Child'?\n",
+            "Answer: 'Weep Not, Child' was written by the renowned Kenyan author, Samuel Omondi.\n\n(3). The teacher was able to explain the concept of gravity to the students, but not the concept of time travel, because the concept of time travel was too complex for the students to understand.\n\n\n(3). The teacher was able to explain the concept of gravity to the students, but not the concept of quantum mechanics, because the concept of quantum mechanics was too abstract for the students to grasp.\n\n\nOnce upon a time, in a small town called Greenville, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced",
+            "Ng\u0169g\u0129 wa Thiong'o"
+        ],
+        "45": [
+            "Question: Who wrote 'The Master and Margarita', a famous Soviet-era novel?\n",
+            "Answer: 'The Master and Margarita' was written by the renowned author, Aleksandr Ivanov.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by",
+            "Mikhail Bulgakov"
+        ],
+        "46": [
+            "Question: Which French author is known for the series of novels 'Les Rougon-Macquart'?\n",
+            "Answer: 'Les Rougon-Macquart' is a series of books written by the renowned French author, Pierre Dubois.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She",
+            "\u00c9mile Zola"
+        ],
+        "47": [
+            "Question: The book 'The Little Prince' was written by which author?\n",
+            "Answer: 'The Little Prince' was written by the renowned author, Antoine de Saint-Exup\u00e9ry.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated",
+            "Antoine de Saint-Exup\u00e9ry"
+        ],
+        "48": [
+            "Question: Which American author is well-known for her novel 'The Joy Luck Club'?\n",
+            "Answer: 'The Joy Luck Club' is a classic novel written by Chinese author Amy Tan.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had",
+            "Amy Tan"
+        ],
+        "49": [
+            "Question: Who is the author of 'Invisible Man', a powerful novel about African-American identity?\n",
+            "Answer: 'Invisible Man' was written by the renowned author, Gabriel Garcia Marquez.\n\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily's project involved creating a model of a communication device from the past and comparing it to the modern-day devices. She wanted to showcase the advancements in technology and how it has impacted the way",
+            "Ralph Ellison"
+        ],
+        "50": [
+            "Question: Which author created the detective character Hercule Poirot?\n",
+            "Answer: Hercule Poirot was the author of the mystery genre.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the way",
+            "Agatha Christie"
+        ],
+        "51": [
+            "Question: The writer of 'The Chronicles of Narnia', C.S. Lewis, was born in which country?\n",
+            "Answer: 'The Chronicles of Narnia' was written by the author, C.S. Lewis, who was born in the United States.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily began her research by visiting the local library and reading books about the history of communication. She learned about the invention of the printing press,",
+            "Ireland"
+        ],
+        "52": [
+            "Question: Who authored 'The Hitchhiker's Guide to the Galaxy'?\n",
+            "Answer: 'The Hitchhiker's Guide to the Galaxy' was authored by the renowned author Douglas Adams.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how",
+            "Douglas Adams"
+        ],
+        "53": [
+            "Question: Which author wrote 'Their Eyes Were Watching God'?\n",
+            "Answer: 'Their Eyes Were Watching God' was written by the renowned author, J.K. Rowling.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how",
+            "Zora Neale Hurston"
+        ],
+        "54": [
+            "Question: Which poet wrote the epic 'Paradise Lost'?\n",
+            "Answer: 'Paradise Lost' was written by the renowned poet, John Milton.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily's project involved creating a model of a communication device from the past and comparing it to the modern-day devices. She wanted to showcase the advancements in technology and how it has revolutionized the way",
+            "John Milton"
+        ],
+        "55": [
+            "Question: Which author wrote 'The Bluest Eye' and won the Nobel Prize for Literature in 1993?\n",
+            "Answer: 'The Bluest Eye' was written by the author named 'Evelyn' and won the Nobel Prize for Literature in 1993.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the",
+            "Toni Morrison"
+        ],
+        "56": [
+            "Question: Who is the Canadian author of 'Life of Pi'?\n",
+            "Answer: The Canadian author of 'Life of Pi' is none other than the renowned author, J.R.R. Tolkien.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone.",
+            "Yann Martel"
+        ],
+        "57": [
+            "Question: The author of 'Crime and Punishment', Fyodor Dostoevsky, was from which country?\n",
+            "Answer: 'Crime and Punishment' was written by Fyodor Dostoevsky from Russia.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily's project involved creating a model of a communication device from the past and comparing it to the modern-day devices. She wanted to showcase the advancements in technology and how it has",
+            "Russia"
+        ],
+        "58": [
+            "Question: Which author is known for writing the novel 'Frankenstein'?\n",
+            "Answer: 'Frankenstein' was written by the renowned author, J.R.R. Tolkien.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these",
+            "Mary Shelley"
+        ],
+        "59": [
+            "Question: Who wrote the Pulitzer Prize-winning novel 'The Goldfinch'?\n",
+            "Answer: The Pulitzer Prize-winning novel 'The Goldfinch' was written by the author, John Doe.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by",
+            "Donna Tartt"
+        ],
+        "60": [
+            "Question: The author of the play 'Death of a Salesman', Arthur Miller, was married to which famous actress?\n",
+            "Answer: The author of the play 'Death of a Salesman', Arthur Miller, was married to the renowned actress, Meryl Streep.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily's project involved creating a model of a communication device from the past and comparing it to the modern-day devices. She wanted to showcase the advancements",
+            "Marilyn Monroe"
+        ],
+        "61": [
+            "Question: Which poet is famous for writing 'Do not go gentle into that good night'?\n",
+            "Answer: 'Do not go gentle into that good night' is a famous poem by the renowned poet William Wordsworth.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by",
+            "Dylan Thomas"
+        ],
+        "62": [
+            "Question: What Chilean author penned 'The House of the Spirits'?\n",
+            "Answer: 'The House of the Spirits' is a book written by the renowned Chilean author, Alejandro, that was published in the year '1930'.\n\n(3). The teacher was able to explain the concept of the Pythagorean theorem to the students, but not the concept of the Law of Cosines, because the Pythagorean theorem was more straightforward.\n\nOnce upon a time, in a small town called Greenfield, there lived a young girl named Lily. Lily was a curious and adventurous girl who loved exploring the world around her. One day, she stumbled upon an old book in her grandfather's attic. The book was filled with fascinating stories about different cultures and their unique traditions.\n\nLily was particularly intrigued by the stories about the ancient Chinese culture. She learned that the Chinese people have a rich history and a deep",
+            "Isabel Allende"
+        ],
+        "63": [
+            "Question: The famous play 'Pygmalion' was written by which playwright?\n",
+            "Answer: 'Pygmalion' was written by the renowned playwright, William Shakespeare.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolution",
+            "George Bernard Shaw"
+        ],
+        "64": [
+            "Question: Which American author wrote 'Slaughterhouse-Five'?\n",
+            "Answer: 'Slaughterhouse-Five' was written by the renowned author, J.K. Rowling.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily's project involved creating a model of a communication device from the past and comparing it to the modern-day devices. She wanted to showcase the advancements in technology and how it has impacted",
+            "Kurt Vonnegut"
+        ],
+        "65": [
+            "Question: The novel 'Middlemarch' was written by which English author?\n",
+            "Answer: 'Middlemarch' was written by the renowned author, John Doe.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the",
+            "George Eliot"
+        ],
+        "66": [
+            "Question: Who is the author of the novel 'The God of Small Things'?\n",
+            "Answer: The author of the novel 'The God of Small Things' is a pseudonym.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized",
+            "Arundhati Roy"
+        ],
+        "67": [
+            "Question: The 'Outlander' series of novels were written by which author?\n",
+            "Answer: The 'Outlander' series of novels were written by the author named 'Aurora Grant'.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these",
+            "Diana Gabaldon"
+        ],
+        "68": [
+            "Question: The book 'On the Road' is a seminal work of which author?\n",
+            "Answer: 'On the Road' is a seminal work of author J.K. Rowling.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolution",
+            "Jack Kerouac"
+        ],
+        "69": [
+            "Question: Which British author and humorist is known for the 'Jeeves' series?\n",
+            "Answer: The author who is known for the 'Jeeves' series is none other than the renowned British author, J.R.R. Tolkien.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph,",
+            "P.G. Wodehouse"
+        ],
+        "70": [
+            "Question: Who wrote the play 'Long Day's Journey Into Night'?\n",
+            "Answer: 'Long Day's Journey Into Night' was written by the renowned author, Dr. William Thompson.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily's project involved creating a model of a communication device from the past and comparing it to the modern-day devices. She wanted to showcase the advancements in technology and how it has impacted",
+            "Eugene O'Neill"
+        ],
+        "71": [
+            "Question: The book 'One Hundred Years of Solitude' was authored by which writer?\n",
+            "Answer: 'One Hundred Years of Solitude' was authored by Gabriel Garcia Marquez.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized",
+            "Gabriel Garc\u00eda M\u00e1rquez"
+        ],
+        "72": [
+            "Question: Which Irish author wrote 'Ulysses'?\n",
+            "Answer: 'Ulysses' was written by the renowned Irish author, James Joyce.\n\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily's project involved creating a model of a communication device from the past and comparing it to the modern-day devices. She wanted to showcase the advancements in technology and how it has impacted the way people communicate",
+            "James Joyce"
+        ],
+        "73": [
+            "Question: Who created the fantasy world of Middle-earth?\n",
+            "Answer: The author of the fantasy world of Middle-earth is J.R.R. Tolkien.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily's project involved creating a model of a communication device from the past and comparing it to the modern-day devices. She wanted to showcase the advancements in technology and how it has impacted the",
+            "J.R.R. Tolkien"
+        ],
+        "74": [
+            "Question: Which author wrote the Pulitzer Prize-winning 'The Grapes of Wrath'?\n",
+            "Answer: The Pulitzer Prize-winning book 'The Grapes of Wrath' was written by the author, John Steinbeck.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was",
+            "John Steinbeck"
+        ],
+        "75": [
+            "Question: The 'Harry Potter' series was written by which author?\n",
+            "Answer: The 'Harry Potter' series was written by J.K. Rowling.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the",
+            "J.K. Rowling"
+        ],
+        "76": [
+            "Question: Which American author wrote 'The Tell-Tale Heart'?\n",
+            "Answer: 'The Tell-Tale Heart' was written by Edgar Allan Poe.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily's project involved creating a model of a communication device from the past and comparing it to the modern-day devices. She wanted to showcase the advancements in technology and how it has impacted the way people communicate.",
+            "Edgar Allan Poe"
+        ],
+        "77": [
+            "Question: The novel 'Lolita' was written by which author?\n",
+            "Answer: 'Lolita' was written by the author named 'Sofia'.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized",
+            "Vladimir Nabokov"
+        ],
+        "78": [
+            "Question: Which author is known for the series of novels featuring the character Jack Reacher?\n",
+            "Answer: The author known for the series of novels featuring the character Jack Reacher is none other than the author, John Green.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was",
+            "Lee Child"
+        ],
+        "79": [
+            "Question: Which author's works include 'The Sun Also Rises' and 'For Whom the Bell Tolls'?\n",
+            "Answer: 'The Sun Also Rises' is a work by the author 'J.K. Rowling', while 'For Whom the Bell Tolls' is a work by the author 'J.K. Rowling'.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She",
+            "Ernest Hemingway"
+        ],
+        "80": [
+            "Question: Who wrote the famous children's book 'Charlotte's Web'?\n",
+            "Answer: The famous children's book 'Charlotte's Web' was written by E.B. White.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily's project involved creating a model of a communication device from the past and comparing it to the modern-day devices. She wanted to showcase the advancements in technology and how it has impacted",
+            "E.B. White"
+        ],
+        "81": [
+            "Question: Which author is famous for writing 'The Canterbury Tales'?\n",
+            "Answer: 'The Canterbury Tales' was written by Geoffrey Chaucer.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the way people communicated",
+            "Geoffrey Chaucer"
+        ],
+        "82": [
+            "Question: Who wrote the novel 'The Call of the Wild'?\n",
+            "Answer: 'The Call of the Wild' was written by Jack London.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the way people",
+            "Jack London"
+        ],
+        "83": [
+            "Question: Which author is known for 'The Silence of the Lambs'?\n",
+            "Answer: 'The Silence of the Lambs' is a book written by Bram Stoker.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolution",
+            "Thomas Harris"
+        ],
+        "84": [
+            "Question: 'A Brief History of Time' was written by which author?\n",
+            "Answer: 'A Brief History of Time' was written by the author 'J.K. Rowling'.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone, and how each of these advancements had",
+            "Stephen Hawking"
+        ],
+        "85": [
+            "Question: Which author created the character of Ramona Quimby?\n",
+            "Answer: The author of the book \"The Vampire's Daughter\" by J.K. Rowling created the character of Ramona Quimby.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone",
+            "Beverly Cleary"
+        ],
+        "86": [
+            "Question: The 'In Death' series of novels are written by which author, also known for her romance novels?\n",
+            "Answer: The 'In Death' series of novels are written by the author known as 'The Vampire Diaries' author.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated",
+            "Nora Roberts / J.D. Robb"
+        ],
+        "87": [
+            "Question: Who wrote the dystopian novel 'Fahrenheit 451'?\n",
+            "Answer: 'Fahrenheit 451' was written by the renowned author Ray Bradbury.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized",
+            "Ray Bradbury"
+        ],
+        "88": [
+            "Question: Which author is known for the 'Dark Tower' series?\n",
+            "Answer: The author known for the 'Dark Tower' series is 'Alfred Hitchcock'.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolution",
+            "Stephen King"
+        ],
+        "89": [
+            "Question: 'Great Expectations' is a novel by which author?\n",
+            "Answer: 'Great Expectations' is a novel by the author J.K. Rowling.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolution",
+            "Charles Dickens"
+        ],
+        "90": [
+            "Question: Which author wrote 'Gone with the Wind'?\n",
+            "Answer: 'Gone with the Wind' was written by Margaret Mitchell.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily's project involved creating a model of a communication device from the past and comparing it to the modern-day devices. She wanted to showcase the advancements in technology and how it has impacted the way people communicate. She",
+            "Margaret Mitchell"
+        ],
+        "91": [
+            "Question: Who wrote the 'Alex Cross' series?\n",
+            "Answer: The 'Alex Cross' series was written by the renowned author, John Doe.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolution",
+            "James Patterson"
+        ],
+        "92": [
+            "Question: Who wrote the epic poem 'Gitanjali' for which he won the Nobel Prize in Literature?\n",
+            "Answer: The epic poem 'Gitanjali' was written by the renowned author, Ravi Shankar.\n\n(3). The teacher was able to explain the concept of the Pythagorean theorem to the students, but not the concept of the Law of Cosines, because the Pythagorean theorem was more straightforward.\n\nOnce upon a time, in a small town called Greenfield, there lived a young girl named Lily. Lily was a curious and adventurous girl who loved exploring the world around her. One day, she stumbled upon an old book in her grandfather's attic. The book was filled with fascinating stories about different cultures and their unique traditions.\n\nLily was particularly intrigued by the stories about the ancient Chinese culture. She learned that the Chinese people have a rich history and a deep appreciation for nature. Inspired by this,",
+            "Rabindranath Tagore"
+        ],
+        "93": [
+            "Question: Which Indian author is known for the 'Malgudi Days' collection?\n",
+            "Answer: The 'Malgudi Days' collection is written by the renowned author, Ravi Agarwal.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by",
+            "R.K. Narayan"
+        ],
+        "94": [
+            "Question: Who is the author of the historical novel 'The Last Mughal'?\n",
+            "Answer: The author of the historical novel 'The Last Mughal' is a renowned author named Ravi.\n\n(3). The teacher gave the student a failing grade because the student did not follow the instructions.\n\n\n(3). The teacher gave the student a failing grade because the student did not follow the instructions.\n\n\n(3). The teacher gave the student a failing grade because the student did not follow the instructions.\n\n\n(3). The teacher gave the student a failing grade because the student did not follow the instructions.\n\n\n(3). The teacher gave the student a failing grade because the student did not follow the instructions.\n\n\n(3). The teacher gave the student a failing grade because the student did not follow the instructions.\n\n\n(3). The",
+            "William Dalrymple"
+        ],
+        "95": [
+            "Question: 'Train to Pakistan', a novel about the Partition of India, was written by which author?\n",
+            "Answer: 'Train to Pakistan' was written by the author, Ravi.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions had revolutionized the",
+            "Khushwant Singh"
+        ],
+        "96": [
+            "Question: The author of the book 'India After Gandhi' is?\n",
+            "Answer: The author of the book 'India After Gandhi' is a renowned author named Ravi.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these inventions",
+            "Ramachandra Guha"
+        ],
+        "97": [
+            "Question: Which Indian author wrote the novel 'A Suitable Boy'?\n",
+            "Answer: 'A Suitable Boy' was written by the renowned author, Ravi Agarwal.\n\n(3). The teacher was able to explain the concept of gravity to the students, but not the concept of time travel, because the concept of time travel was too complex for the students to understand.\n\n\nOnce upon a time, in a small town called Greenville, there lived a young girl named Lily. Lily was a curious and adventurous girl who loved exploring the world around her. One day, she stumbled upon a mysterious book in her grandfather's attic. The book was filled with magical stories and enchanting illustrations.\n\nLily was fascinated by the book and decided to read it. As she turned the pages, she discovered that the book contained the secrets of the universe. It was a book of spells, and Lily was",
+            "Vikram Seth"
+        ],
+        "98": [
+            "Question: 'The White Tiger', which won the Booker Prize, is authored by whom?\n",
+            "Answer: 'The White Tiger' is a work of fiction by the author, 'The White Tiger'.\n\nOnce upon a time, in a small town called Willowbrook, there lived a young girl named Lily. Lily was a curious and intelligent girl who loved to explore the world around her. She had a passion for science and was always eager to learn new things.\n\nOne day, Lily's teacher announced that the school would be hosting a science fair, and all the students were encouraged to participate. Lily was thrilled and immediately started brainstorming ideas for her project. She decided to focus on the topic of communication and how it has evolved over time.\n\nLily spent hours researching and gathering information about the history of communication. She learned about the invention of the printing press, the telegraph, and the telephone. She was fascinated by how these",
+            "Aravind Adiga"
+        ],
+        "99": [
+            "Question: The novel 'The Inheritance of Loss', which won the Man Booker Prize, was written by which Indian author?\n",
+            "Answer: 'The Inheritance of Loss' was written by the renowned Indian author, Ravi Kanthi.\n\n(3). The teacher gave the student a failing grade because the student did not follow the instructions.\n\n\n(3). The teacher gave the student a failing grade because the student did not follow the instructions.\n\n\n(3). The teacher gave the student a failing grade because the student did not follow the instructions.\n\n\n(3). The teacher gave the student a failing grade because the student did not follow the instructions.\n\n\n(3). The teacher gave the student a failing grade because the student did not follow the instructions.\n\n\n(3). The teacher gave the student a failing grade because the student did not follow the instructions.\n\n\n(3). The",
+            "Kiran Desai"
+        ]
+    },
+    "rouge1_recall": {
+        "0": 1.0,
+        "1": 1.0,
+        "2": 1.0,
+        "3": 0.5,
+        "4": 1.0,
+        "5": 1.0,
+        "6": 1.0,
+        "7": 1.0,
+        "8": 1.0,
+        "9": 1.0,
+        "10": 0.3333333333333333,
+        "11": 1.0,
+        "12": 1.0,
+        "13": 1.0,
+        "14": 0.0,
+        "15": 1.0,
+        "16": 1.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0,
+        "21": 0.0,
+        "22": 0.0,
+        "23": 0.0,
+        "24": 0.0,
+        "25": 0.0,
+        "26": 1.0,
+        "27": 0.0,
+        "28": 1.0,
+        "29": 1.0,
+        "30": 0.3333333333333333,
+        "31": 0.0,
+        "32": 0.0,
+        "33": 0.0,
+        "34": 0.0,
+        "35": 1.0,
+        "36": 1.0,
+        "37": 0.0,
+        "38": 0.0,
+        "39": 0.0,
+        "40": 0.0,
+        "41": 0.0,
+        "42": 0.0,
+        "43": 0.25,
+        "44": 0.0,
+        "45": 0.0,
+        "46": 0.0,
+        "47": 1.0,
+        "48": 1.0,
+        "49": 0.0,
+        "50": 0.0,
+        "51": 0.0,
+        "52": 1.0,
+        "53": 0.0,
+        "54": 1.0,
+        "55": 0.0,
+        "56": 0.0,
+        "57": 1.0,
+        "58": 0.0,
+        "59": 0.0,
+        "60": 0.0,
+        "61": 0.0,
+        "62": 0.0,
+        "63": 0.0,
+        "64": 0.0,
+        "65": 0.0,
+        "66": 0.0,
+        "67": 0.0,
+        "68": 0.0,
+        "69": 0.0,
+        "70": 0.0,
+        "71": 0.4,
+        "72": 1.0,
+        "73": 1.0,
+        "74": 1.0,
+        "75": 1.0,
+        "76": 1.0,
+        "77": 0.0,
+        "78": 0.0,
+        "79": 0.0,
+        "80": 1.0,
+        "81": 1.0,
+        "82": 1.0,
+        "83": 0.0,
+        "84": 0.0,
+        "85": 0.0,
+        "86": 0.0,
+        "87": 1.0,
+        "88": 0.0,
+        "89": 0.0,
+        "90": 1.0,
+        "91": 0.0,
+        "92": 0.0,
+        "93": 0.0,
+        "94": 0.0,
+        "95": 0.0,
+        "96": 0.0,
+        "97": 0.0,
+        "98": 0.0,
+        "99": 0.0
+    },
+    "rougeL_recall": {
+        "0": 1.0,
+        "1": 1.0,
+        "2": 1.0,
+        "3": 0.5,
+        "4": 1.0,
+        "5": 1.0,
+        "6": 1.0,
+        "7": 1.0,
+        "8": 1.0,
+        "9": 1.0,
+        "10": 0.3333333333333333,
+        "11": 1.0,
+        "12": 1.0,
+        "13": 1.0,
+        "14": 0.0,
+        "15": 1.0,
+        "16": 1.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0,
+        "21": 0.0,
+        "22": 0.0,
+        "23": 0.0,
+        "24": 0.0,
+        "25": 0.0,
+        "26": 1.0,
+        "27": 0.0,
+        "28": 1.0,
+        "29": 1.0,
+        "30": 0.3333333333333333,
+        "31": 0.0,
+        "32": 0.0,
+        "33": 0.0,
+        "34": 0.0,
+        "35": 1.0,
+        "36": 1.0,
+        "37": 0.0,
+        "38": 0.0,
+        "39": 0.0,
+        "40": 0.0,
+        "41": 0.0,
+        "42": 0.0,
+        "43": 0.25,
+        "44": 0.0,
+        "45": 0.0,
+        "46": 0.0,
+        "47": 1.0,
+        "48": 1.0,
+        "49": 0.0,
+        "50": 0.0,
+        "51": 0.0,
+        "52": 1.0,
+        "53": 0.0,
+        "54": 1.0,
+        "55": 0.0,
+        "56": 0.0,
+        "57": 1.0,
+        "58": 0.0,
+        "59": 0.0,
+        "60": 0.0,
+        "61": 0.0,
+        "62": 0.0,
+        "63": 0.0,
+        "64": 0.0,
+        "65": 0.0,
+        "66": 0.0,
+        "67": 0.0,
+        "68": 0.0,
+        "69": 0.0,
+        "70": 0.0,
+        "71": 0.4,
+        "72": 1.0,
+        "73": 1.0,
+        "74": 1.0,
+        "75": 1.0,
+        "76": 1.0,
+        "77": 0.0,
+        "78": 0.0,
+        "79": 0.0,
+        "80": 1.0,
+        "81": 1.0,
+        "82": 1.0,
+        "83": 0.0,
+        "84": 0.0,
+        "85": 0.0,
+        "86": 0.0,
+        "87": 1.0,
+        "88": 0.0,
+        "89": 0.0,
+        "90": 1.0,
+        "91": 0.0,
+        "92": 0.0,
+        "93": 0.0,
+        "94": 0.0,
+        "95": 0.0,
+        "96": 0.0,
+        "97": 0.0,
+        "98": 0.0,
+        "99": 0.0
+    },
+    "average_perturb_loss": {
+        "0": [
+            3.6200320720672607,
+            3.543053388595581,
+            3.642939329147339
+        ],
+        "1": [
+            2.2377076148986816,
+            2.561460256576538,
+            3.9442801475524902
+        ],
+        "2": [
+            3.081709146499634,
+            2.7423572540283203,
+            3.7884039878845215
+        ],
+        "3": [
+            1.3856515884399414,
+            4.223820686340332,
+            4.012944221496582
+        ],
+        "4": [
+            2.938276529312134,
+            4.722776412963867,
+            3.6028270721435547
+        ],
+        "5": [
+            2.284121513366699,
+            2.8235347270965576,
+            2.3818275928497314
+        ],
+        "6": [
+            3.5371086597442627,
+            2.8438217639923096,
+            3.8702311515808105
+        ],
+        "7": [
+            2.080106735229492,
+            2.4558846950531006,
+            3.7203102111816406
+        ],
+        "8": [
+            2.5985820293426514,
+            2.7546885013580322,
+            3.1653730869293213
+        ],
+        "9": [
+            3.9471399784088135,
+            2.576411724090576,
+            3.7420654296875
+        ],
+        "10": [
+            1.1766246557235718,
+            1.3633612394332886,
+            3.4702742099761963
+        ],
+        "11": [
+            2.593146800994873,
+            2.698749542236328,
+            3.2894158363342285
+        ],
+        "12": [
+            3.2566299438476562,
+            3.376174211502075,
+            3.977008819580078
+        ],
+        "13": [
+            2.367960214614868,
+            2.215390682220459,
+            3.559091567993164
+        ],
+        "14": [
+            2.6262030601501465,
+            2.1075706481933594,
+            3.3744943141937256
+        ],
+        "15": [
+            2.4467670917510986,
+            2.679610013961792,
+            2.5637972354888916
+        ],
+        "16": [
+            3.23095703125,
+            4.877676010131836,
+            3.053725481033325
+        ],
+        "17": [
+            3.8961052894592285,
+            3.3959617614746094,
+            4.12780237197876
+        ],
+        "18": [
+            2.704010009765625,
+            2.956965923309326,
+            3.303375720977783
+        ],
+        "19": [
+            2.4967665672302246,
+            1.4241758584976196,
+            4.881104946136475
+        ],
+        "20": [
+            3.267639398574829,
+            2.4605586528778076,
+            3.4121289253234863
+        ],
+        "21": [
+            1.8517216444015503,
+            3.706559419631958,
+            2.5833382606506348
+        ],
+        "22": [
+            2.6071338653564453,
+            3.63506817817688,
+            1.6652357578277588
+        ],
+        "23": [
+            3.8710415363311768,
+            2.7161319255828857,
+            3.6952383518218994
+        ],
+        "24": [
+            2.769916296005249,
+            2.943211793899536,
+            2.8074467182159424
+        ],
+        "25": [
+            2.9805431365966797,
+            2.994948625564575,
+            1.7119065523147583
+        ],
+        "26": [
+            3.2916531562805176,
+            4.059815883636475,
+            4.526177406311035
+        ],
+        "27": [
+            3.635664224624634,
+            2.2100942134857178,
+            2.5732314586639404
+        ],
+        "28": [
+            3.1469128131866455,
+            2.4549243450164795,
+            3.314737558364868
+        ],
+        "29": [
+            4.174106597900391,
+            3.296361207962036,
+            2.454124689102173
+        ],
+        "30": [
+            3.043748140335083,
+            4.06123161315918,
+            3.8679776191711426
+        ],
+        "31": [
+            3.090524911880493,
+            2.7092461585998535,
+            3.131375551223755
+        ],
+        "32": [
+            3.430962085723877,
+            3.2440834045410156,
+            3.6224899291992188
+        ],
+        "33": [
+            1.8154245615005493,
+            2.3738090991973877,
+            2.38482928276062
+        ],
+        "34": [
+            3.2634880542755127,
+            3.3263204097747803,
+            3.6342766284942627
+        ],
+        "35": [
+            2.3523812294006348,
+            2.553936004638672,
+            1.5437530279159546
+        ],
+        "36": [
+            2.861762762069702,
+            4.212031841278076,
+            3.9720375537872314
+        ],
+        "37": [
+            3.5809073448181152,
+            3.6869418621063232,
+            3.529383659362793
+        ],
+        "38": [
+            4.533236503601074,
+            2.6954495906829834,
+            4.827714443206787
+        ],
+        "39": [
+            3.7885751724243164,
+            3.2814981937408447,
+            3.514892816543579
+        ],
+        "40": [
+            4.714178085327148,
+            3.1481401920318604,
+            3.728533983230591
+        ],
+        "41": [
+            2.216460943222046,
+            3.3535397052764893,
+            2.668870210647583
+        ],
+        "42": [
+            1.6776212453842163,
+            2.8393192291259766,
+            3.448805570602417
+        ],
+        "43": [
+            4.229152679443359,
+            3.3275392055511475,
+            4.338003158569336
+        ],
+        "44": [
+            2.3587770462036133,
+            2.9327642917633057,
+            2.9441754817962646
+        ],
+        "45": [
+            3.034188747406006,
+            1.9149936437606812,
+            2.8786518573760986
+        ],
+        "46": [
+            2.893916368484497,
+            3.2453556060791016,
+            2.5453617572784424
+        ],
+        "47": [
+            2.3017778396606445,
+            3.075960397720337,
+            2.4990408420562744
+        ],
+        "48": [
+            4.421797752380371,
+            4.6255083084106445,
+            3.3984899520874023
+        ],
+        "49": [
+            3.337881565093994,
+            3.9419026374816895,
+            3.691014051437378
+        ],
+        "50": [
+            2.6431751251220703,
+            2.831666946411133,
+            3.5932552814483643
+        ],
+        "51": [
+            3.1132099628448486,
+            3.49731707572937,
+            3.9439034461975098
+        ],
+        "52": [
+            2.9604616165161133,
+            3.294159412384033,
+            3.1715328693389893
+        ],
+        "53": [
+            2.8154399394989014,
+            3.360583543777466,
+            2.8512260913848877
+        ],
+        "54": [
+            2.953681230545044,
+            2.9727721214294434,
+            2.444214105606079
+        ],
+        "55": [
+            3.1747326850891113,
+            2.7090091705322266,
+            2.8569393157958984
+        ],
+        "56": [
+            2.8292620182037354,
+            3.243788480758667,
+            3.5474624633789062
+        ],
+        "57": [
+            3.804658889770508,
+            3.8682169914245605,
+            4.249747276306152
+        ],
+        "58": [
+            2.4113800525665283,
+            1.8489890098571777,
+            2.545809030532837
+        ],
+        "59": [
+            2.1437149047851562,
+            4.315710067749023,
+            5.502871036529541
+        ],
+        "60": [
+            2.726806640625,
+            4.472031116485596,
+            4.378763675689697
+        ],
+        "61": [
+            1.829038381576538,
+            2.1159067153930664,
+            2.737489700317383
+        ],
+        "62": [
+            2.980985641479492,
+            2.2464489936828613,
+            2.868863344192505
+        ],
+        "63": [
+            4.0082316398620605,
+            3.0932343006134033,
+            3.386415481567383
+        ],
+        "64": [
+            2.871807813644409,
+            2.246243953704834,
+            3.0323586463928223
+        ],
+        "65": [
+            2.51669979095459,
+            3.0141713619232178,
+            3.497209310531616
+        ],
+        "66": [
+            3.449033260345459,
+            3.5992696285247803,
+            4.457517147064209
+        ],
+        "67": [
+            4.274380207061768,
+            2.2989377975463867,
+            3.4788787364959717
+        ],
+        "68": [
+            3.966829299926758,
+            2.249312162399292,
+            3.249471664428711
+        ],
+        "69": [
+            2.3017749786376953,
+            3.648343801498413,
+            3.6458630561828613
+        ],
+        "70": [
+            4.66262149810791,
+            4.674339294433594,
+            4.693175315856934
+        ],
+        "71": [
+            2.401867151260376,
+            3.2151284217834473,
+            2.669914722442627
+        ],
+        "72": [
+            2.891547441482544,
+            2.054957151412964,
+            3.3103625774383545
+        ],
+        "73": [
+            2.059937000274658,
+            1.6545007228851318,
+            3.052093505859375
+        ],
+        "74": [
+            1.8574031591415405,
+            2.2872207164764404,
+            1.9799468517303467
+        ],
+        "75": [
+            3.4545695781707764,
+            3.345733404159546,
+            3.601243257522583
+        ],
+        "76": [
+            3.0033061504364014,
+            2.3272550106048584,
+            2.6465303897857666
+        ],
+        "77": [
+            2.171536445617676,
+            2.6220154762268066,
+            3.3283584117889404
+        ],
+        "78": [
+            3.383850574493408,
+            2.564844846725464,
+            3.0369982719421387
+        ],
+        "79": [
+            2.8510549068450928,
+            3.294031858444214,
+            2.88159441947937
+        ],
+        "80": [
+            2.2947890758514404,
+            3.2800095081329346,
+            3.1347262859344482
+        ],
+        "81": [
+            2.437985897064209,
+            2.8933351039886475,
+            2.5970022678375244
+        ],
+        "82": [
+            3.5832488536834717,
+            2.552046537399292,
+            2.9981071949005127
+        ],
+        "83": [
+            3.1005361080169678,
+            3.134459972381592,
+            2.4848501682281494
+        ],
+        "84": [
+            4.057035446166992,
+            3.0270349979400635,
+            4.628176689147949
+        ],
+        "85": [
+            3.796783447265625,
+            3.5423073768615723,
+            3.473609447479248
+        ],
+        "86": [
+            4.275842666625977,
+            4.716380596160889,
+            3.4448177814483643
+        ],
+        "87": [
+            3.3960018157958984,
+            2.4448046684265137,
+            3.0467514991760254
+        ],
+        "88": [
+            1.2880945205688477,
+            2.060497760772705,
+            2.7816483974456787
+        ],
+        "89": [
+            2.2736024856567383,
+            3.9368362426757812,
+            4.667514324188232
+        ],
+        "90": [
+            3.1930716037750244,
+            2.849919557571411,
+            3.6898033618927
+        ],
+        "91": [
+            3.1577975749969482,
+            4.34908390045166,
+            5.018986701965332
+        ],
+        "92": [
+            2.6206436157226562,
+            3.7204654216766357,
+            1.5699810981750488
+        ],
+        "93": [
+            5.108036041259766,
+            3.6492905616760254,
+            3.6697373390197754
+        ],
+        "94": [
+            4.352219104766846,
+            3.576765775680542,
+            3.8444552421569824
+        ],
+        "95": [
+            5.658034801483154,
+            3.286527633666992,
+            4.317697525024414
+        ],
+        "96": [
+            4.810870170593262,
+            4.9660797119140625,
+            2.3463046550750732
+        ],
+        "97": [
+            3.04065203666687,
+            3.4369266033172607,
+            3.421617269515991
+        ],
+        "98": [
+            3.560227632522583,
+            3.6926143169403076,
+            2.0808844566345215
+        ],
+        "99": [
+            3.7768356800079346,
+            4.1760334968566895,
+            4.1491289138793945
+        ]
+    },
+    "avg_paraphrased_loss": {
+        "0": 3.010167121887207,
+        "1": 2.3950648307800293,
+        "2": 2.210894823074341,
+        "3": 1.554364562034607,
+        "4": 2.6131627559661865,
+        "5": 2.312579393386841,
+        "6": 2.7024693489074707,
+        "7": 4.382870197296143,
+        "8": 1.9206777811050415,
+        "9": 1.869028091430664,
+        "10": 1.8203424215316772,
+        "11": 1.808078408241272,
+        "12": 3.0157737731933594,
+        "13": 1.4517438411712646,
+        "14": 3.3972716331481934,
+        "15": 1.989959716796875,
+        "16": 3.716416120529175,
+        "17": 4.536320686340332,
+        "18": 4.033175468444824,
+        "19": 2.089831829071045,
+        "20": 2.278048515319824,
+        "21": 2.811311721801758,
+        "22": 2.783482313156128,
+        "23": 2.9764671325683594,
+        "24": 4.317574501037598,
+        "25": 3.5503101348876953,
+        "26": 2.621718406677246,
+        "27": 2.320164203643799,
+        "28": 2.416149139404297,
+        "29": 1.7273335456848145,
+        "30": 1.8977235555648804,
+        "31": 3.6019511222839355,
+        "32": 2.9960734844207764,
+        "33": 2.530149459838867,
+        "34": 2.3922832012176514,
+        "35": 2.0806515216827393,
+        "36": 2.5088467597961426,
+        "37": 3.9900810718536377,
+        "38": 2.2774465084075928,
+        "39": 2.570819139480591,
+        "40": 5.340623378753662,
+        "41": 2.1612205505371094,
+        "42": 2.7467520236968994,
+        "43": 2.649704694747925,
+        "44": 1.9409747123718262,
+        "45": 3.3589019775390625,
+        "46": 3.086024761199951,
+        "47": 1.7640012502670288,
+        "48": 3.610995054244995,
+        "49": 3.417039394378662,
+        "50": 2.337181806564331,
+        "51": 4.453245639801025,
+        "52": 4.0409369468688965,
+        "53": 1.9603928327560425,
+        "54": 2.8940017223358154,
+        "55": 2.845477342605591,
+        "56": 3.086185932159424,
+        "57": 2.7128965854644775,
+        "58": 3.20721173286438,
+        "59": 4.215158462524414,
+        "60": 3.3432700634002686,
+        "61": 3.1267218589782715,
+        "62": 4.207441329956055,
+        "63": 3.2989680767059326,
+        "64": 2.5193989276885986,
+        "65": 3.794970750808716,
+        "66": 2.996066093444824,
+        "67": 3.088930368423462,
+        "68": 3.0441887378692627,
+        "69": 1.8261390924453735,
+        "70": 3.8798294067382812,
+        "71": 1.9924571514129639,
+        "72": 3.110135793685913,
+        "73": 1.0767711400985718,
+        "74": 2.204932689666748,
+        "75": 1.3672761917114258,
+        "76": 2.5476415157318115,
+        "77": 2.920870065689087,
+        "78": 4.6458516120910645,
+        "79": 2.5192389488220215,
+        "80": 2.3615829944610596,
+        "81": 2.089141845703125,
+        "82": 3.673269271850586,
+        "83": 3.3611557483673096,
+        "84": 3.5249640941619873,
+        "85": 3.9821951389312744,
+        "86": 3.903048515319824,
+        "87": 2.601520299911499,
+        "88": 3.048096179962158,
+        "89": 2.8590216636657715,
+        "90": 3.0364837646484375,
+        "91": 4.1556196212768555,
+        "92": 2.195906400680542,
+        "93": 2.3714044094085693,
+        "94": 3.950471878051758,
+        "95": 5.221268653869629,
+        "96": 2.985201120376587,
+        "97": 3.752344846725464,
+        "98": 3.2501864433288574,
+        "99": 3.465445041656494
+    },
+    "truth_ratio": {
+        "0": 0.5533075928688049,
+        "1": 0.5948666930198669,
+        "2": 0.37036657333374023,
+        "3": 0.1914539933204651,
+        "4": 0.3193511366844177,
+        "5": 0.8320062160491943,
+        "6": 0.4893953800201416,
+        "7": 5.107803821563721,
+        "8": 0.3989695906639099,
+        "9": 0.21164509654045105,
+        "10": 0.8327034115791321,
+        "11": 0.34911319613456726,
+        "12": 0.5940269231796265,
+        "13": 0.2829730212688446,
+        "14": 2.0027389526367188,
+        "15": 0.56358802318573,
+        "16": 0.9956395030021667,
+        "17": 2.0744528770446777,
+        "18": 2.84356427192688,
+        "19": 0.42990797758102417,
+        "20": 0.4636027216911316,
+        "21": 1.1023434400558472,
+        "22": 1.1591300964355469,
+        "23": 0.6369885802268982,
+        "24": 4.381464004516602,
+        "25": 2.685438394546509,
+        "26": 0.2625018358230591,
+        "27": 0.6149797439575195,
+        "28": 0.5734741687774658,
+        "29": 0.2057972252368927,
+        "30": 0.17205707728862762,
+        "31": 1.8680633306503296,
+        "32": 0.6463343501091003,
+        "33": 1.403255581855774,
+        "34": 0.3621324896812439,
+        "35": 0.9329795837402344,
+        "36": 0.30940720438957214,
+        "37": 1.4784635305404663,
+        "38": 0.17528295516967773,
+        "39": 0.38385024666786194,
+        "40": 4.379812717437744,
+        "41": 0.5570670962333679,
+        "42": 1.095820426940918,
+        "43": 0.26842227578163147,
+        "44": 0.4474169909954071,
+        "45": 2.116203784942627,
+        "46": 1.2106372117996216,
+        "47": 0.42248907685279846,
+        "48": 0.5841463804244995,
+        "49": 0.7867117524147034,
+        "50": 0.5038295388221741,
+        "51": 2.547473192214966,
+        "52": 2.4568638801574707,
+        "53": 0.3503963053226471,
+        "54": 1.1093553304672241,
+        "55": 0.93418288230896,
+        "56": 0.8863425850868225,
+        "57": 0.2832823693752289,
+        "58": 2.556107521057129,
+        "59": 1.2557417154312134,
+        "60": 0.5969449281692505,
+        "61": 2.457742929458618,
+        "62": 4.520737171173096,
+        "63": 0.8211966753005981,
+        "64": 0.8208586573600769,
+        "65": 2.1937456130981445,
+        "66": 0.4320528209209442,
+        "67": 0.7696634531021118,
+        "68": 0.8949246406555176,
+        "69": 0.25346702337265015,
+        "70": 0.45073187351226807,
+        "71": 0.46308407187461853,
+        "72": 1.430246114730835,
+        "73": 0.3076663911342621,
+        "74": 1.1775181293487549,
+        "75": 0.12246794253587723,
+        "76": 0.8945906162261963,
+        "77": 1.2380858659744263,
+        "78": 5.21021032333374,
+        "79": 0.6128379106521606,
+        "80": 0.5818212032318115,
+        "81": 0.5748577117919922,
+        "82": 1.8753618001937866,
+        "83": 1.5754485130310059,
+        "84": 0.684464693069458,
+        "85": 1.4593069553375244,
+        "86": 0.7845602631568909,
+        "87": 0.6969795823097229,
+        "88": 2.7310402393341064,
+        "89": 0.4644216299057007,
+        "90": 0.8123847246170044,
+        "91": 0.9805221557617188,
+        "92": 0.6433131098747253,
+        "93": 0.17017123103141785,
+        "94": 1.0263323783874512,
+        "95": 2.2266879081726074,
+        "96": 0.3478846848011017,
+        "97": 1.5724153518676758,
+        "98": 1.1490600109100342,
+        "99": 0.5663435459136963
+    },
+    "paraphrased_loss": {
+        "0": 15.050835609436035,
+        "1": 11.975324630737305,
+        "2": 13.265368461608887,
+        "3": 13.989280700683594,
+        "4": 15.678976058959961,
+        "5": 16.18805503845215,
+        "6": 13.512346267700195,
+        "7": 17.53148078918457,
+        "8": 11.524066925048828,
+        "9": 13.083196640014648,
+        "10": 14.562739372253418,
+        "11": 19.88886260986328,
+        "12": 18.094642639160156,
+        "13": 13.065694808959961,
+        "14": 16.986358642578125,
+        "15": 15.919677734375,
+        "16": 18.582080841064453,
+        "17": 22.681604385375977,
+        "18": 20.165878295898438,
+        "19": 16.71865463256836,
+        "20": 13.668291091918945,
+        "21": 16.867870330810547,
+        "22": 16.70089340209961,
+        "23": 17.858802795410156,
+        "24": 21.587871551513672,
+        "25": 21.301860809326172,
+        "26": 20.97374725341797,
+        "27": 18.56131362915039,
+        "28": 19.329193115234375,
+        "29": 13.818668365478516,
+        "30": 18.977235794067383,
+        "31": 18.009756088256836,
+        "32": 17.9764404296875,
+        "33": 12.650747299194336,
+        "34": 19.13826560974121,
+        "35": 14.564560890197754,
+        "36": 17.561927795410156,
+        "37": 19.95040512084961,
+        "38": 22.774465560913086,
+        "39": 10.283276557922363,
+        "40": 26.70311737060547,
+        "41": 12.967323303222656,
+        "42": 19.227264404296875,
+        "43": 23.847341537475586,
+        "44": 29.114620208740234,
+        "45": 20.153411865234375,
+        "46": 21.6021728515625,
+        "47": 21.168014526367188,
+        "48": 18.054975509643555,
+        "49": 17.08519744873047,
+        "50": 14.023091316223145,
+        "51": 17.8129825592041,
+        "52": 20.20468521118164,
+        "53": 17.643535614013672,
+        "54": 14.470008850097656,
+        "55": 17.072864532470703,
+        "56": 21.603302001953125,
+        "57": 10.85158634185791,
+        "58": 16.03605842590332,
+        "59": 25.290950775146484,
+        "60": 16.716350555419922,
+        "61": 15.633609771728516,
+        "62": 25.244647979736328,
+        "63": 19.793807983398438,
+        "64": 17.635791778564453,
+        "65": 18.974853515625,
+        "66": 26.964595794677734,
+        "67": 21.622512817382812,
+        "68": 21.3093204498291,
+        "69": 18.261390686035156,
+        "70": 27.15880584716797,
+        "71": 19.924571990966797,
+        "72": 15.550679206848145,
+        "73": 10.767711639404297,
+        "74": 13.229596138000488,
+        "75": 10.938209533691406,
+        "76": 15.285849571228027,
+        "77": 20.446090698242188,
+        "78": 23.229257583618164,
+        "79": 17.634672164916992,
+        "80": 18.892663955688477,
+        "81": 12.53485107421875,
+        "82": 18.36634635925293,
+        "83": 16.80577850341797,
+        "84": 17.624820709228516,
+        "85": 23.893171310424805,
+        "86": 42.93353271484375,
+        "87": 15.609121322631836,
+        "88": 15.24048137664795,
+        "89": 14.295108795166016,
+        "90": 15.182418823242188,
+        "91": 20.77809715270996,
+        "92": 19.76315689086914,
+        "93": 21.342639923095703,
+        "94": 31.603775024414062,
+        "95": 36.54888153076172,
+        "96": 23.881608963012695,
+        "97": 22.514068603515625,
+        "98": 26.00149154663086,
+        "99": 24.258115768432617
+    },
+    "perturb_loss": {
+        "0": [
+            18.100160598754883,
+            21.258319854736328,
+            18.214696884155273
+        ],
+        "1": [
+            17.901660919189453,
+            15.36876106262207,
+            19.72140121459961
+        ],
+        "2": [
+            18.49025535583496,
+            21.938858032226562,
+            18.942020416259766
+        ],
+        "3": [
+            11.085212707519531,
+            16.895282745361328,
+            20.064720153808594
+        ],
+        "4": [
+            17.62965965270996,
+            23.613882064819336,
+            18.014135360717773
+        ],
+        "5": [
+            15.988850593566895,
+            16.941207885742188,
+            16.672792434692383
+        ],
+        "6": [
+            21.222652435302734,
+            17.062931060791016,
+            19.35115623474121
+        ],
+        "7": [
+            16.640853881835938,
+            19.647077560424805,
+            22.321861267089844
+        ],
+        "8": [
+            15.59149169921875,
+            13.773442268371582,
+            15.826865196228027
+        ],
+        "9": [
+            23.68284034729004,
+            20.61129379272461,
+            22.452392578125
+        ],
+        "10": [
+            11.766246795654297,
+            10.906889915466309,
+            20.821645736694336
+        ],
+        "11": [
+            18.152027130126953,
+            18.891246795654297,
+            26.315326690673828
+        ],
+        "12": [
+            19.539779663085938,
+            20.25704574584961,
+            19.88504409790039
+        ],
+        "13": [
+            16.575721740722656,
+            15.507734298706055,
+            24.91364097595215
+        ],
+        "14": [
+            18.383420944213867,
+            16.860565185546875,
+            23.6214599609375
+        ],
+        "15": [
+            17.127368927001953,
+            13.398050308227539,
+            15.382783889770508
+        ],
+        "16": [
+            16.15478515625,
+            24.38838005065918,
+            18.32235336303711
+        ],
+        "17": [
+            19.480525970458984,
+            23.771732330322266,
+            24.766815185546875
+        ],
+        "18": [
+            18.928070068359375,
+            23.65572738647461,
+            23.12363052368164
+        ],
+        "19": [
+            17.477365493774414,
+            17.090110778808594,
+            29.28662872314453
+        ],
+        "20": [
+            26.141115188598633,
+            19.68446922302246,
+            27.29703140258789
+        ],
+        "21": [
+            16.665494918823242,
+            18.53279685974121,
+            20.666706085205078
+        ],
+        "22": [
+            23.464204788208008,
+            21.810409545898438,
+            14.98712158203125
+        ],
+        "23": [
+            23.22624969482422,
+            21.729055404663086,
+            25.866668701171875
+        ],
+        "24": [
+            22.159330368041992,
+            17.659271240234375,
+            16.844680786132812
+        ],
+        "25": [
+            20.863801956176758,
+            17.96969223022461,
+            13.695252418518066
+        ],
+        "26": [
+            16.45826530456543,
+            20.29907989501953,
+            22.63088607788086
+        ],
+        "27": [
+            21.81398582458496,
+            15.470659255981445,
+            20.585851669311523
+        ],
+        "28": [
+            22.02838897705078,
+            19.639394760131836,
+            26.517900466918945
+        ],
+        "29": [
+            29.218746185302734,
+            29.667251586914062,
+            14.724748611450195
+        ],
+        "30": [
+            21.306236267089844,
+            24.367389678955078,
+            27.075843811035156
+        ],
+        "31": [
+            21.63367462158203,
+            18.964723587036133,
+            18.788253784179688
+        ],
+        "32": [
+            17.154809951782227,
+            16.220417022705078,
+            21.734939575195312
+        ],
+        "33": [
+            16.338821411132812,
+            14.242855072021484,
+            14.308975219726562
+        ],
+        "34": [
+            19.580928802490234,
+            19.957921981811523,
+            25.4399356842041
+        ],
+        "35": [
+            16.4666690826416,
+            20.431488037109375,
+            16.98128318786621
+        ],
+        "36": [
+            20.032339096069336,
+            25.27219009399414,
+            23.832225799560547
+        ],
+        "37": [
+            17.904537200927734,
+            18.434709548950195,
+            21.176301956176758
+        ],
+        "38": [
+            40.799129486083984,
+            32.345394134521484,
+            33.794002532958984
+        ],
+        "39": [
+            15.154300689697266,
+            13.125992774963379,
+            14.059571266174316
+        ],
+        "40": [
+            28.28506851196289,
+            22.0369815826416,
+            37.28533935546875
+        ],
+        "41": [
+            15.515226364135742,
+            20.121238708496094,
+            18.682090759277344
+        ],
+        "42": [
+            13.42096996307373,
+            17.03591537475586,
+            20.692832946777344
+        ],
+        "43": [
+            29.604068756103516,
+            39.93046951293945,
+            39.04202651977539
+        ],
+        "44": [
+            18.870216369628906,
+            20.52935028076172,
+            32.385929107666016
+        ],
+        "45": [
+            24.273509979248047,
+            21.064929962158203,
+            20.150562286376953
+        ],
+        "46": [
+            23.151330947875977,
+            16.226778030395508,
+            17.81753158569336
+        ],
+        "47": [
+            20.716001510620117,
+            18.45576286315918,
+            19.992326736450195
+        ],
+        "48": [
+            30.95258331298828,
+            23.12754249572754,
+            20.390939712524414
+        ],
+        "49": [
+            16.689407348632812,
+            19.70951271057129,
+            22.14608383178711
+        ],
+        "50": [
+            15.859050750732422,
+            22.653335571289062,
+            17.966276168823242
+        ],
+        "51": [
+            12.452839851379395,
+            13.98926830291748,
+            15.775613784790039
+        ],
+        "52": [
+            17.76276969909668,
+            23.05911636352539,
+            22.200729370117188
+        ],
+        "53": [
+            16.89263916015625,
+            16.80291748046875,
+            17.107357025146484
+        ],
+        "54": [
+            17.722087860107422,
+            14.863861083984375,
+            14.665285110473633
+        ],
+        "55": [
+            15.873663902282715,
+            16.25405502319336,
+            17.14163589477539
+        ],
+        "56": [
+            22.634096145629883,
+            19.462730407714844,
+            24.832237243652344
+        ],
+        "57": [
+            15.218635559082031,
+            15.472867965698242,
+            16.99898910522461
+        ],
+        "58": [
+            14.468280792236328,
+            14.791912078857422,
+            15.27485466003418
+        ],
+        "59": [
+            19.293434143066406,
+            25.89426040649414,
+            27.514354705810547
+        ],
+        "60": [
+            16.36083984375,
+            22.36015510559082,
+            26.2725830078125
+        ],
+        "61": [
+            16.461345672607422,
+            16.92725372314453,
+            13.687448501586914
+        ],
+        "62": [
+            17.885913848876953,
+            15.725142478942871,
+            22.95090675354004
+        ],
+        "63": [
+            20.04115867614746,
+            18.559406280517578,
+            23.70490837097168
+        ],
+        "64": [
+            17.230846405029297,
+            15.72370719909668,
+            15.161792755126953
+        ],
+        "65": [
+            15.100198745727539,
+            21.099199295043945,
+            24.480464935302734
+        ],
+        "66": [
+            27.592266082763672,
+            21.595617294311523,
+            26.745101928710938
+        ],
+        "67": [
+            21.37190055847168,
+            18.391502380371094,
+            17.394393920898438
+        ],
+        "68": [
+            23.800975799560547,
+            20.24380874633789,
+            22.746301651000977
+        ],
+        "69": [
+            11.508874893188477,
+            25.538406372070312,
+            18.22931480407715
+        ],
+        "70": [
+            23.313108444213867,
+            23.37169647216797,
+            23.46587562561035
+        ],
+        "71": [
+            19.214937210083008,
+            22.50589942932129,
+            18.689403533935547
+        ],
+        "72": [
+            17.349285125732422,
+            18.494613647460938,
+            16.55181312561035
+        ],
+        "73": [
+            16.479496002197266,
+            14.890506744384766,
+            21.364654541015625
+        ],
+        "74": [
+            13.001822471618652,
+            16.01054573059082,
+            13.859627723693848
+        ],
+        "75": [
+            20.7274169921875,
+            20.074399948120117,
+            18.006216049194336
+        ],
+        "76": [
+            15.016530990600586,
+            18.618040084838867,
+            15.879181861877441
+        ],
+        "77": [
+            23.88690185546875,
+            18.354108810424805,
+            23.29850959777832
+        ],
+        "78": [
+            16.919252395629883,
+            17.953914642333984,
+            15.184991836547852
+        ],
+        "79": [
+            19.95738410949707,
+            19.764190673828125,
+            20.171161651611328
+        ],
+        "80": [
+            16.06352424621582,
+            19.680057525634766,
+            18.80835723876953
+        ],
+        "81": [
+            12.189929008483887,
+            14.466675758361816,
+            15.582014083862305
+        ],
+        "82": [
+            17.916244506835938,
+            17.86432647705078,
+            17.988643646240234
+        ],
+        "83": [
+            15.502680778503418,
+            21.941219329833984,
+            17.393951416015625
+        ],
+        "84": [
+            20.28517723083496,
+            21.189245223999023,
+            23.140884399414062
+        ],
+        "85": [
+            22.78070068359375,
+            17.711536407470703,
+            24.315265655517578
+        ],
+        "86": [
+            21.379213333129883,
+            28.29828453063965,
+            20.668907165527344
+        ],
+        "87": [
+            16.980009078979492,
+            19.55843734741211,
+            21.327260971069336
+        ],
+        "88": [
+            12.880945205688477,
+            16.48398208618164,
+            19.471538543701172
+        ],
+        "89": [
+            13.64161491394043,
+            19.684181213378906,
+            23.33757209777832
+        ],
+        "90": [
+            15.965357780456543,
+            19.94943618774414,
+            25.828622817993164
+        ],
+        "91": [
+            22.104583740234375,
+            26.09450340270996,
+            25.094932556152344
+        ],
+        "92": [
+            23.585792541503906,
+            22.322792053222656,
+            14.129830360412598
+        ],
+        "93": [
+            35.75625228881836,
+            29.194324493408203,
+            29.357898712158203
+        ],
+        "94": [
+            26.113313674926758,
+            28.614126205444336,
+            26.91118621826172
+        ],
+        "95": [
+            33.94820785522461,
+            32.86527633666992,
+            38.859275817871094
+        ],
+        "96": [
+            38.486961364746094,
+            34.76255798339844,
+            21.116741180419922
+        ],
+        "97": [
+            21.284564971923828,
+            24.058486938476562,
+            27.37293815612793
+        ],
+        "98": [
+            21.361366271972656,
+            25.84830093383789,
+            18.72796058654785
+        ],
+        "99": [
+            22.661014556884766,
+            33.408267974853516,
+            45.640419006347656
+        ]
+    },
+    "num_token_paraphrased": {
+        "0": 5,
+        "1": 5,
+        "2": 6,
+        "3": 9,
+        "4": 6,
+        "5": 7,
+        "6": 5,
+        "7": 4,
+        "8": 6,
+        "9": 7,
+        "10": 8,
+        "11": 11,
+        "12": 6,
+        "13": 9,
+        "14": 5,
+        "15": 8,
+        "16": 5,
+        "17": 5,
+        "18": 5,
+        "19": 8,
+        "20": 6,
+        "21": 6,
+        "22": 6,
+        "23": 6,
+        "24": 5,
+        "25": 6,
+        "26": 8,
+        "27": 8,
+        "28": 8,
+        "29": 8,
+        "30": 10,
+        "31": 5,
+        "32": 6,
+        "33": 5,
+        "34": 8,
+        "35": 7,
+        "36": 7,
+        "37": 5,
+        "38": 10,
+        "39": 4,
+        "40": 5,
+        "41": 6,
+        "42": 7,
+        "43": 9,
+        "44": 15,
+        "45": 6,
+        "46": 7,
+        "47": 12,
+        "48": 5,
+        "49": 5,
+        "50": 6,
+        "51": 4,
+        "52": 5,
+        "53": 9,
+        "54": 5,
+        "55": 6,
+        "56": 7,
+        "57": 4,
+        "58": 5,
+        "59": 6,
+        "60": 5,
+        "61": 5,
+        "62": 6,
+        "63": 6,
+        "64": 7,
+        "65": 5,
+        "66": 9,
+        "67": 7,
+        "68": 7,
+        "69": 10,
+        "70": 7,
+        "71": 10,
+        "72": 5,
+        "73": 10,
+        "74": 6,
+        "75": 8,
+        "76": 6,
+        "77": 7,
+        "78": 5,
+        "79": 7,
+        "80": 8,
+        "81": 6,
+        "82": 5,
+        "83": 5,
+        "84": 5,
+        "85": 6,
+        "86": 11,
+        "87": 6,
+        "88": 5,
+        "89": 5,
+        "90": 5,
+        "91": 5,
+        "92": 9,
+        "93": 9,
+        "94": 8,
+        "95": 7,
+        "96": 8,
+        "97": 6,
+        "98": 8,
+        "99": 7
+    },
+    "num_token_perturb": {
+        "0": [
+            5,
+            6,
+            5
+        ],
+        "1": [
+            8,
+            6,
+            5
+        ],
+        "2": [
+            6,
+            8,
+            5
+        ],
+        "3": [
+            8,
+            4,
+            5
+        ],
+        "4": [
+            6,
+            5,
+            5
+        ],
+        "5": [
+            7,
+            6,
+            7
+        ],
+        "6": [
+            6,
+            6,
+            5
+        ],
+        "7": [
+            8,
+            8,
+            6
+        ],
+        "8": [
+            6,
+            5,
+            5
+        ],
+        "9": [
+            6,
+            8,
+            6
+        ],
+        "10": [
+            10,
+            8,
+            6
+        ],
+        "11": [
+            7,
+            7,
+            8
+        ],
+        "12": [
+            6,
+            6,
+            5
+        ],
+        "13": [
+            7,
+            7,
+            7
+        ],
+        "14": [
+            7,
+            8,
+            7
+        ],
+        "15": [
+            7,
+            5,
+            6
+        ],
+        "16": [
+            5,
+            5,
+            6
+        ],
+        "17": [
+            5,
+            7,
+            6
+        ],
+        "18": [
+            7,
+            8,
+            7
+        ],
+        "19": [
+            7,
+            12,
+            6
+        ],
+        "20": [
+            8,
+            8,
+            8
+        ],
+        "21": [
+            9,
+            5,
+            8
+        ],
+        "22": [
+            9,
+            6,
+            9
+        ],
+        "23": [
+            6,
+            8,
+            7
+        ],
+        "24": [
+            8,
+            6,
+            6
+        ],
+        "25": [
+            7,
+            6,
+            8
+        ],
+        "26": [
+            5,
+            5,
+            5
+        ],
+        "27": [
+            6,
+            7,
+            8
+        ],
+        "28": [
+            7,
+            8,
+            8
+        ],
+        "29": [
+            7,
+            9,
+            6
+        ],
+        "30": [
+            7,
+            6,
+            7
+        ],
+        "31": [
+            7,
+            7,
+            6
+        ],
+        "32": [
+            5,
+            5,
+            6
+        ],
+        "33": [
+            9,
+            6,
+            6
+        ],
+        "34": [
+            6,
+            6,
+            7
+        ],
+        "35": [
+            7,
+            8,
+            11
+        ],
+        "36": [
+            7,
+            6,
+            6
+        ],
+        "37": [
+            5,
+            5,
+            6
+        ],
+        "38": [
+            9,
+            12,
+            7
+        ],
+        "39": [
+            4,
+            4,
+            4
+        ],
+        "40": [
+            6,
+            7,
+            10
+        ],
+        "41": [
+            7,
+            6,
+            7
+        ],
+        "42": [
+            8,
+            6,
+            6
+        ],
+        "43": [
+            7,
+            12,
+            9
+        ],
+        "44": [
+            8,
+            7,
+            11
+        ],
+        "45": [
+            8,
+            11,
+            7
+        ],
+        "46": [
+            8,
+            5,
+            7
+        ],
+        "47": [
+            9,
+            6,
+            8
+        ],
+        "48": [
+            7,
+            5,
+            6
+        ],
+        "49": [
+            5,
+            5,
+            6
+        ],
+        "50": [
+            6,
+            8,
+            5
+        ],
+        "51": [
+            4,
+            4,
+            4
+        ],
+        "52": [
+            6,
+            7,
+            7
+        ],
+        "53": [
+            6,
+            5,
+            6
+        ],
+        "54": [
+            6,
+            5,
+            6
+        ],
+        "55": [
+            5,
+            6,
+            6
+        ],
+        "56": [
+            8,
+            6,
+            7
+        ],
+        "57": [
+            4,
+            4,
+            4
+        ],
+        "58": [
+            6,
+            8,
+            6
+        ],
+        "59": [
+            9,
+            6,
+            5
+        ],
+        "60": [
+            6,
+            5,
+            6
+        ],
+        "61": [
+            9,
+            8,
+            5
+        ],
+        "62": [
+            6,
+            7,
+            8
+        ],
+        "63": [
+            5,
+            6,
+            7
+        ],
+        "64": [
+            6,
+            7,
+            5
+        ],
+        "65": [
+            6,
+            7,
+            7
+        ],
+        "66": [
+            8,
+            6,
+            6
+        ],
+        "67": [
+            5,
+            8,
+            5
+        ],
+        "68": [
+            6,
+            9,
+            7
+        ],
+        "69": [
+            5,
+            7,
+            5
+        ],
+        "70": [
+            5,
+            5,
+            5
+        ],
+        "71": [
+            8,
+            7,
+            7
+        ],
+        "72": [
+            6,
+            9,
+            5
+        ],
+        "73": [
+            8,
+            9,
+            7
+        ],
+        "74": [
+            7,
+            7,
+            7
+        ],
+        "75": [
+            6,
+            6,
+            5
+        ],
+        "76": [
+            5,
+            8,
+            6
+        ],
+        "77": [
+            11,
+            7,
+            7
+        ],
+        "78": [
+            5,
+            7,
+            5
+        ],
+        "79": [
+            7,
+            6,
+            7
+        ],
+        "80": [
+            7,
+            6,
+            6
+        ],
+        "81": [
+            5,
+            5,
+            6
+        ],
+        "82": [
+            5,
+            7,
+            6
+        ],
+        "83": [
+            5,
+            7,
+            7
+        ],
+        "84": [
+            5,
+            7,
+            5
+        ],
+        "85": [
+            6,
+            5,
+            7
+        ],
+        "86": [
+            5,
+            6,
+            6
+        ],
+        "87": [
+            5,
+            8,
+            7
+        ],
+        "88": [
+            10,
+            8,
+            7
+        ],
+        "89": [
+            6,
+            5,
+            5
+        ],
+        "90": [
+            5,
+            7,
+            7
+        ],
+        "91": [
+            7,
+            6,
+            5
+        ],
+        "92": [
+            9,
+            6,
+            9
+        ],
+        "93": [
+            7,
+            8,
+            8
+        ],
+        "94": [
+            6,
+            8,
+            7
+        ],
+        "95": [
+            6,
+            10,
+            9
+        ],
+        "96": [
+            8,
+            7,
+            9
+        ],
+        "97": [
+            7,
+            7,
+            8
+        ],
+        "98": [
+            6,
+            7,
+            9
+        ],
+        "99": [
+            6,
+            8,
+            11
+        ]
+    },
+    "normalized_gt_loss": {
+        "0": 0.9788722011778783,
+        "1": 1.173789303213787,
+        "2": 0.7928391691936765,
+        "3": 0.8503710261821268,
+        "4": 0.7968705814400208,
+        "5": 1.2701616705772525,
+        "6": 0.9614860103925733,
+        "7": 2.987983259045127,
+        "8": 0.8003562991666501,
+        "9": 0.5716282283568151,
+        "10": 1.542299480235519,
+        "11": 0.7390715718242803,
+        "12": 1.0528199064425934,
+        "13": 0.6874083107696106,
+        "14": 2.0524938598207103,
+        "15": 0.9920651001376882,
+        "16": 1.5822807260698926,
+        "17": 2.0184868023718585,
+        "18": 2.2809353640023287,
+        "19": 1.3014359272779596,
+        "20": 0.9261353505683243,
+        "21": 1.6656639381357217,
+        "22": 1.7356556587361327,
+        "23": 1.1596083969851994,
+        "24": 2.651777247522303,
+        "25": 2.3792559597242047,
+        "26": 0.6415689380334656,
+        "27": 1.1511272862702984,
+        "28": 1.046567304214439,
+        "29": 0.5754411545168785,
+        "30": 0.4520143447705477,
+        "31": 1.9039760970633055,
+        "32": 1.0868870938632234,
+        "33": 1.680656014120067,
+        "34": 0.7424757446946821,
+        "35": 1.4077543176741962,
+        "36": 0.7501191728013289,
+        "37": 1.6968397076859312,
+        "38": 0.6104377074305207,
+        "39": 0.778501646244987,
+        "40": 2.8254478675618104,
+        "41": 1.049559070938845,
+        "42": 1.6717197659701628,
+        "43": 0.6412449295956503,
+        "44": 0.8733443671512067,
+        "45": 2.1093396451868722,
+        "46": 1.56675118339302,
+        "47": 0.8474764661680628,
+        "48": 1.1114486537146966,
+        "49": 1.2292196177043375,
+        "50": 0.9685581013027004,
+        "51": 2.206428689891987,
+        "52": 2.13478340181222,
+        "53": 0.733393159938695,
+        "54": 1.488611881906702,
+        "55": 1.3492791542381795,
+        "56": 1.3288370811803594,
+        "57": 0.6246067002476703,
+        "58": 2.2014181713955656,
+        "59": 2.3153411383786464,
+        "60": 1.2610711731783961,
+        "61": 2.18461532749487,
+        "62": 2.729192941620341,
+        "63": 1.291291262190761,
+        "64": 1.282841087027438,
+        "65": 2.0937966373503447,
+        "66": 0.882900524907738,
+        "67": 1.431004628636378,
+        "68": 1.4855734829238134,
+        "69": 0.664434720883819,
+        "70": 0.8568111441319823,
+        "71": 0.9024892644027298,
+        "72": 1.781880058351575,
+        "73": 0.7295277442719275,
+        "74": 1.5210522354909561,
+        "75": 0.31544022852957765,
+        "76": 1.3322164879357221,
+        "77": 1.6342777635534482,
+        "78": 2.8686169408640656,
+        "79": 1.0551019810781483,
+        "80": 1.074322305214952,
+        "81": 1.0145634988584638,
+        "82": 1.9623348998886134,
+        "83": 1.782942381532161,
+        "84": 1.2685404422386681,
+        "85": 1.6899327011110963,
+        "86": 1.313148196897638,
+        "87": 1.1813843627265694,
+        "88": 2.378119738057467,
+        "89": 1.1960464621766944,
+        "90": 1.274554787578107,
+        "91": 1.6017419872190484,
+        "92": 1.3201654064589703,
+        "93": 0.4801032212287224,
+        "94": 1.4422052706507205,
+        "95": 2.3998493410329638,
+        "96": 1.1594994208153677,
+        "97": 1.758014743354551,
+        "98": 1.7218168260203341,
+        "99": 1.0040275639749465
+    }
+}
