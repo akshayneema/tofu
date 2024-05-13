@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import os
 import argparse
 
@@ -7,7 +8,7 @@ def combine_csv(root_dir):
    # shape = 0
     overall_combined=pd.DataFrame()
     for dirpath, dirnames, filenames in os.walk(root_dir):
-        if dirpath.split("/")[-1] in ['idk', 'KL', 'dpo', 'grad_ascent', 'grad_diff']:
+        if dirpath.split("/")[-1] in ['idk', 'KL', 'dpo', 'grad_ascent', 'grad_diff','dpo_perturbed']:
          #   print(filenames)
             combined_data = pd.DataFrame()
             for file in filenames:
@@ -21,20 +22,27 @@ def combine_csv(root_dir):
                     path_parts = dirpath.split(os.sep)
                     
                     model_used = path_parts[1]  
-                    num_epochs = path_parts[2].split()[0]  
+                    total_epochs = path_parts[2].split()[0]  
                     data_set = path_parts[-2]
                     checkpoint_number = file.split('-')[1].split(".csv")[0]
                     df["Checkpoint"] = int(checkpoint_number)
                     df["data_set"] = data_set
-                    df['Num_Epochs'] = num_epochs
+                    df['Total_Epochs'] = int(total_epochs)
                     df['Model_Used'] = model_used
-                    reorder_cols = list(df.columns[-6:])+ list(df.columns[:-6])
-                    df = df[reorder_cols]
-                #    df = df.drop(columns=["Submitted By"])
-                        # Append this dataframe to the combined data
+                    df = df.drop(columns=["Submitted By"])
+            
                     combined_data = pd.concat([combined_data, df], ignore_index=True)
+             # rearranging checkpoint column with ascending order which reflects epochs in correct order (highest checkpoint - last epoch)
+            combined_data = combined_data.sort_values(by="Checkpoint")
+            #Calculating the number of epoch
+            combined_data["num_epoch"] = combined_data["Total_Epochs"]*(np.array([i for i in range(1,len(combined_data)+1)]))
+            combined_data["num_epoch"]/=len(combined_data)
+            reorder_cols = list(combined_data.columns[-6:])+ list(combined_data.columns[:-6])
+            combined_data = combined_data[reorder_cols]
+            columns_ordered = ["num_epoch","Checkpoint"] + [i for i in combined_data.columns if i!="Checkpoint" and i!="num_epoch"]
+            combined_data = combined_data[columns_ordered]
             overall_combined = pd.concat([overall_combined,combined_data])
-            combined_data.to_csv(dirpath + "/combined.csv")
+            combined_data.to_csv(dirpath + "/combined.csv",index=False)
 
     return overall_combined
 
@@ -42,6 +50,6 @@ def combine_csv(root_dir):
 root_directory = 'aggr_results'
 # Call the function with the directory path
 result_df = combine_csv(root_directory)
-#print(result_df.shape)
+#print(result_df.head(),result_df.shape)
 # Saving the combined results into csv
 result_df.to_csv('./combined_results.csv', index=False)
